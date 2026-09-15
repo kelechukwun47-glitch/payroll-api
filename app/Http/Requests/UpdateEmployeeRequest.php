@@ -14,38 +14,53 @@ class UpdateEmployeeRequest extends FormRequest
 
     public function rules(): array
     {
-        $employeeId = $this->route('employee')->id ?? $this->route('employee');
+        $employee = $this->route('employee');
+        $employeeId = is_object($employee) ? $employee->id : $employee;
 
         return [
-            'department_id' => 'nullable|exists:departments,id',
+            'department_id' => ['sometimes', 'nullable', 'string', 'exists:departments,id'],
             'manager_id' => [
+                'sometimes',
                 'nullable',
+                'string',
                 'exists:employees,id',
                 function ($attribute, $value, $fail) use ($employeeId) {
                     if (!$value) {
                         return;
                     }
 
+                    // 1. Direct Self-Assignment Check
                     if ($value === $employeeId) {
-                        $fail('An employee cannot be their own manager.');
+                        $fail('An employee cannot be assigned as their own manager.');
                         return;
                     }
 
-                    $currentManager = Employee::find($value);
+                    // 2. Optimized Circular Reporting Graph Traversal
+                    // We query only the manager_id column to prevent loading heavy model payloads into memory
+                    $visitedManagerIds = [];
+                    $currentManagerId = $value;
 
-                    while ($currentManager) {
-                        if ($currentManager->id === $employeeId) {
-                            $fail('Circular reporting detected: You cannot assign a manager who reports to this employee.');
+                    while ($currentManagerId) {
+                        if ($currentManagerId === $employeeId) {
+                            $fail('Circular reporting hierarchy detected: You cannot assign a manager who reports up to this employee.');
                             return;
                         }
 
-                        $currentManager = $currentManager->manager;
+                        // Prevent infinite loops in corrupt database states
+                        if (in_array($currentManagerId, $visitedManagerIds, true)) {
+                            break;
+                        }
+
+                        $visitedManagerIds[] = $currentManagerId;
+
+                        // Light query: Select ONLY the next manager_id up the chain
+                        $currentManagerId = Employee::where('id', $currentManagerId)->value('manager_id');
                     }
                 },
             ],
-            'job_title' => 'sometimes|string|max:100',
-            'basic_salary' => 'sometimes|numeric|min:0',
-            'joined_at' => 'sometimes|date',
+            'job_title' => ['sometimes', 'required', 'string', 'max:100'],
+            'basic_salary' => ['sometimes', 'required', 'numeric', 'min:0'],
+            'joined_at' => ['sometimes', 'required', 'date'],
         ];
     }
 }

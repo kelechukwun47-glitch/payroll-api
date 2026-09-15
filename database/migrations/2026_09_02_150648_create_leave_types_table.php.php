@@ -5,28 +5,21 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration {
-    /**
-     * Run the migrations.
-     */
     public function up(): void
     {
-        Schema::create('departments', function (Blueprint $table) {
+        Schema::create('leave_types', function (Blueprint $table) {
             $table->ulid('id')->primary();
-            $table->foreignUlid('department_head_id')->nullable();
             $table->string('name')->unique();
-            $table->string('code', 20)->unique();
             $table->text('description')->nullable();
+            $table->integer('allowed_days');
+            $table->boolean('requires_approval')->default(true);
+            $table->boolean('is_active')->default(true);
             $table->timestamps();
-
-            $table->index('department_head_id');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
-        Schema::dropIfExists('departments');
+        Schema::dropIfExists('leave_types');
     }
 };

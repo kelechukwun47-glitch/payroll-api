@@ -15,6 +15,7 @@ return new class extends Migration {
             $table->string('employee_code')->unique();
             $table->string('job_title');
             $table->decimal('basic_salary', 12, 2);
+            $table->string('employment_status', 20)->default('active');
             $table->date('joined_at');
             $table->timestamps();
 
