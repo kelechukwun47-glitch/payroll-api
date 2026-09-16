@@ -3,12 +3,11 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreDepartmentRequest;
-use App\Http\Requests\UpdateDepartmentRequest;
-use App\Http\Resources\DepartmentResource;
-use App\Http\Resources\EmployeeResource;
+use App\Http\Requests\Api\V1\StoreDepartmentRequest;
+use App\Http\Requests\Api\V1\UpdateDepartmentRequest;
+use App\Http\Resources\Api\V1\DepartmentResource;
+use App\Http\Resources\Api\V1\EmployeeResource;
 use App\Models\Department;
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
 class DepartmentController extends Controller
@@ -28,14 +27,11 @@ class DepartmentController extends Controller
     /**
      * Create a new department.
      */
-    public function store(StoreDepartmentRequest $request): JsonResponse
+    public function store(StoreDepartmentRequest $request): DepartmentResource
     {
         $department = Department::create($request->validated());
 
-        return (new DepartmentResource($department->load('head.user')))
-            ->additional(['status' => 'success', 'message' => 'Department created successfully.'])
-            ->response()
-            ->setStatusCode(201);
+        return new DepartmentResource($department->load('head.user'));
     }
 
     /**
@@ -61,14 +57,13 @@ class DepartmentController extends Controller
     /**
      * Delete department.
      */
-    public function destroy(Department $department): JsonResponse
+    public function destroy(Department $department): array
     {
         $department->delete();
 
-        return response()->json([
-            'status' => 'success',
+        return [
             'message' => 'Department deleted successfully.',
-        ]);
+        ];
     }
 
     /**

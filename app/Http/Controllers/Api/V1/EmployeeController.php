@@ -3,59 +3,66 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\UpdateEmployeeRequest;
-use App\Http\Resources\EmployeeResource;
+use App\Http\Requests\Api\V1\StoreEmployeeRequest;
+use App\Http\Requests\Api\V1\UpdateEmployeeRequest;
+use App\Http\Resources\Api\V1\EmployeeResource;
 use App\Models\Employee;
-use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
 class EmployeeController extends Controller
 {
     /**
-     * Display a paginated listing of employees with eager loading.
+     * Display a listing of employees.
      */
-    public function index(): JsonResponse
+    public function index(): AnonymousResourceCollection
     {
         $employees = Employee::with(['user', 'department', 'manager.user'])
-            ->latest()
             ->paginate(15);
 
-        return response()->json(EmployeeResource::collection($employees)->response()->getData(true));
+        return EmployeeResource::collection($employees);
+    }
+
+    /**
+     * Store a newly created employee.
+     */
+    public function store(StoreEmployeeRequest $request): EmployeeResource
+    {
+        $employee = Employee::create($request->validated());
+
+        return new EmployeeResource($employee->load(['user', 'department', 'manager.user']));
     }
 
     /**
      * Display the specified employee details.
      */
-    public function show(Employee $employee): JsonResponse
+    public function show(Employee $employee): EmployeeResource
     {
-        $employee->load(['user', 'department', 'manager.user']);
-
-        return response()->json([
-            'data' => new EmployeeResource($employee),
-        ]);
+        return new EmployeeResource(
+            $employee->load(['user', 'department', 'manager.user'])
+        );
     }
 
     /**
      * Update the specified employee record.
      */
-    public function update(UpdateEmployeeRequest $request, Employee $employee): JsonResponse
+    public function update(UpdateEmployeeRequest $request, Employee $employee): EmployeeResource
     {
         $employee->update($request->validated());
 
-        return response()->json([
-            'message' => 'Employee updated successfully',
-            'data' => new EmployeeResource($employee->fresh(['user', 'department', 'manager'])),
-        ]);
+        return new EmployeeResource(
+            $employee->fresh(['user', 'department', 'manager.user'])
+        );
     }
 
     /**
      * Remove the specified employee.
      */
-    public function destroy(Employee $employee): JsonResponse
+    public function destroy(Employee $employee): array
     {
         $employee->delete();
 
-        return response()->json([
-            'message' => 'Employee deleted successfully',
-        ]);
+        return [
+            'message' => 'Employee record deleted successfully.',
+        ];
     }
 }

@@ -4,15 +4,19 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
+use App\Http\Resources\Api\V1\UserResource;
 use App\Models\User;
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
 
+
 class AuthController extends Controller
 {
-    public function login(LoginRequest $request): JsonResponse
+    /**
+     * Handle authentication and token generation.
+     */
+    public function login(LoginRequest $request): array
     {
         $user = User::where('email', $request->email)->first();
 
@@ -25,33 +29,30 @@ class AuthController extends Controller
         // Generate Sanctum Bearer Token
         $token = $user->createToken('auth_token')->plainTextToken;
 
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Login successful',
-            'data' => [
-                'user' => $user,
-                'access_token' => $token,
-                'token_type' => 'Bearer',
-            ],
-        ]);
+        return [
+            'access_token' => $token,
+            'token_type' => 'Bearer',
+            'user' => new UserResource($user->load('employee')),
+        ];
     }
 
-    public function me(Request $request): JsonResponse
+    /**
+     * Get details of the authenticated user.
+     */
+    public function me(Request $request): UserResource
     {
-        return response()->json([
-            'status' => 'success',
-            'data' => $request->user(),
-        ]);
+        return new UserResource($request->user()->load('employee'));
     }
 
-    public function logout(Request $request): JsonResponse
+    /**
+     * Revoke access token.
+     */
+    public function logout(Request $request): array
     {
-        // Delete current token
         $request->user()->currentAccessToken()->delete();
 
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Successfully logged out',
-        ]);
+        return [
+            'message' => 'Successfully logged out.',
+        ];
     }
 }

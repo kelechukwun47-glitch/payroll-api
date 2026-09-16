@@ -4,38 +4,34 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Enums\LeaveStatus;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Api\V1\StoreLeaveRequest;
+use App\Http\Resources\Api\V1\LeaveRequestResource;
+use App\Jobs\SendLeaveStatusNotificationJob;
 use App\Models\LeaveRequest;
 use App\Models\LeaveType;
-use Illuminate\Http\JsonResponse;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class LeaveRequestController extends Controller
 {
     /**
      * Submit a new leave request.
      */
-    public function store(Request $request): JsonResponse
+    public function store(StoreLeaveRequest $request): LeaveRequestResource
     {
-        $validated = $request->validate([
-            'leave_type_id' => 'required|exists:leave_types,id',
-            'start_date' => 'required|date|after_or_equal:today',
-            'end_date' => 'required|date|after_or_equal:start_date',
-            'reason' => 'nullable|string',
-        ]);
-
+        $validated = $request->validated();
         $employee = $request->user()->employee;
         $leaveType = LeaveType::findOrFail($validated['leave_type_id']);
 
-        $startDate = \Carbon\Carbon::parse($validated['start_date']);
-        $endDate = \Carbon\Carbon::parse($validated['end_date']);
+        $startDate = Carbon::parse($validated['start_date']);
+        $endDate = Carbon::parse($validated['end_date']);
         $daysRequested = $startDate->diffInDays($endDate) + 1;
 
-        // Rule: Check leave type day limit
         if ($daysRequested > $leaveType->allowed_days) {
-            return response()->json([
-                'status' => 'error',
-                'message' => "Requested days ({$daysRequested}) exceed allowed limit ({$leaveType->allowed_days}) for {$leaveType->name}."
-            ], 422);
+            throw ValidationException::withMessages([
+                'days_requested' => ["Requested days ({$daysRequested}) exceed allowed limit ({$leaveType->allowed_days}) for {$leaveType->name}."],
+            ]);
         }
 
         $leaveRequest = LeaveRequest::create([
@@ -48,20 +44,18 @@ class LeaveRequestController extends Controller
             'status' => LeaveStatus::PENDING,
         ]);
 
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Leave request submitted successfully.',
-            'data' => $leaveRequest->load('leaveType')
-        ], 201);
+        return new LeaveRequestResource($leaveRequest->load(['employee', 'leaveType']));
     }
 
     /**
      * Approve a leave request (Manager or HR).
      */
-    public function approve(Request $request, LeaveRequest $leaveRequest): JsonResponse
+    public function approve(Request $request, LeaveRequest $leaveRequest): LeaveRequestResource
     {
         if ($leaveRequest->status === LeaveStatus::APPROVED) {
-            return response()->json(['status' => 'error', 'message' => 'Leave request is already approved.'], 422);
+            throw ValidationException::withMessages([
+                'status' => ['Leave request is already approved.'],
+            ]);
         }
 
         $leaveRequest->update([
@@ -69,10 +63,8 @@ class LeaveRequestController extends Controller
             'approved_by' => $request->user()->employee?->id,
         ]);
 
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Leave request approved successfully.',
-            'data' => $leaveRequest
-        ]);
+        SendLeaveStatusNotificationJob::dispatch($leaveRequest);
+
+        return new LeaveRequestResource($leaveRequest->load(['employee', 'leaveType']));
     }
 }

@@ -3,33 +3,38 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Api\V1\ClockInRequest;
+use App\Http\Resources\Api\V1\AttendanceResource;
 use App\Models\Attendance;
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class AttendanceController extends Controller
 {
     /**
      * Clock in the authenticated employee.
      */
-    public function clockIn(Request $request): JsonResponse
+    public function clockIn(ClockInRequest $request): AttendanceResource
     {
         $employee = $request->user()->employee;
 
         if (!$employee) {
-            return response()->json(['status' => 'error', 'message' => 'User is not linked to an employee record.'], 422);
+            throw ValidationException::withMessages([
+                'employee' => ['User is not linked to an employee record.'],
+            ]);
         }
 
         $today = now()->format('Y-m-d');
 
-        // Rule: Prevent double clock-in
         $existing = Attendance::where('employee_id', $employee->id)
             ->where('date', $today)
             ->whereNull('clock_out')
             ->first();
 
         if ($existing) {
-            return response()->json(['status' => 'error', 'message' => 'You already have an active clock-in session.'], 422);
+            throw ValidationException::withMessages([
+                'attendance' => ['You already have an active clock-in session.'],
+            ]);
         }
 
         $attendance = Attendance::create([
@@ -39,17 +44,13 @@ class AttendanceController extends Controller
             'status' => now()->format('H:i') > '09:00' ? 'late' : 'present',
         ]);
 
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Clocked in successfully.',
-            'data' => $attendance
-        ], 201);
+        return new AttendanceResource($attendance->load('employee'));
     }
 
     /**
      * Clock out the authenticated employee.
      */
-    public function clockOut(Request $request): JsonResponse
+    public function clockOut(Request $request): AttendanceResource
     {
         $employee = $request->user()->employee;
 
@@ -58,19 +59,16 @@ class AttendanceController extends Controller
             ->latest()
             ->first();
 
-        // Rule: Cannot clock out without active clock in
         if (!$activeAttendance) {
-            return response()->json(['status' => 'error', 'message' => 'No active clock-in record found to clock out from.'], 422);
+            throw ValidationException::withMessages([
+                'attendance' => ['No active clock-in record found to clock out from.'],
+            ]);
         }
 
         $activeAttendance->update([
             'clock_out' => now(),
         ]);
 
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Clocked out successfully.',
-            'data' => $activeAttendance
-        ]);
+        return new AttendanceResource($activeAttendance->load('employee'));
     }
 }
