@@ -4,19 +4,13 @@ namespace App\Jobs;
 
 use App\Models\Bonus;
 use App\Services\BonusService;
-use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Foundation\Bus\Dispatchable;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Queue\SerializesModels;
+use Illuminate\Foundation\Queue\Queueable;
 
 class ProcessBonusDistributionJob implements ShouldQueue
 {
-    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+    use Queueable;
 
-    /**
-     * Create a new job instance.
-     */
     public function __construct(
         public Bonus $bonus
     ) {
@@ -28,6 +22,6 @@ class ProcessBonusDistributionJob implements ShouldQueue
     public function handle(BonusService $bonusService): void
     {
         // Executes the upline bonus calculation off the main thread
-        $bonusService->distributeUpline($this->bonus);
+        $bonusService->distributeUplineBonus($this->bonus);
     }
 }
