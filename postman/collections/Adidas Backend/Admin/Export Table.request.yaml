@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/admin/export/{table}"
+method: GET
+order: 8000

@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseUrl}}/product-priorities?division_id="
+method: GET
+headers:
+  Accept: application/json
+queryParams:
+  division_id: ""
+order: 1000

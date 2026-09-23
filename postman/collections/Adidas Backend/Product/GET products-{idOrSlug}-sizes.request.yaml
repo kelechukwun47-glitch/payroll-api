@@ -1,0 +1,13 @@
+$kind: http-request
+name: GET products/{idOrSlug}/sizes
+url: "{{baseUrl}}/products/:idOrSlug/sizes"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  idOrSlug: x%7Erc%7E
+auth:
+  type: noauth
+examples: ./.resources/GET products-{idOrSlug}-sizes.resources/examples
+order: 21000

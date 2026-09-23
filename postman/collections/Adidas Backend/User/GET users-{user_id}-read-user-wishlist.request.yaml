@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET users/{user_id}/read-user-wishlist
+url: "{{baseUrl}}/users/:user_id/read-user-wishlist"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: user_id
+    value: culpa
+    description: The ID of the user.
+auth:
+  type: noauth
+order: 8000

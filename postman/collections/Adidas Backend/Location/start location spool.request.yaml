@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{base_url}}/locations/start-spool"
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: ""
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+examples: ./.resources/start location spool.resources/examples
+order: 1000

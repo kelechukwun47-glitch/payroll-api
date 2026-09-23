@@ -1,0 +1,32 @@
+$kind: http-request
+url: "{{base_url}}/carts"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "user_id": "{{user_id}}",
+        "items": [
+            {
+                "product_id": "{{product_id}}",
+                "product_slug": "{{product_slug}}",
+                "sku": "{{product_sku}}",
+                "name": "Adizero Essentials Running T-Shirt",
+                "price": 73000,
+                "price_sales": 0,
+                "color": null,
+                "primary_image": "https://res.cloudinary.com/dtc2q8arn/image/upload/v1707318103/staging-media/products/demo-pics/Train_to_Peak_HIIT_Training_Tee_Blue_HC4211_HM7_d87i6x.avif",
+                "size": "S",
+                "size_type": "gender_neutral",
+                "selected_stock": 4,
+                "quantity": 1,
+                "item_total": {{billing_total}},
+                "product_sku": "4067887238113"
+            }
+        ]
+    }
+examples: ./.resources/POST carts.resources/examples
+order: 1000

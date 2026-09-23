@@ -1,0 +1,13 @@
+$kind: http-request
+name: GET products/search
+url: "{{base_url}}/products/search?q=ADIDAS DURAMO SL"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+queryParams:
+  q: ADIDAS DURAMO SL
+auth:
+  type: noauth
+examples: ./.resources/GET products-search.resources/examples
+order: 10000

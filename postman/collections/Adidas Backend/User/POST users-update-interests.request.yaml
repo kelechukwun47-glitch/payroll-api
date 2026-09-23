@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST users/update-interests
+url: "{{baseUrl}}/users/update-interests"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 6000

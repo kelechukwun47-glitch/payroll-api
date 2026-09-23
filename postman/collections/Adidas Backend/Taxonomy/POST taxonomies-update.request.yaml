@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST taxonomies/update
+url: "{{baseUrl}}/taxonomies/update"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 6000

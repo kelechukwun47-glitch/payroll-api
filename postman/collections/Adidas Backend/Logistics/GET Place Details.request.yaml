@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/logistics/place-details?place_id=EiUxNmEgQ29tbWVyY2lhbCBBdmVudWUsIExhZ29zLCBOaWdlcmlhIjASLgoUChIJBQSr8l6MOxARSRAhwHq6BQkQECoUChIJFeSdjF6MOxARNg3DQyB8Lfw"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+queryParams:
+  place_id: EiUxNmEgQ29tbWVyY2lhbCBBdmVudWUsIExhZ29zLCBOaWdlcmlhIjASLgoUChIJBQSr8l6MOxARSRAhwHq6BQkQECoUChIJFeSdjF6MOxARNg3DQyB8Lfw
+order: 2000

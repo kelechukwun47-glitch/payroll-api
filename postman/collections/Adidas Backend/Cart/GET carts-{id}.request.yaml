@@ -1,0 +1,13 @@
+$kind: http-request
+name: GET carts/{id}
+url: "{{base_url}}/carts/:id"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: id
+    value: 01kf12xyb4sdpac30xz2kfqt6z
+    description: The ID of the cart.
+examples: ./.resources/GET carts-{id}.resources/examples
+order: 5000

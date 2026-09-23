@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET settings/{handle}
+url: "{{baseUrl}}/settings/:handle"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  handle: culpa
+auth:
+  type: noauth
+order: 12000

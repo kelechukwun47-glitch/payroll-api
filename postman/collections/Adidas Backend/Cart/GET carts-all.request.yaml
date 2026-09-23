@@ -1,0 +1,9 @@
+$kind: http-request
+name: GET carts/all
+url: "{{base_url}}/carts/all"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+examples: ./.resources/GET carts-all.resources/examples
+order: 4000

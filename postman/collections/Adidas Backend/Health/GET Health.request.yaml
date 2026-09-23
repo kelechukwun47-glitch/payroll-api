@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{base_url}}/health"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 1000

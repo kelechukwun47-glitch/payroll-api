@@ -1,0 +1,56 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/conversations/{{conversation_id}}"
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.24.0 (Ubuntu)
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Cache-Control: no-cache, private
+    Date: Wed, 13 Aug 2025 22:41:51 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "58"
+  body:
+    type: text
+    content: |-
+      {
+          "id": "01k2j7wpwnb3cxhxew1vhyfywh",
+          "user_id": "01hmhcp90xkx6n2jf80shhc540",
+          "title": "Database Product Count: 6,004 Products",
+          "messages": [
+              {
+                  "role": "user",
+                  "content": "How many products do we have"
+              },
+              {
+                  "role": "assistant",
+                  "content": "We have a total of 6,004 products in the database."
+              },
+              {
+                  "role": "user",
+                  "content": "what is the most expensive product"
+              },
+              {
+                  "role": "assistant",
+                  "content": "The most expensive product is the \"Y-3 WASHED TWILL JUMPSUIT,\" priced at 918,000 Naira."
+              },
+              {
+                  "role": "user",
+                  "content": "what is the most expensive product"
+              },
+              {
+                  "role": "assistant",
+                  "content": "The most expensive product is the \"Y-3 WASHED TWILL JUMPSUIT,\" priced at 918,000 Naira."
+              }
+          ]
+      }
+order: 1000

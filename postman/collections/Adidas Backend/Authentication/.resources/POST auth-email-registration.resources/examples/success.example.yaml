@@ -1,0 +1,38 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/auth/send-email-otp"
+  method: POST
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "email": "idokoemmanuel3@gmail.com"
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Sun, 08 Feb 2026 18:11:16 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "message": "OTP has been sent and will expire in 5min"
+      }
+order: 1000

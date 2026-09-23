@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET layouts/{id}
+url: "{{baseUrl}}/layouts/:id"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: id
+    value: culpa
+    description: The ID of the layout.
+auth:
+  type: noauth
+order: 1000

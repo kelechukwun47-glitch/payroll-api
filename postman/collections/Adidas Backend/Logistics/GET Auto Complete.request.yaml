@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/logistics/auto-complete?search=16A Commercial Ave"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+queryParams:
+  search: 16A Commercial Ave
+body:
+  type: json
+  content: ""
+settings: {}
+order: 1000

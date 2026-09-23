@@ -1,0 +1,23 @@
+$kind: http-request
+name: POST users/add-subscribers
+url: "{{baseUrl}}/users/add-subscriber"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "email": "idokoemmanuel3+1@gmail.com",
+        "communication_settings": {
+            "special_offers": true,
+            "adidas_news": true,
+            "exclusive_drops": true,
+            "membership": true,
+            "item_updates": true
+        }
+    }
+auth:
+  type: noauth
+order: 2000

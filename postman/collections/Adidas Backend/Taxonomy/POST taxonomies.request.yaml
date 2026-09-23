@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/taxonomies"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 1000

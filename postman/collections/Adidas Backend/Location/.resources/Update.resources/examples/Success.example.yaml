@@ -1,0 +1,52 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/locations/update"
+  method: POST
+  body:
+    type: json
+    content: |-
+      {
+          "location_id": 389,
+          "active": false,
+          "address": "20 Regina Omolara St, Allen, Ikeja 101233, Lagos, Nigeria",
+          "state": "Lagos",
+          "city": "Ikeja",
+          "latitude": 6.5954644,
+          "longitude": 3.3575215
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.24.0 (Ubuntu)
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Cache-Control: no-cache, private
+    Date: Mon, 08 Dec 2025 13:05:47 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+  body:
+    type: text
+    content: |-
+      {
+          "message": "Location updated and inactive",
+          "data": {
+              "id": "01jy46p77d9h84m864tbaaybtz",
+              "location_id": 389,
+              "complete_name": "ABJ-WH",
+              "store_name": null,
+              "address": "20 Regina Omolara St, Allen, Ikeja 101233, Lagos, Nigeria",
+              "city": "Ikeja",
+              "state": "Lagos",
+              "latitude": 6.5954644,
+              "longitude": 3.3575215,
+              "active": false,
+              "created_at": "2025-06-19T13:40:10.000000Z",
+              "updated_at": "2025-11-10T14:39:56.000000Z"
+          }
+      }
+order: 1000

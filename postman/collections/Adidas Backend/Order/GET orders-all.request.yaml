@@ -1,0 +1,13 @@
+$kind: http-request
+name: GET orders/all
+url: "{{baseUrl}}/orders/all"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: bearer
+  credentials:
+    token: "{{access_token}}"
+examples: ./.resources/GET orders-all.resources/examples
+order: 10000

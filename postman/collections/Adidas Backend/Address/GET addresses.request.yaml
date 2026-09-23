@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{baseUrl}}/addresses"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+order: 1000

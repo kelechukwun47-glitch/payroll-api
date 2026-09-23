@@ -1,0 +1,9 @@
+$kind: http-request
+name: GET admins/all
+url: "{{base_url}}/admins/all"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+examples: ./.resources/GET admins-all.resources/examples
+order: 6000

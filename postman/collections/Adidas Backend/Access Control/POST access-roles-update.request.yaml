@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST access/roles/update
+url: "{{baseUrl}}/access/roles/update"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 12000

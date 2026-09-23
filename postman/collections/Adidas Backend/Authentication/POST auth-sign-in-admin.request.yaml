@@ -1,0 +1,34 @@
+$kind: http-request
+name: POST auth/sign-in/admin
+url: "{{base_url}}/auth/sign-in/admin"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    // {
+    //     "email": "super.admin@adidasng.dev",
+    //     "password": "super.admin@Nov2023"
+    // }
+
+    {
+        "email": "super.admin@adidasng.dev",
+        "password": "super.admin@Nov2023"
+    }
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      var token = pm.response.json()?.access_token
+      var email = pm.response.json()?.email
+
+      pm.environment.set('token', token)
+      pm.environment.set('email', email)
+
+      console.log('token: ' + pm.globals.get('token'))
+    language: text/javascript
+examples: ./.resources/POST auth-sign-in-admin.resources/examples
+order: 8000

@@ -1,0 +1,18 @@
+$kind: http-request
+name: POST retry/odoo
+url: "{{baseUrl}}/orders/retry-odoo"
+method: POST
+headers:
+  - key: Content-Type
+    value: application/json
+    disabled: true
+  - key: Accept
+    value: application/json
+body:
+  type: json
+  content: ""
+settings:
+  disabledSystemHeaders:
+    - accept
+examples: ./.resources/POST retry-odoo.resources/examples
+order: 6000

@@ -1,0 +1,19 @@
+$kind: http-request
+name: POST auth/sign-in/google
+url: "{{baseUrl}}/auth/sign-in/google"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      var token = pm.response.json()?.access_token
+
+      pm.globals.set('token', token)
+
+      console.log('token: ' + pm.globals.get('token'))
+    language: text/javascript
+order: 7000

@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET access/teams
+url: "{{baseUrl}}/access/teams"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 13000

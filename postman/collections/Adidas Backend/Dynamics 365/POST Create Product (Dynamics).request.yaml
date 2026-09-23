@@ -1,0 +1,39 @@
+$kind: http-request
+url: https://adidas-api-feature.feature.check-dc.com/dynamics/products
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"article_number\": \"POSTMAN-TEST-091\",\r
+
+    \  \"name\": \"Postman Test Runner\",\r
+
+    \  \"gender\": \"men\",\r
+
+    \  \"color\": \"core black\",\r
+
+    \  \"item_id\": \"DYN-PM-091\",\r
+
+    \  \"price\": 179000,\r
+
+    \  \"sizes\": [\r
+
+    \    {\r
+
+    \      \"sku\": \"POSTMAN-TEST-091-40\",\r
+
+    \      \"size\": \"40\",\r
+
+    \      \"stock\": 10\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{auth_secret_0o3p}}"
+order: 1000

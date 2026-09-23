@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET admins/{userId}
+url: "{{baseUrl}}/admins/:userId"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  userId: culpa
+auth:
+  type: noauth
+order: 7000

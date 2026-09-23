@@ -50,7 +50,7 @@ class LeaveService
             ]);
         }
 
-        return LeaveRequest::create([
+        $leaveRequest = LeaveRequest::create([
             'employee_id' => $employee->id,
             'leave_type_id' => $leaveType->id,
             'start_date' => $data['start_date'],
@@ -59,6 +59,8 @@ class LeaveService
             'reason' => $data['reason'] ?? null,
             'status' => LeaveStatus::PENDING,
         ]);
+
+        return $leaveRequest->load(['employee', 'leaveType']);
     }
 
     /**

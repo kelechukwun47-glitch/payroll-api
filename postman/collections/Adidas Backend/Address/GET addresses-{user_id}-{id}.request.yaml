@@ -1,0 +1,17 @@
+$kind: http-request
+name: GET addresses/{user_id}/{id}
+url: "{{baseUrl}}/addresses/:user_id/:id"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: user_id
+    value: culpa
+    description: The ID of the user.
+  - key: id
+    value: culpa
+    description: The ID of the {user id}.
+auth:
+  type: noauth
+order: 2000

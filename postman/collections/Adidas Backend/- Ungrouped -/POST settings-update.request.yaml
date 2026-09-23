@@ -1,0 +1,33 @@
+$kind: http-request
+name: POST settings/update
+url: "{{baseUrl}}/settings/update"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+     "payment_gateway":[
+            {
+                "name": "paystack", 
+                "visibility": true,
+                "odoo_id" : 1543
+            }, 
+            {
+                "name": "flutter-wave", 
+                "visibility": true,
+                "odoo_id": 1544
+            },
+            {
+                "name": "payaza", 
+                "visibility": true,
+                "odoo_id": 1545
+            }
+        ]
+    }
+    // paystack = 1543
+    // flutterwave = 1544
+    // payaza = 1545
+order: 13000

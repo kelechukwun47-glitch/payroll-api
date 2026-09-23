@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/taxonomies"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+examples: ./.resources/GET taxonomies.resources/examples
+order: 2000

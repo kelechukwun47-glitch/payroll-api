@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET access/permissions/{permissionId}
+url: "{{baseUrl}}/access/permissions/:permissionId"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  permissionId: culpa
+auth:
+  type: noauth
+order: 21000

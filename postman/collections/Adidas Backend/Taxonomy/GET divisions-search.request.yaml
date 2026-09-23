@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET divisions/search
+url: "{{baseUrl}}/divisions/search"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 19000

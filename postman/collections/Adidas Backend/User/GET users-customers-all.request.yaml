@@ -1,0 +1,11 @@
+$kind: http-request
+name: GET users/customers/all
+url: "{{base_url}}/users/customers/all"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+examples: ./.resources/GET users-customers-all.resources/examples
+order: 9000

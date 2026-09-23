@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET products/search-simple
+url: "{{baseUrl}}/products/search"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 12000

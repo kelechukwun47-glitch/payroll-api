@@ -1,0 +1,21 @@
+$kind: http-request
+name: POST users/update-basic
+url: "{{baseUrl}}/users/update-basic"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "communication_settings": {
+        "adidas_news": true,
+        "exclusive_drops": false,
+        "item_updates": false,
+        "membership": true,
+        "special_offers": true
+        },
+        "user_id": "01hw7s6n2an1frjfjr3p5v10sf"
+    }
+order: 1000

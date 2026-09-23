@@ -1,0 +1,63 @@
+$kind: http-example
+name: Find all users who haven't placed an order yet and show me their email addresses
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt":"Find all users who haven't placed an order yet and show me their email addresses",
+          "message_history":[{}],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Sat, 12 Jul 2025 13:54:55 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "59"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:0.6b",
+                      "created_at": "2025-07-12T13:54:55.330325928Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, let's see. The user wants to find all users who haven't placed an order yet and show their email addresses. From the tool results, there are two tables: 'users' and 'orders'. \n\nFirst, I need to check the 'users' table to find the email addresses. The database query they used is a LEFT JOIN with 'orders' where the user ID is NULL. The response shows that the 'users' table has 21 columns, which includes 'email' and 'id'. So, the email addresses from the 'users' table are the ones provided in the data.\n\nLooking at the data, there are four entries with emails like admin.manager@adidasng.dev, idokoemmanuel499@gmail.com, lanreolapade7@gmail.com, and super.admin@adidasng.dev. These emails are all valid and not NULL in the 'orders' table. Since the user is asking for those who haven't placed an order, and the query checks for orders.user_id IS NULL, these emails should be the correct ones.\n\nI need to present these emails as the final answer without any more tool calls. The user specified not to make any more tool calls, so just list the emails from the 'users' table.\n</think>\n\nThe email addresses of users who haven't placed an order are:  \nadmin.manager@adidasng.dev, idokoemmanuel499@gmail.com, lanreolapade7@gmail.com, and super.admin@adidasng.dev."
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 19260624508,
+                      "load_duration": 30748589,
+                      "prompt_eval_count": 4451,
+                      "prompt_eval_duration": 9134983597,
+                      "eval_count": 314,
+                      "eval_duration": 9976885746
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 10000

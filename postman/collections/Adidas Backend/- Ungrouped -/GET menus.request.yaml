@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/menus"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 6000

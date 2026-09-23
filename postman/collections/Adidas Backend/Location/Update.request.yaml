@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{base_url}}/locations/update"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "location_id": 123,
+        "active": true,
+        "address": "123 Main Street",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "latitude": 6.6018,
+        "longitude": 3.3515
+    }
+examples: ./.resources/Update.resources/examples
+order: 3000

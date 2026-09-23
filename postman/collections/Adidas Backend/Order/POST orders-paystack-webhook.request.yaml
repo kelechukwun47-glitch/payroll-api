@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST orders/paystack-webhook
+url: "{{base_url}}/orders/paystack-webhook"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 1000

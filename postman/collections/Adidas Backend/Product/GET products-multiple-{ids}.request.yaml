@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET products/multiple/{ids}
+url: "{{baseUrl}}/products/multiple/:ids"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  ids: culpa
+auth:
+  type: noauth
+order: 16000

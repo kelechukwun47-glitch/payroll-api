@@ -1,0 +1,63 @@
+$kind: http-example
+name: What columns does the products table have?
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt":"What columns does the products table have?",
+          "message_history":[{}],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Sat, 12 Jul 2025 08:52:49 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "59"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:0.6b",
+                      "created_at": "2025-07-12T08:52:49.824964396Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, the user asked what columns the products table has. I used the list_tables function with the pattern \"products%\" and included details. The response shows the table has 34 columns. I need to present this information clearly. Let me check the tool response again to make sure there are no errors. The count is correct, and the columns count is accurate. So, I'll state that the products table has 34 columns.\n</think>\n\nThe products table has **34 columns**."
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 2336456478,
+                      "load_duration": 27740842,
+                      "prompt_eval_count": 1039,
+                      "prompt_eval_duration": 348016484,
+                      "eval_count": 104,
+                      "eval_duration": 1920951527
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 3000

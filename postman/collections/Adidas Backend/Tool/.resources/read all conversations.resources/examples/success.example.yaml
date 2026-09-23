@@ -1,0 +1,64 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/conversations"
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Thu, 31 Jul 2025 20:55:42 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "58"
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "id": "01k1h3kh66wk8vwp15axrvgqmc",
+                  "title": "Database Product Count: 2,670 Products"
+              }
+          ],
+          "first_page_url": "http://adidas-backend.test/tools/conversations?page=1",
+          "from": 1,
+          "last_page": 1,
+          "last_page_url": "http://adidas-backend.test/tools/conversations?page=1",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/tools/conversations?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": null,
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": null,
+          "path": "http://adidas-backend.test/tools/conversations",
+          "per_page": 10,
+          "prev_page_url": null,
+          "to": 1,
+          "total": 1
+      }
+order: 1000

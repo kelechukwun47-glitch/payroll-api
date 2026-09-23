@@ -1,0 +1,28 @@
+$kind: http-request
+name: POST auth/sign-up
+url: "{{baseUrl}}/auth/sign-up"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "email": "idokoemmanuel499@gmail.com",
+        "password": "Pasword@123",
+        "otp": 122089
+    }
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      var token = pm.response.json()?.access_token
+
+      pm.globals.set('token', token)
+
+      console.log('token: ' + pm.globals.get('token'))
+    language: text/javascript
+examples: ./.resources/POST auth-sign-up.resources/examples
+order: 4000

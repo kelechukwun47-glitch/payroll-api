@@ -1,0 +1,45 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/logistics/create-manual-waybill"
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"logistics_partner_id\": \"{{logistics_partner_id}}\",\r
+
+      \    \"order_id\": \"{{order_id}}\",\r
+
+      \    \"selected_items\": [\"4066755307142\", \"4067887539791\", \"4066763127176\"],\r
+
+      \    \"waybill_number\": \"213234323\"\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.24.0 (Ubuntu)
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Cache-Control: no-cache, private
+    Date: Thu, 11 Dec 2025 08:42:33 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+  body:
+    type: text
+    content: |-
+      {
+          "success": true,
+          "message": "Waybill manually created successfully",
+          "waybill": "213234323",
+          "logistics_partner": {
+              "id": "01jt09fr9rsctnr1ef4gwwvthx",
+              "name": "Test 4"
+          }
+      }
+order: 1000

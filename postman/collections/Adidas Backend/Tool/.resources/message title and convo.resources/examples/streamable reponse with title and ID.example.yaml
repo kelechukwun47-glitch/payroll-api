@@ -1,0 +1,98 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt": "What is the best-selling product",
+          "stream": 1
+          // "conversation_id": "{{conversation_id}}"
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: text/event-stream; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Date: Sat, 20 Sep 2025 16:06:25 GMT
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "60"
+  body:
+    type: text
+    content: |+
+      data: {"role":"assistant","content":""}
+
+      data: {"role":"assistant","content":"The"}
+
+      data: {"role":"assistant","content":" best"}
+
+      data: {"role":"assistant","content":"-selling"}
+
+      data: {"role":"assistant","content":" product"}
+
+      data: {"role":"assistant","content":" is"}
+
+      data: {"role":"assistant","content":" the"}
+
+      data: {"role":"assistant","content":" \""}
+
+      data: {"role":"assistant","content":"AD"}
+
+      data: {"role":"assistant","content":"IZ"}
+
+      data: {"role":"assistant","content":"ERO"}
+
+      data: {"role":"assistant","content":" ESS"}
+
+      data: {"role":"assistant","content":"ENTIAL"}
+
+      data: {"role":"assistant","content":"S"}
+
+      data: {"role":"assistant","content":" RUN"}
+
+      data: {"role":"assistant","content":"NING"}
+
+      data: {"role":"assistant","content":" T"}
+
+      data: {"role":"assistant","content":"-S"}
+
+      data: {"role":"assistant","content":"H"}
+
+      data: {"role":"assistant","content":"IRT"}
+
+      data: {"role":"assistant","content":"\""}
+
+      data: {"role":"assistant","content":" with"}
+
+      data: {"role":"assistant","content":" a"}
+
+      data: {"role":"assistant","content":" total"}
+
+      data: {"role":"assistant","content":" of"}
+
+      data: {"role":"assistant","content":" "}
+
+      data: {"role":"assistant","content":"39"}
+
+      data: {"role":"assistant","content":" sales"}
+
+      data: {"role":"assistant","content":"."}
+
+      data: {"type":"conversation_saved","conversation_id":"01k5ky0ygdrhgy0cpmxt0nmyb1","title":"Best-Selling Product: ADIZERO ESSENTIALS RUNNING T..."}
+
+      data: [DONE]
+
+order: 3000

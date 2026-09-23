@@ -1,0 +1,27 @@
+$kind: http-request
+name: POST access/assign-roles Copy
+url: https://odoo-connector.check-dc.com/orders
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+         "name": "Check ADIDAS NNU",
+         "total_amount":12000,
+         "odoo_user_id":191493,
+         "shipping_id":191553,
+         "delivery_fee":5000,
+        "order_lines": [
+            {
+                "product_id": "30056",
+                "product_uom_qty": 2,
+                "price_unit": 7000
+            }
+        ]
+    }
+auth:
+  type: noauth
+order: 2000

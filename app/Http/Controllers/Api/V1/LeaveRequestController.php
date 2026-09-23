@@ -25,7 +25,7 @@ class LeaveRequestController extends Controller
         $employee = $request->user()->employee;
         $leaveRequest = $this->leaveService->submitLeaveRequest($employee, $request->validated());
 
-        return new LeaveRequestResource($leaveRequest->load(['employee', 'leaveType']));
+        return new LeaveRequestResource($leaveRequest);
     }
 
     /**

@@ -1,0 +1,44 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt": "What is the best-selling product",
+          "stream": 0,
+          "conversation_id": "{{conversation_id}}"
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Thu, 31 Jul 2025 21:12:58 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "58"
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "conversation_id": "01k1h3kh66wk8vwp15axrvgqmc",
+          "title": "Database Product Count: 2,670 Products",
+          "role": "assistant",
+          "content": "The best-selling product is the \"ADIZERO ESSENTIALS RUNNING T-SHIRT\" with a total of 39 sales."
+      }
+order: 2000

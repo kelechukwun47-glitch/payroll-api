@@ -1,0 +1,17 @@
+$kind: http-request
+name: GET products/{slug}/{sku}
+url: "{{base_url}}/products/:slug/:sku"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: slug
+    value: culpa
+    description: The slug of the product.
+  - key: sku
+    value: culpa
+auth:
+  type: noauth
+examples: ./.resources/GET products-{slug}-{sku}.resources/examples
+order: 23000

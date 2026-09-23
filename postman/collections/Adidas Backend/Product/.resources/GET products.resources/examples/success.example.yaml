@@ -1,0 +1,3436 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/products"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Thu, 15 Jan 2026 14:45:49 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "variation_code": "OSIWUD",
+                  "variations": [
+                      {
+                          "id": "01kf0vk7kf3dw0f86jt6zgae8a",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "UF96GR",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk81mz0d7tjkaqnjb8jdy",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "NH3NUR",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk834v430sry3g6vg656x",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "JB30RC",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk841qjqv78kjvc6xgmka",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "81AWPO",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk84qfy38tc28vt1b2v17",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "PQSSLI",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk85xtr6wbz16kkc75k4f",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "UHWXH0",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk86x1f1c5ht4vyy4qz8x",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "HFSSVA",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk88bn14cb7af1ktrvjhp",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "OKRI0N",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk89cpq8364nn2v1gdtvg",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "MYZEAD",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8a80h8j30bp6m3hx7hq",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "MWPNUK",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8azjcqe8d3mmygrf96s",
+                          "slug": "luis-wilmer",
+                          "name": "Luis Wilmer",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 20000,
+                          "sku": "COSKK3",
+                          "price_sales": 4200,
+                          "variation_code": "OSIWUD",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "5JZ2F6",
+                  "variations": [
+                      {
+                          "id": "01kf0vk8h04g5cjhbdsmnmdz8j",
+                          "slug": "tremayne-candelario-odessa",
+                          "name": "Tremayne Candelario Odessa",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 8000,
+                          "sku": "S4Y6V0",
+                          "price_sales": null,
+                          "variation_code": "5JZ2F6",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8j88s7efz7sk0ks141c",
+                          "slug": "tremayne-candelario-odessa",
+                          "name": "Tremayne Candelario Odessa",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 8000,
+                          "sku": "YMAGHJ",
+                          "price_sales": null,
+                          "variation_code": "5JZ2F6",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8khntt40fedcas19hfk",
+                          "slug": "tremayne-candelario-odessa",
+                          "name": "Tremayne Candelario Odessa",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 8000,
+                          "sku": "HIQEYA",
+                          "price_sales": null,
+                          "variation_code": "5JZ2F6",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7td1xav8qebd7z01zbk",
+                          "slug": "tremayne-candelario-odessa",
+                          "name": "Tremayne Candelario Odessa",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 8000,
+                          "sku": "AELUGD",
+                          "price_sales": null,
+                          "variation_code": "5JZ2F6",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8d7apjcbgpv2aht05g3",
+                          "slug": "tremayne-candelario-odessa",
+                          "name": "Tremayne Candelario Odessa",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 8000,
+                          "sku": "F9OLZN",
+                          "price_sales": null,
+                          "variation_code": "5JZ2F6",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8ecsghe4nack4d17n7n",
+                          "slug": "tremayne-candelario-odessa",
+                          "name": "Tremayne Candelario Odessa",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 8000,
+                          "sku": "YJGF1X",
+                          "price_sales": null,
+                          "variation_code": "5JZ2F6",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8fywj96h6nxwzd32smj",
+                          "slug": "tremayne-candelario-odessa",
+                          "name": "Tremayne Candelario Odessa",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 8000,
+                          "sku": "SFDZAU",
+                          "price_sales": null,
+                          "variation_code": "5JZ2F6",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "JRXNX5",
+                  "variations": [
+                      {
+                          "id": "01kf0vk8nk69gfh0qsd8h5cpw8",
+                          "slug": "alfreda-cameron-cale",
+                          "name": "Alfreda Cameron Cale",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 87000,
+                          "sku": "Y1KNOW",
+                          "price_sales": null,
+                          "variation_code": "JRXNX5",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8preesj68213jqf8aq6",
+                          "slug": "alfreda-cameron-cale",
+                          "name": "Alfreda Cameron Cale",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 87000,
+                          "sku": "K2DNWP",
+                          "price_sales": null,
+                          "variation_code": "JRXNX5",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8r00fmd3ckq9nkpvzwn",
+                          "slug": "alfreda-cameron-cale",
+                          "name": "Alfreda Cameron Cale",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 87000,
+                          "sku": "PXVOKY",
+                          "price_sales": null,
+                          "variation_code": "JRXNX5",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8s0jf3p2ca5xb48djv3",
+                          "slug": "alfreda-cameron-cale",
+                          "name": "Alfreda Cameron Cale",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 87000,
+                          "sku": "SCFK5Q",
+                          "price_sales": null,
+                          "variation_code": "JRXNX5",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk8xnnvtzdq55sptnhznd",
+                          "slug": "alfreda-cameron-cale",
+                          "name": "Alfreda Cameron Cale",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 87000,
+                          "sku": "FN2FNT",
+                          "price_sales": null,
+                          "variation_code": "JRXNX5",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7tnx7t1gd2vhexkxhwz",
+                          "slug": "alfreda-cameron-cale",
+                          "name": "Alfreda Cameron Cale",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 87000,
+                          "sku": "JKDNL6",
+                          "price_sales": null,
+                          "variation_code": "JRXNX5",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "5TJEVB",
+                  "variations": [
+                      {
+                          "id": "01kf0vk90nkgrd2vj18te5tavg",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "JCP8JB",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk91kj6ztb7xc6yss1sqs",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "OLMJI6",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk92znje5znwavd9scwht",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "J7LXUH",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk93tgb8bds6tnhc9w7p4",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "8CYYXG",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk94pm3hakabazcasggwj",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "AR56U0",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk95nxwn6k4vncjapc8fv",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "LJULP8",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk96sb0dg8x4hjp9yzj20",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "CZ00IU",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7x5rcmf5xwxby1qca7c",
+                          "slug": "kali-chyna-geraldine",
+                          "name": "Kali Chyna Geraldine",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 38000,
+                          "sku": "WQ6BUR",
+                          "price_sales": 21400,
+                          "variation_code": "5TJEVB",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "CPFPNH",
+                  "variations": [
+                      {
+                          "id": "01kf0vk9gpthvesx9w5z9dbgfz",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "BYI0WB",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9hwfmg908p5bxpc57rv",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "IWYRLY",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9k6csnzad84gbemazv8",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "SPROVK",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9mcgbt6tjmznvyr5kh4",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "B7ONWS",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk98zdx10eq06xb2beq5p",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "0PXQMG",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk99yendv1maf191132k9",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "X35YCK",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9aw1w9zz8h66dmznrr3",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "IK2UKQ",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9bz0qeccyvaqq4sjan9",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "T79WHY",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9e7krv8721zwgnc682x",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "SIGJPR",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9fccax1qtrrs1t3xhy3",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "OXZWKV",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7xfj2h10ydw6gspj4p8",
+                          "slug": "neal-vern",
+                          "name": "Neal Vern",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 45000,
+                          "sku": "8KQH70",
+                          "price_sales": 10800,
+                          "variation_code": "CPFPNH",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "PT0GWJ",
+                  "variations": [
+                      {
+                          "id": "01kf0vk9pjmaar9726cvg53hvj",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "GWOUEI",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9qkzxcgnwnqgtw4absz",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "HJ036E",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9sm8afazp9wjnpyst77",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "18B65W",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9v6z18ztz51taehxb78",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "9CWUNS",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9wp4201nasetbw874fz",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "REJ9Q4",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk9y4jt5740s39pjjz9b1",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "8LOZOU",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vka2s2ah5rmbpdwpxcfk8",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "3UFWZN",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7xp87dd9bg2jwk3ypzk",
+                          "slug": "beryl-steve",
+                          "name": "Beryl Steve",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                          "price": 75000,
+                          "sku": "UR5JW3",
+                          "price_sales": 22900,
+                          "variation_code": "PT0GWJ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                              "name": "Adidas By Stella Mccartney"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "CUBDOZ",
+                  "variations": [
+                      {
+                          "id": "01kf0vkag5ser7mczztw44fp1d",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "9QOWNE",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkaher1kf1kjpgn8xhabd",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "DBFIJE",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vka6650p37sr7mpgt2208",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "T1TKV0",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vka7j638q7kew69t7nfcr",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "ZNXKAA",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vka94he3sjg29dnqbx0dg",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "S01BFW",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkaabyjg5f0qsgdhcfkkf",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "W4CUCT",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkabr1ytt21e4exthqjg4",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "ETI76B",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkad5jcbcrm5mfc156vjc",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "UT7HKF",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkaet6tm733a2c3qr9p0f",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "ON0FJW",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7xxc7h91wgk55an53sr",
+                          "slug": "merl-santiago-kayli",
+                          "name": "Merl Santiago Kayli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 47000,
+                          "sku": "XLFVVD",
+                          "price_sales": null,
+                          "variation_code": "CUBDOZ",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "UV0G98",
+                  "variations": [
+                      {
+                          "id": "01kf0vkamghj8mq6h79kp97kqt",
+                          "slug": "shawn-hilma",
+                          "name": "Shawn Hilma",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 94000,
+                          "sku": "XKHKGG",
+                          "price_sales": 67100,
+                          "variation_code": "UV0G98",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7y36km5n7zp9bxj26aj",
+                          "slug": "shawn-hilma",
+                          "name": "Shawn Hilma",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 94000,
+                          "sku": "1H1ORJ",
+                          "price_sales": 67100,
+                          "variation_code": "UV0G98",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "EAMWOT",
+                  "variations": [
+                      {
+                          "id": "01kf0vkaq0hs6871hkxp7d92jr",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "LDZUJD",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkargtnfmgjmdv16ffjzg",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "GUO7LS",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkat5x6ae17zn10n5wcr0",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "8DGGAY",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkav5fne1bwmw53424mmk",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "P46GOQ",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkawbwhhktmga3vt3nge8",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "0WERMP",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkaxqj7dcncq5qps049z4",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "SI1NPY",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkaz3ew8jxfqnbenmdzgp",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "SDWAXB",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7ya7mj0jk8z0rkz1xh1",
+                          "slug": "emelie-drew-leonardo-gisselle",
+                          "name": "Emelie Drew Leonardo Gisselle",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 64000,
+                          "sku": "QYFU5Y",
+                          "price_sales": 13700,
+                          "variation_code": "EAMWOT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "KZM4Y7",
+                  "variations": [
+                      {
+                          "id": "01kf0vkb1bw8s2cmzh8rkxfpdg",
+                          "slug": "rossie-maria-chasity",
+                          "name": "Rossie Maria Chasity",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 86000,
+                          "sku": "W9DGRY",
+                          "price_sales": 36200,
+                          "variation_code": "KZM4Y7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkb2c33a36wb11mcghdjx",
+                          "slug": "rossie-maria-chasity",
+                          "name": "Rossie Maria Chasity",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 86000,
+                          "sku": "2RWVER",
+                          "price_sales": 36200,
+                          "variation_code": "KZM4Y7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkb3f5184pm06s9annpyq",
+                          "slug": "rossie-maria-chasity",
+                          "name": "Rossie Maria Chasity",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 86000,
+                          "sku": "3NZBV0",
+                          "price_sales": 36200,
+                          "variation_code": "KZM4Y7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkb4d29e620pacs6d82y8",
+                          "slug": "rossie-maria-chasity",
+                          "name": "Rossie Maria Chasity",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 86000,
+                          "sku": "IJ0I8G",
+                          "price_sales": 36200,
+                          "variation_code": "KZM4Y7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vkb5swkt9kpen1car21k9",
+                          "slug": "rossie-maria-chasity",
+                          "name": "Rossie Maria Chasity",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 86000,
+                          "sku": "NBJPT4",
+                          "price_sales": 36200,
+                          "variation_code": "KZM4Y7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vk7yg9xk3k0q37zd7zsja",
+                          "slug": "rossie-maria-chasity",
+                          "name": "Rossie Maria Chasity",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 86000,
+                          "sku": "5ZCQIR",
+                          "price_sales": 36200,
+                          "variation_code": "KZM4Y7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "MSN1FT",
+                  "variations": [
+                      {
+                          "id": "01kf0vmrg46j6c9pe1kpvbeqr8",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "ZPWHXS",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmqqkhm88kqr8hd9wpy66",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "OAS8GS",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmr52h8q44pg8r1zr4hm1",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "5YSFDP",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmragq6m26jrhmx0e7ecq",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "XJ3LWF",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmpnhye74pxda8f198e5a",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "7CLPML",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmprskfb1n5xp37mmgrns",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "LU2S9W",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmpzctm7d6jra29dg9ntb",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "M4CCG3",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmqbdnfbgh8pk5ag06z33",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "8MK4YK",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnmng2canpb9n0bvgx8f",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "N3KOHO",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmp6fchasadzq8m45rrwf",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "DUSP2N",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmpc3wp2mrcfwfztbd5m4",
+                          "slug": "amparo-henry-richie-andre",
+                          "name": "Amparo Henry Richie Andre",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 94000,
+                          "sku": "NQRPC4",
+                          "price_sales": null,
+                          "variation_code": "MSN1FT",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "XWO2SO",
+                  "variations": [
+                      {
+                          "id": "01kf0vmrwmsb8a2kx4xkmgbr44",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "DFIYTN",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmrxz0akx1k8zdg44fg5n",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "ZPE7Y6",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmrz1rz6aa9wmwrn66p1t",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "D65EKJ",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmrzzfptfwjq2h82b5fdk",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "CPAJJY",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vms10bacyd7kfskgjeky6",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "GP0FOH",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vms27m4yzbdy6bactv31d",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "QSDAAB",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vms3dj2fsc5zj4bxd5aj3",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "3QNA8D",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnps248e06qb0f2m9azr",
+                          "slug": "fidel-sylvia",
+                          "name": "Fidel Sylvia",
+                          "gender": "kids",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 8000,
+                          "sku": "BMDJT1",
+                          "price_sales": 4700,
+                          "variation_code": "XWO2SO",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "9AO796",
+                  "variations": [
+                      {
+                          "id": "01kf0vmsbevme39pkr15pngrwr",
+                          "slug": "robert-lacy-abbey-xzavier",
+                          "name": "Robert Lacy Abbey Xzavier",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 92000,
+                          "sku": "IRL5SX",
+                          "price_sales": 37500,
+                          "variation_code": "9AO796",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmsdbvh7eprmtjdzk3q8s",
+                          "slug": "robert-lacy-abbey-xzavier",
+                          "name": "Robert Lacy Abbey Xzavier",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 92000,
+                          "sku": "WQ5SUJ",
+                          "price_sales": 37500,
+                          "variation_code": "9AO796",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmsfr7jntahjh8y5xvxx0",
+                          "slug": "robert-lacy-abbey-xzavier",
+                          "name": "Robert Lacy Abbey Xzavier",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 92000,
+                          "sku": "K9M94P",
+                          "price_sales": 37500,
+                          "variation_code": "9AO796",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmshes2f59smf44yaa58n",
+                          "slug": "robert-lacy-abbey-xzavier",
+                          "name": "Robert Lacy Abbey Xzavier",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 92000,
+                          "sku": "JM7CWQ",
+                          "price_sales": 37500,
+                          "variation_code": "9AO796",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vms67cms06sb9bbzmkr6b",
+                          "slug": "robert-lacy-abbey-xzavier",
+                          "name": "Robert Lacy Abbey Xzavier",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 92000,
+                          "sku": "AJLNAY",
+                          "price_sales": 37500,
+                          "variation_code": "9AO796",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vms92g4b6wnykahdjdav7",
+                          "slug": "robert-lacy-abbey-xzavier",
+                          "name": "Robert Lacy Abbey Xzavier",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 92000,
+                          "sku": "ERG2O8",
+                          "price_sales": 37500,
+                          "variation_code": "9AO796",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnqe5p68aa5zs7zmr2fm",
+                          "slug": "robert-lacy-abbey-xzavier",
+                          "name": "Robert Lacy Abbey Xzavier",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 92000,
+                          "sku": "RIWA61",
+                          "price_sales": 37500,
+                          "variation_code": "9AO796",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "8Q5ZDY",
+                  "variations": [
+                      {
+                          "id": "01kf0vmsm1csf2zec33n7narc0",
+                          "slug": "else-kayli-lenny-eugene",
+                          "name": "Else Kayli Lenny Eugene",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 5000,
+                          "sku": "G0D5FU",
+                          "price_sales": 2100,
+                          "variation_code": "8Q5ZDY",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmsn5fs5xe7sjh5pxs6ts",
+                          "slug": "else-kayli-lenny-eugene",
+                          "name": "Else Kayli Lenny Eugene",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 5000,
+                          "sku": "5CZAI1",
+                          "price_sales": 2100,
+                          "variation_code": "8Q5ZDY",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmsp7rscwqpspd0c3z169",
+                          "slug": "else-kayli-lenny-eugene",
+                          "name": "Else Kayli Lenny Eugene",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 5000,
+                          "sku": "7JBQCY",
+                          "price_sales": 2100,
+                          "variation_code": "8Q5ZDY",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmsqffny4bxt5ezrp6se3",
+                          "slug": "else-kayli-lenny-eugene",
+                          "name": "Else Kayli Lenny Eugene",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 5000,
+                          "sku": "VGETUO",
+                          "price_sales": 2100,
+                          "variation_code": "8Q5ZDY",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmsrvwxnb7f05w4cpf3b6",
+                          "slug": "else-kayli-lenny-eugene",
+                          "name": "Else Kayli Lenny Eugene",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 5000,
+                          "sku": "KAE7UT",
+                          "price_sales": 2100,
+                          "variation_code": "8Q5ZDY",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmst29617vmba593agn7s",
+                          "slug": "else-kayli-lenny-eugene",
+                          "name": "Else Kayli Lenny Eugene",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 5000,
+                          "sku": "Q1CVIC",
+                          "price_sales": 2100,
+                          "variation_code": "8Q5ZDY",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnqvnxh1gp7erpj9m3dd",
+                          "slug": "else-kayli-lenny-eugene",
+                          "name": "Else Kayli Lenny Eugene",
+                          "gender": "unisex",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 5000,
+                          "sku": "ATS8R6",
+                          "price_sales": 2100,
+                          "variation_code": "8Q5ZDY",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "MUBRT1",
+                  "variations": [
+                      {
+                          "id": "01kf0vmsw3wjmh02qwkvx3vdh0",
+                          "slug": "napoleon-tiana-hallie-alivia",
+                          "name": "Napoleon Tiana Hallie Alivia",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 86000,
+                          "sku": "JZ2VBJ",
+                          "price_sales": null,
+                          "variation_code": "MUBRT1",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnre6x76vkr97t7s2299",
+                          "slug": "napoleon-tiana-hallie-alivia",
+                          "name": "Napoleon Tiana Hallie Alivia",
+                          "gender": "men",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 86000,
+                          "sku": "DAEZE0",
+                          "price_sales": null,
+                          "variation_code": "MUBRT1",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "CCFO5A",
+                  "variations": [
+                      {
+                          "id": "01kf0vmtbgwgrzb72e5de92myr",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "MOWXHO",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtd5fpr3v6jdvtfqfknj",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "EEGGB5",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmsyrykftftw9h0cc4rkd",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "GZ1JGK",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmt09gt4asxjw2ra6ct8c",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "B5NFBQ",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmt1tfjs40185qtefcdnf",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "25JM9Y",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmt39jcf9y1pb4yh0tsex",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "YJC124",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmt4vfvy16rn6mekzc45e",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "EZT0OR",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmt6aayaaga6tchvs9jvx",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "TDDXTZ",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmt8grgb79amk0xdfkabt",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "CNQZ0R",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmt9j241kjy3m31j8s3r8",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "IC2A5R",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnrvmchcn1sct1zyx6vj",
+                          "slug": "franco-rickey",
+                          "name": "Franco Rickey",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                          "price": 57000,
+                          "sku": "HJVJJ7",
+                          "price_sales": 33800,
+                          "variation_code": "CCFO5A",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6kxkqh4m1nqb5fyzbf2",
+                              "name": "Five Ten"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "LTFTBM",
+                  "variations": [
+                      {
+                          "id": "01kf0vmtfp52fq116v1k13j062",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "9AIBMK",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtgqh5x1s4vpcehb80vm",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "JU6KN5",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtkd2fys17wxreyeww10",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "E3RWFI",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtmjwj9a7j1jvwj2mz7p",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "8FIUNE",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtp8f0as07c5v8xfae14",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "IFGQMD",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtqkwsgrk9h3td7t2q5e",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "QWKUOI",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmts5whp5grzwsez2zv8n",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "COTSWF",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtv1efc30j1cbfkp9ahj",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "RQLUSO",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtwhvzq1bk5c12dt9sys",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "EU5OXN",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmtz3vkcytechs6h4hx0j",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "LGTJ5P",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmns0e9a2yavp076vg050",
+                          "slug": "neha-gay-mason-nayeli",
+                          "name": "Neha Gay Mason Nayeli",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                          "price": 88000,
+                          "sku": "8XQOEY",
+                          "price_sales": null,
+                          "variation_code": "LTFTBM",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m5n1ndayn29x1bq096",
+                              "name": "Sportswear"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "ACGKU7",
+                  "variations": [
+                      {
+                          "id": "01kf0vmvabw6f6ern7vqh2chht",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "HC1L7O",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvbmeec6gpbaxq5nbz2g",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "FLNXZV",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvd8sykvp905rp18dx6t",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "NHN7QU",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvehznnm1qj36cr7136g",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "JXR33Y",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvggd0agm12wyjd0fr09",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "O99SPE",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmv25a8kn9nz3zxxt56fj",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "IAC4RS",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmv3dq8n6tjr726ef1s28",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "AVXHLT",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmv58txrn1xak1zhcry84",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "88YH5F",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmv6tz017pgs25m6gd15y",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "XDPC21",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmv8r3apx0thk224tw5va",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "ULPOEI",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnshbgccjeqg6sqynvwg",
+                          "slug": "rosamond-ken",
+                          "name": "Rosamond Ken",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m0f40cynh072n7785b",
+                          "price": 41000,
+                          "sku": "F6BEMS",
+                          "price_sales": null,
+                          "variation_code": "ACGKU7",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m0f40cynh072n7785b",
+                              "name": "Originals"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "ORPFLR",
+                  "variations": [
+                      {
+                          "id": "01kf0vmvjndby9x32thd0r7re0",
+                          "slug": "ari-laurianne-floy-name",
+                          "name": "Ari Laurianne Floy Name",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 25000,
+                          "sku": "PBNONO",
+                          "price_sales": 24100,
+                          "variation_code": "ORPFLR",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvm6d37eae7p3hm279q0",
+                          "slug": "ari-laurianne-floy-name",
+                          "name": "Ari Laurianne Floy Name",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 25000,
+                          "sku": "ZCFTHR",
+                          "price_sales": 24100,
+                          "variation_code": "ORPFLR",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvnbg9ypzfcqrqsqkygn",
+                          "slug": "ari-laurianne-floy-name",
+                          "name": "Ari Laurianne Floy Name",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 25000,
+                          "sku": "PYFNWC",
+                          "price_sales": 24100,
+                          "variation_code": "ORPFLR",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvqccyqbfvsb96kb8tzb",
+                          "slug": "ari-laurianne-floy-name",
+                          "name": "Ari Laurianne Floy Name",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 25000,
+                          "sku": "G4QMPH",
+                          "price_sales": 24100,
+                          "variation_code": "ORPFLR",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvrmy3k3h6rd1gcnpxws",
+                          "slug": "ari-laurianne-floy-name",
+                          "name": "Ari Laurianne Floy Name",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 25000,
+                          "sku": "D4ZXO4",
+                          "price_sales": 24100,
+                          "variation_code": "ORPFLR",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmvvtavsprj6rzt2vxv45",
+                          "slug": "ari-laurianne-floy-name",
+                          "name": "Ari Laurianne Floy Name",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 25000,
+                          "sku": "LKM9QV",
+                          "price_sales": 24100,
+                          "variation_code": "ORPFLR",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnxjy6w990kgzk421d3h",
+                          "slug": "ari-laurianne-floy-name",
+                          "name": "Ari Laurianne Floy Name",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m8g8v003jzf448eecc",
+                          "price": 25000,
+                          "sku": "AEG7YE",
+                          "price_sales": 24100,
+                          "variation_code": "ORPFLR",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m8g8v003jzf448eecc",
+                              "name": "Terrex"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "7RFC4L",
+                  "variations": [
+                      {
+                          "id": "01kf0vmwdctbthk5c6av2tb12d",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "B9STAZ",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmweq9agnjd39n87y90hk",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "EJHBIR",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmwg2cp1cazhjymqd6jh0",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "HH7SUN",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmwhcr4860txd1d5tharg",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "QMBTVW",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmwjknsyer0nzwrh0kv7s",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "AX9TCH",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmwkgwxqa8b93mq1hnaqv",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "GFS1BF",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmwmvebkm1y5yjb3x8qvs",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "NZADWI",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmwnynmedv1zfb8qhx9f8",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "A49EXL",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmwqgp5gaz5vpxf55fj77",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "JM69MJ",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vmnz0p6192v5wdp6jvkf2",
+                          "slug": "jayda-jermey-randall-richard",
+                          "name": "Jayda Jermey Randall Richard",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 24000,
+                          "sku": "Q9MCZT",
+                          "price_sales": 19600,
+                          "variation_code": "7RFC4L",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      }
+                  ]
+              }
+          ],
+          "first_page_url": "http://adidas-backend.test/products?page=1",
+          "from": 1,
+          "last_page": 8,
+          "last_page_url": "http://adidas-backend.test/products?page=8",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=2",
+                  "label": "2",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=3",
+                  "label": "3",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=4",
+                  "label": "4",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=5",
+                  "label": "5",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=6",
+                  "label": "6",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=7",
+                  "label": "7",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=8",
+                  "label": "8",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products?page=2",
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": "http://adidas-backend.test/products?page=2",
+          "path": "http://adidas-backend.test/products",
+          "per_page": 20,
+          "prev_page_url": null,
+          "to": 20,
+          "total": 145
+      }
+order: 1000

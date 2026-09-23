@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST layouts/create
+url: "{{baseUrl}}/layouts/create"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 3000

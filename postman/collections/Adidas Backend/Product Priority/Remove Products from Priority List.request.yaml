@@ -1,0 +1,21 @@
+$kind: http-request
+url: "{{baseUrl}}/product-priorities/remove-from-list"
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"division_id\": \"\",\r
+
+    \    \"product_ids\": [\r
+
+    \        \"01j2xb7h655y822g7w45bar58a\",\r
+
+    \        \"01j2xb7h7e425ynjv18k1cedab\"\r
+
+    \    ]\r
+
+    }"
+order: 4000

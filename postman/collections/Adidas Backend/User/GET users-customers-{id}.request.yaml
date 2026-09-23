@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET users/customers/{id}
+url: "{{baseUrl}}/users/customers/:id"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: id
+    value: culpa
+    description: The ID of the customer.
+auth:
+  type: noauth
+order: 10000

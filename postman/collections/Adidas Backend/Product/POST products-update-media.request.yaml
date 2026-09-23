@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST products/update-media
+url: "{{baseUrl}}/products/update-media"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 8000

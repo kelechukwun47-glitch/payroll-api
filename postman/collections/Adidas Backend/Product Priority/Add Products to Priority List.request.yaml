@@ -1,0 +1,25 @@
+$kind: http-request
+url: "{{baseUrl}}/product-priorities/add-to-list"
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"division_id\": \"\",\r
+
+    \    \"product_ids\": [\r
+
+    \        \"01j2xb7h4rhj5r9sstdyrcw2yr\",\r
+
+    \        \"01j2xb7h655y822g7w45bar58a\",\r
+
+    \        \"01j2xb7h7e425ynjv18k1cedab\",\r
+
+    \        \"01j2xb7h8wn1a072q7zh2ntc3e\"\r
+
+    \    ]\r
+
+    }"
+order: 2000

@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET access/permissions
+url: "{{base_url}}/access/permissions"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 19000

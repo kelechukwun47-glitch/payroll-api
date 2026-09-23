@@ -1,0 +1,111 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/products/:idOrSlug/sizes"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+  pathVariables:
+    idOrSlug: 01kf10bvkwgwtyp7fn2vtt7618
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    - key: Server
+      value: nginx/1.25.4
+    - key: Content-Type
+      value: application/json
+    - key: Transfer-Encoding
+      value: chunked
+    - key: Connection
+      value: keep-alive
+    - key: Vary
+      value: Accept-Encoding
+    - key: Vary
+      value: Origin
+    - key: X-Powered-By
+      value: PHP/8.2.28
+    - key: Cache-Control
+      value: no-cache, private
+    - key: Date
+      value: Fri, 06 Feb 2026 14:35:18 GMT
+    - key: Content-Encoding
+      value: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "id": "01kf10bvpmfmtb8hg4qb89phd8",
+                  "product_id": "01kf10bvkwgwtyp7fn2vtt7618",
+                  "odoo_id": "156233",
+                  "size": "9.5",
+                  "size_type": "gender_neutral",
+                  "stock": 1,
+                  "sku": "4066765898357",
+                  "created_at": "2026-01-15T14:18:47.000000Z",
+                  "updated_at": "2026-02-06T14:33:40.000000Z",
+                  "active": true,
+                  "locations": [
+                      {
+                          "location_id": "01kf0zeh92ykds2fxkjyqnx3kp",
+                          "location_name": "Adidas-ecom/Stock",
+                          "store_name": "Adidas Ng",
+                          "address": "3 Aje Rd, Sabo yaba, Lagos 101245, Lagos, Nigeria",
+                          "stock": 1
+                      }
+                  ]
+              },
+              {
+                  "id": "01kf10bvvr0x4p2k3m95denjyq",
+                  "product_id": "01kf10bvkwgwtyp7fn2vtt7618",
+                  "odoo_id": "156239",
+                  "size": "10",
+                  "size_type": "gender_neutral",
+                  "stock": 1,
+                  "sku": "4066765898432",
+                  "created_at": "2026-01-15T14:18:47.000000Z",
+                  "updated_at": "2026-02-06T14:33:40.000000Z",
+                  "active": true,
+                  "locations": [
+                      {
+                          "location_id": "01kf0zeh92ykds2fxkjyqnx3kp",
+                          "location_name": "Adidas-ecom/Stock",
+                          "store_name": "Adidas Ng",
+                          "address": "3 Aje Rd, Sabo yaba, Lagos 101245, Lagos, Nigeria",
+                          "stock": 1
+                      }
+                  ]
+              }
+          ],
+          "first_page_url": "http://adidas-backend.test/products/01kf10bvkwgwtyp7fn2vtt7618/sizes?page=1",
+          "from": 1,
+          "last_page": 1,
+          "last_page_url": "http://adidas-backend.test/products/01kf10bvkwgwtyp7fn2vtt7618/sizes?page=1",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/01kf10bvkwgwtyp7fn2vtt7618/sizes?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": null,
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": null,
+          "path": "http://adidas-backend.test/products/01kf10bvkwgwtyp7fn2vtt7618/sizes",
+          "per_page": 20,
+          "prev_page_url": null,
+          "to": 2,
+          "total": 9
+      }
+order: 1000

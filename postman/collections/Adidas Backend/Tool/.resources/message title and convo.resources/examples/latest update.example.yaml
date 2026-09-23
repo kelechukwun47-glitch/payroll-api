@@ -1,0 +1,44 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt": "How many products do we have?",
+          "message_history":[{}],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Thu, 31 Jul 2025 20:43:29 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "57"
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "conversation_id": "01k1h3kh66wk8vwp15axrvgqmc",
+          "title": "Database Product Count: 2,670 Products",
+          "role": "assistant",
+          "content": "We have a total of 2,670 products in the database."
+      }
+order: 1000

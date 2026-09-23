@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET menus/{id}
+url: "{{baseUrl}}/menus/:id"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: id
+    value: culpa
+    description: The ID of the menu.
+auth:
+  type: noauth
+order: 7000

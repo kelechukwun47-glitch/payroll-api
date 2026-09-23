@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST auth/sign-out
+url: "{{baseUrl}}/auth/sign-out"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 1000

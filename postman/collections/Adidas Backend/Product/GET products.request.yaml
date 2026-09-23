@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{base_url}}/products"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+examples: ./.resources/GET products.resources/examples
+order: 17000

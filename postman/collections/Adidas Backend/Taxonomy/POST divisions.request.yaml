@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/divisions"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 14000

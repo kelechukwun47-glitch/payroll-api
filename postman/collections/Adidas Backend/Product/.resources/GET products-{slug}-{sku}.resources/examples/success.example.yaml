@@ -1,0 +1,166 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/products/:slug/:sku"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+  pathVariables:
+    - key: slug
+      value: adilette-slides
+      description: The slug of the product.
+    - key: sku
+      value: "4893980585003"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Thu, 15 Jan 2026 14:48:24 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "id": "01kf112d3vw0dssctt6k3bdab7",
+          "odoo_id": "17439",
+          "name": "ADILETTE SLIDES",
+          "slug": "adilette-slides",
+          "sku": "4893980585003",
+          "model_number": "5848",
+          "variation_code": "OIAMGA",
+          "gender": "men",
+          "kids_gender": null,
+          "color": "adiblue.white.adiblue",
+          "search_color": null,
+          "price": 73000,
+          "price_sales": 73000,
+          "views": 0,
+          "weight": null,
+          "customizable": 0,
+          "require_customization": 0,
+          "sizing_category": null,
+          "category_id": null,
+          "brand_id": null,
+          "size_chart_slug": null,
+          "description": null,
+          "primary_media": null,
+          "size_note": null,
+          "badge": null,
+          "meta_data": null,
+          "complements": null,
+          "attributes": null,
+          "deleted_at": null,
+          "created_at": "2026-01-15T14:31:06.000000Z",
+          "updated_at": "2026-01-15T14:31:06.000000Z",
+          "customization_fee": null,
+          "odoo_article_id": "288022",
+          "variations": [
+              {
+                  "id": "01kf112d3vw0dssctt6k3bdab7",
+                  "odoo_id": "17439",
+                  "name": "ADILETTE SLIDES",
+                  "slug": "adilette-slides",
+                  "sku": "4893980585003",
+                  "model_number": "5848",
+                  "variation_code": "OIAMGA",
+                  "gender": "men",
+                  "kids_gender": null,
+                  "color": "adiblue.white.adiblue",
+                  "search_color": null,
+                  "price": 73000,
+                  "price_sales": 73000,
+                  "views": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": null,
+                  "brand_id": null,
+                  "size_chart_slug": null,
+                  "description": null,
+                  "primary_media": null,
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": null,
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T14:31:06.000000Z",
+                  "updated_at": "2026-01-15T14:31:06.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": "288022"
+              }
+          ],
+          "medias": [],
+          "category": null,
+          "brand": null,
+          "sizes": [
+              {
+                  "id": "01kf112d5baxf5kmhn7jc4csdx",
+                  "size": "9",
+                  "size_type": "gender_neutral",
+                  "stock": 2,
+                  "sku": "4893980585003",
+                  "active": true,
+                  "locations": [
+                      {
+                          "location_id": "01kf0zeh92ykds2fxkjyqnx3kp",
+                          "location_name": "Adidas-ecom/Stock",
+                          "store_name": "Adidas Ng",
+                          "address": null,
+                          "active": true,
+                          "stock": 2
+                      }
+                  ]
+              },
+              {
+                  "id": "01kf112d7zaptbxmm6zrjcm4nc",
+                  "size": "11",
+                  "size_type": "gender_neutral",
+                  "stock": 1,
+                  "sku": "4893980585027",
+                  "active": true,
+                  "locations": [
+                      {
+                          "location_id": "01kf0zeh92ykds2fxkjyqnx3kp",
+                          "location_name": "Adidas-ecom/Stock",
+                          "store_name": "Adidas Ng",
+                          "address": null,
+                          "active": true,
+                          "stock": 1
+                      }
+                  ]
+              },
+              {
+                  "id": "01kf112daxdrqp3qhx9p0xhpcg",
+                  "size": "12",
+                  "size_type": "gender_neutral",
+                  "stock": 1,
+                  "sku": "4893980585034",
+                  "active": true,
+                  "locations": [
+                      {
+                          "location_id": "01kf0zeh92ykds2fxkjyqnx3kp",
+                          "location_name": "Adidas-ecom/Stock",
+                          "store_name": "Adidas Ng",
+                          "address": null,
+                          "active": true,
+                          "stock": 1
+                      }
+                  ]
+              }
+          ]
+      }
+order: 1000

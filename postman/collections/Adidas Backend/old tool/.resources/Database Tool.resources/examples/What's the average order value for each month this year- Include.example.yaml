@@ -1,0 +1,63 @@
+$kind: http-example
+name: What's the average order value for each month this year? Include the month, name and average amount
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt":"What's the average order value for each month this year? Include the month, name and average amount",
+          "message_history":[{}],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Sat, 12 Jul 2025 13:06:58 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "59"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:0.6b",
+                      "created_at": "2025-07-12T13:06:58.897354313Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, let's see. The user is asking for the average order value for each month this year, including the month and average amount. From the tool results, there are two tables: 'users' and 'orders'. \n\nFirst, I need to figure out the relevant columns. The 'users' table has columns like 'email', 'created_at', and 'month' which might be related. The 'orders' table has 'created_at' which could be used to get the month. But the user wants the average amount, so I need to join the tables properly.\n\nWait, the user mentioned including the month and average amount. So first, list the tables to confirm the schema. Then, use describe_table for 'users' and 'orders' to get the correct column names. Then, build a query that joins these tables, groups by the month, and calculates the average amount. Finally, present the results.\n\nLooking at the tool responses, after listing tables, the user's query was executed, and the result included the email, total_order_amount, month, and average_amount. So the final answer should summarize that the average is $30,000 for each month, and mention the month as 9. Make sure to format it clearly without any tool calls.\n</think>\n\nThe average order value for each month this year is $30,000, with the highest average amount of $30,000 for the month of September."
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 31758032532,
+                      "load_duration": 28990798,
+                      "prompt_eval_count": 4805,
+                      "prompt_eval_duration": 21618402500,
+                      "eval_count": 303,
+                      "eval_duration": 9989290543
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 9000

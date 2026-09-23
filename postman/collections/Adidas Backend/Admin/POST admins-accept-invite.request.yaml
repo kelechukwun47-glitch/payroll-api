@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST admins/accept-invite
+url: "{{baseUrl}}/admins/accept-invite"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 2000

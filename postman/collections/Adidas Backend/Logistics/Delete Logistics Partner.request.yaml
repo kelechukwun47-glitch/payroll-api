@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/logistics/partner/delete/{id}"
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: ""
+order: 12000

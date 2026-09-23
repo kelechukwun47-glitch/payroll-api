@@ -1,0 +1,62 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt":"Show me all tables in the database",
+          "message_history":[{}],
+          "stream": 1 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Sat, 12 Jul 2025 08:50:00 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "59"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:0.6b",
+                      "created_at": "2025-07-12T08:50:00.808626056Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, the user asked to show all tables in the database. I called the list_tables function without any parameters, which should return all tables. The response came back with a list of 47 tables. I need to present this information clearly. Let me check the data structure to make sure I'm not missing anything. The response includes each table's details like row count, size, columns, etc. I should list them in a user-friendly way, maybe with a brief description for each table. Also, mention the count and total tables to give context. Make sure there are no errors in the JSON response. Alright, time to format the answer.\n</think>\n\nHere are all the tables in the database:\n\n1. **activity_log** - 172,810 rows, 368.61 MB, 12 columns  \n2. **admin_invites** - 22 rows, 0.02 MB, 10 columns  \n3. **attributes** - 0 rows, 0.02 MB, 6 columns  \n4. **brands** - 17 rows, 0.02 MB, 6 columns  \n5. **carts** - 1 row, 0.02 MB, 7 columns  \n6. **categories** - 3 rows, 0.05 MB, 6 columns  \n7. **collectibles** - 0 rows, 0.03 MB, 8 columns  \n8. **divisions** - 225 rows, 0.09 MB, 7 columns  \n9. **failed_jobs** - 6,597 rows, 54.11 MB, 7 columns  \n10. **icons** - 8 rows, 0.02 MB, 4 columns  \n11. **jobs** - 0 rows, 0.03 MB, 7 columns  \n12. **layouts** - 14 rows, 0.08 MB, 6 columns  \n13. **media** - 1,098 rows, 0.34 MB, 7 columns  \n14. **mediaables** - 1,098 rows, 0.14 MB, 6 columns  \n15. **menus** - 6 rows, 0.05 MB, 8 columns  \n16. **collectibles** - already listed  \n... (continuing with all 47 tables)\n\n**Total Tables:** 47  \n**Message:** Found 47 tables.  \n\nLet me know if you need further details!"
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 18423513842,
+                      "load_duration": 29349991,
+                      "prompt_eval_count": 1932,
+                      "prompt_eval_duration": 5834332764,
+                      "eval_count": 552,
+                      "eval_duration": 12497331683
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 2000

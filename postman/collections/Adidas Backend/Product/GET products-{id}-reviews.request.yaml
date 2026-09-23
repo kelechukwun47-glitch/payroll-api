@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET products/{id}/reviews
+url: "{{baseUrl}}/products/:id/reviews"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: id
+    value: culpa
+    description: The ID of the product.
+auth:
+  type: noauth
+order: 19000

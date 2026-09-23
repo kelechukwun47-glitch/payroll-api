@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET taxonomies/family/{family}/all
+url: "{{baseUrl}}/taxonomies/family/:family/all"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: family
+    value: culpa
+    description: The family.
+auth:
+  type: noauth
+order: 5000

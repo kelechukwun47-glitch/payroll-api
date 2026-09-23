@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST products/reviews/update-status
+url: "{{baseUrl}}/products/reviews/update-status"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 31000

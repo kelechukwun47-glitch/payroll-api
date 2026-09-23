@@ -1,0 +1,62 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt":"Get me the first 5 records from the users table",
+          "message_history":[{}],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Sat, 12 Jul 2025 08:54:01 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "60"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:0.6b",
+                      "created_at": "2025-07-12T08:54:01.186799299Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, the user asked for the first 5 records from the users table, and I used the database_query tool with the operation 'query' and the SQL statement. The response came back with a success message and a list of 5 records. Now I need to present this information clearly.\n\nFirst, I should list out all the records in the data array. Each entry has an id, first_name, last_name, dob, gender, username, email, admin_access, guest_signup, auth_strategy, primary_phone_number, size_profile, interests, primary_address_id, deleted_at, created_at, updated_at, first_login_at, odoo_user_id, communication_settings, sent_last_at. I'll make sure to mention each of these fields. Also, the count is 5, so I can note that there are 5 records. I should avoid any tool calls and just present the final answer based on the data provided.\n</think>\n\nThe first 5 records from the users table are as follows:\n\n1. **Deji Check**  \n   - Email: `super.admin@adidasng.dev`  \n   - Admin Access: 1  \n   - First Login: 2024-02-05 23:15:35  \n\n2. **Daniel Check**  \n   - Email: `admin.manager@adidasng.dev`  \n   - First Login: 2024-02-14 11:02:42  \n\n3. **Unknown** (first name and last name are missing)  \n   - Email: `lanreolapade7@gmail.com`  \n   - First Login: 2024-07-19 13:46:19  \n\n4. **Unknown** (first name and last name are missing)  \n   - Email: `idokoemmanuel3@gmail.com`  \n\n5. **Unknown** (first name and last name are missing)  \n   - Email: `idokoemmanuel499@gmail.com`  \n\nNote: The exact details for the third and fourth entries are missing due to incomplete data."
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 14515988888,
+                      "load_duration": 27807482,
+                      "prompt_eval_count": 1495,
+                      "prompt_eval_duration": 5246466500,
+                      "eval_count": 443,
+                      "eval_duration": 9171458856
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 4000

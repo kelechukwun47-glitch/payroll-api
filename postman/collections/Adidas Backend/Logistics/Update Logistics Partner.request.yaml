@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{baseUrl}}/logistics/partner/update/{id}"
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"FEDX\",\r
+
+    \    \"tracking_url\": \"https://www.giglogistics.com/\",\r
+
+    \    \"is_active\": 1\r
+
+    }"
+order: 11000

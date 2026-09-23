@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET products/recent
+url: "{{baseUrl}}/products/recent"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 13000

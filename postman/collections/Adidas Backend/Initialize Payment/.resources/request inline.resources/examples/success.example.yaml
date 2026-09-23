@@ -1,0 +1,247 @@
+$kind: http-example
+request:
+  url: https://api.paystack.co/checkout/request_inline
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "key": "pk_test_15396652da3a26514279e3eb1b51ea9ce33c262e",
+          "email": "idokoemmanuel3@gmail.com",
+          "amount": 7300000,
+          "currency": "NGN",
+          "ref": "{{payment_ref}}",
+          "metadata": "{\"referrer\":\"https://adidasng.check-dc.com/ng/checkout\"}",
+          "mode": "popup",
+          "device": "630a0f5398fbfb12d98bfe398249217b"
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    - key: Date
+      value: Fri, 16 Jan 2026 13:18:50 GMT
+    - key: Content-Type
+      value: application/json; charset=utf-8
+    - key: Content-Length
+      value: "1115"
+    - key: Connection
+      value: keep-alive
+    - key: Server
+      value: cloudflare
+    - key: CF-Ray
+      value: 9bede6ac9e5ecd73-LHR
+    - key: CF-Cache-Status
+      value: DYNAMIC
+    - key: Access-Control-Allow-Origin
+      value: "*"
+    - key: Content-Encoding
+      value: gzip
+    - key: ETag
+      value: W/"adb-RSeoJNQnTXxhwAkdOPmu/w"
+    - key: Set-Cookie
+      value: sails.sid=s%3A-A95ZW3K3KkzASgKVjgjDtr-jCr2ag-m.IVuoOL2DkomNaqcqRzo2Gf%2FU2QXBHBaQvmkfyEaAp8U; Path=/; HttpOnly; Secure; SameSite=Lax
+    - key: Set-Cookie
+      value: __cf_bm=OzxPWmKZZwkEMB6_q139CWAglY7xwznKnPy7RQe9F1c-1768569530-1.0.1.1-bwIRzduhXztsMVB6zkmkPRz7BnqFcSkvnHpf8kEGXeJlOOJ8IFIRJE_5YZplr2AgQV9MeMtRBh0xho9jEOF9nmU5m8aYwKnnW_r5mnCYneU; path=/; expires=Fri, 16-Jan-26 13:48:50 GMT; domain=.paystack.co; HttpOnly; Secure; SameSite=None
+    - key: Strict-Transport-Security
+      value: max-age=15552000; includeSubDomains; preload
+    - key: Vary
+      value: X-HTTP-Method-Override, Accept-Encoding
+    - key: X-Content-Type-Options
+      value: nosniff
+    - key: x-amz-apigw-id
+      value: XR4dLGblDoEECLw=
+    - key: x-amzn-remapped-connection
+      value: keep-alive
+    - key: x-amzn-remapped-date
+      value: Fri, 16 Jan 2026 13:18:50 GMT
+    - key: x-amzn-remapped-server
+      value: nginx
+    - key: x-amzn-requestid
+      value: e141a409-50a9-42a6-875c-9442e8b8fb8c
+  body:
+    type: text
+    content: |-
+      {
+          "status": true,
+          "message": "Transaction initialized",
+          "data": {
+              "status": "success",
+              "message": "successful",
+              "access_code": "ztolqudb913v0oz",
+              "id": 5741893422,
+              "reference": "pstk75697831216",
+              "amount": 7300000,
+              "plan": "",
+              "email": "idokoemmanuel3@gmail.com",
+              "merchant_name": "Adidas Test",
+              "merchant_logo": "https://public-files-paystack-prod.s3.eu-west-1.amazonaws.com/integration-logos/paystack.jpg",
+              "currency": "NGN",
+              "testmode": true,
+              "original_amount": 7300000,
+              "added_fees": 0,
+              "merchant_id": 1700517,
+              "merchant_key": "pk_test_15396652da3a26514279e3eb1b51ea9ce33c262e",
+              "domain": "test",
+              "transaction_status": "abandoned",
+              "log": null,
+              "channels": [
+                  "card",
+                  "bank_transfer",
+                  "bank",
+                  "ussd"
+              ],
+              "channel_options": {
+                  "bank_transfer": [
+                      "wema-bank",
+                      "test-bank"
+                  ],
+                  "ussd": [
+                      "737",
+                      "919",
+                      "966"
+                  ]
+              },
+              "channel_settings": {
+                  "card": {
+                      "request_for_card_holder_name": false
+                  }
+              },
+              "channel_fees_and_amount": {
+                  "card": {
+                      "fee": 119500,
+                      "amount": 7300000
+                  },
+                  "bank_transfer": {
+                      "fee": 119500,
+                      "amount": 7300000
+                  },
+                  "bank": {
+                      "fee": 119500,
+                      "amount": 7300000
+                  },
+                  "ussd": {
+                      "fee": 119500,
+                      "amount": 7300000
+                  }
+              },
+              "customer": {
+                  "id": "332647105",
+                  "first_name": "",
+                  "last_name": "",
+                  "email": "idokoemmanuel3@gmail.com",
+                  "phone": "",
+                  "metadata": null,
+                  "created_at": "2026-01-16 10:56:34",
+                  "updated_at": "2026-01-16 10:56:34"
+              },
+              "plan_details": null,
+              "merchant_channel_settings": {
+                  "bank_transfer": {
+                      "fulfil_late_notification": false
+                  }
+              },
+              "supported_banks": [
+                  {
+                      "id": 9,
+                      "name": "Guaranty Trust Bank",
+                      "slug": "guaranty-trust-bank",
+                      "gateway": "ibank",
+                      "code": "058",
+                      "types": []
+                  },
+                  {
+                      "id": 67,
+                      "name": "Kuda Bank",
+                      "slug": "kuda-bank",
+                      "gateway": "digitalbankmandate",
+                      "code": "50211",
+                      "types": [
+                          "wallet"
+                      ]
+                  },
+                  {
+                      "id": 82,
+                      "name": "Carbon",
+                      "slug": "carbon",
+                      "gateway": "digitalbankmandate",
+                      "code": "565",
+                      "types": [
+                          "wallet"
+                      ],
+                      "logo_url": "https://pstk-integration-logos.s3.eu-west-1.amazonaws.com/carbon.png",
+                      "account_identifier": {
+                          "name": "Account Number",
+                          "validation": "/^[0-9]{10,10}$/"
+                      }
+                  },
+                  {
+                      "id": 169,
+                      "name": "PalmPay",
+                      "slug": "palmpay",
+                      "gateway": "ibank",
+                      "code": "999991",
+                      "types": [
+                          "wallet"
+                      ]
+                  },
+                  {
+                      "id": 171,
+                      "name": "OPay Digital Services Limited (OPay)",
+                      "slug": "paycom",
+                      "gateway": "ibank",
+                      "code": "999992",
+                      "types": [
+                          "wallet"
+                      ]
+                  },
+                  {
+                      "id": 770,
+                      "name": "Pocket App",
+                      "slug": "pocket",
+                      "gateway": "digitalbankmandate",
+                      "code": "00716",
+                      "types": [
+                          "wallet"
+                      ]
+                  },
+                  {
+                      "id": 870,
+                      "name": "Zap",
+                      "slug": "zap",
+                      "gateway": "digitalbankmandate",
+                      "code": "00zap",
+                      "types": [
+                          "wallet"
+                      ],
+                      "logo_url": "https://pstk-integration-logos.s3.eu-west-1.amazonaws.com/zap.png",
+                      "account_identifier": {
+                          "name": "Email Address",
+                          "validation": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+                      }
+                  }
+              ],
+              "is_remember_me_enabled": null,
+              "skip_pin_check_for_card_types": [
+                  "visa"
+              ],
+              "saved_cards": {
+                  "enabled": false,
+                  "registered": false,
+                  "registered_phone": null,
+                  "registered_calling_code": null
+              },
+              "link_config": {
+                  "enabled": true,
+                  "has_payment_instruments": true,
+                  "has_linked_accounts": true,
+                  "has_saved_cards": false,
+                  "registered": true,
+                  "registered_phone": "17",
+                  "registered_calling_code": "234"
+              }
+          }
+      }
+order: 1000

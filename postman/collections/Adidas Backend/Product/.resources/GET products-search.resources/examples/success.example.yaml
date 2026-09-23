@@ -1,0 +1,317 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/products/search?q=ADIDAS DURAMO SL"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+  queryParams:
+    q: ADIDAS DURAMO SL
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Thu, 15 Jan 2026 14:29:31 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "variation_code": "QNLK4O",
+                  "name": "Presley Dino Mylene Rylan",
+                  "variations": [
+                      {
+                          "id": "01kf0vta7s57aa2pb6tgv4tt1e",
+                          "slug": "presley-dino-mylene-rylan",
+                          "name": "Presley Dino Mylene Rylan",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 68000,
+                          "sku": "RA6220",
+                          "price_sales": null,
+                          "variation_code": "QNLK4O",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1697126513466-d797cf4c5a76?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vtabjrzpqtcqqmadj63m8",
+                          "slug": "presley-dino-mylene-rylan",
+                          "name": "Presley Dino Mylene Rylan",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 68000,
+                          "sku": "N4ZZIW",
+                          "price_sales": null,
+                          "variation_code": "QNLK4O",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      },
+                      {
+                          "id": "01kf0vtacewbskh2evjr69znce",
+                          "slug": "presley-dino-mylene-rylan",
+                          "name": "Presley Dino Mylene Rylan",
+                          "gender": "women",
+                          "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                          "price": 68000,
+                          "sku": "BO85XV",
+                          "price_sales": null,
+                          "variation_code": "QNLK4O",
+                          "primary_media": [
+                              "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                              "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                          ],
+                          "brand": {
+                              "id": "01kf0vk6m31w0tsq8dn17241ht",
+                              "name": "Performance"
+                          },
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "N7BQHN",
+                  "name": "ADILETTE AQUA SLIDES",
+                  "variations": [
+                      {
+                          "id": "01kf1024h78ng90adq51xg7wpk",
+                          "slug": "adilette-aqua-slides",
+                          "name": "ADILETTE AQUA SLIDES",
+                          "gender": "men",
+                          "brand_id": null,
+                          "price": 36000,
+                          "sku": "4060509397786",
+                          "price_sales": 36000,
+                          "variation_code": "N7BQHN",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "UST7UY",
+                  "name": "TECH RESPONSE SL 3.0 WIDE GOLF SHOES",
+                  "variations": [
+                      {
+                          "id": "01kf103tz0y4tfzdw7nfsv4dsm",
+                          "slug": "tech-response-sl-30-wide-golf-shoes",
+                          "name": "TECH RESPONSE SL 3.0 WIDE GOLF SHOES",
+                          "gender": "men",
+                          "brand_id": null,
+                          "price": 140000,
+                          "sku": "4066746213315",
+                          "price_sales": 84000,
+                          "variation_code": "UST7UY",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "RQENUI",
+                  "name": "DURAMO SL SHOES",
+                  "variations": [
+                      {
+                          "id": "01kf104wkxj29grh7f7e99hx12",
+                          "slug": "duramo-sl-shoes",
+                          "name": "DURAMO SL SHOES",
+                          "gender": "men",
+                          "brand_id": null,
+                          "price": 129000,
+                          "sku": "4066756060381",
+                          "price_sales": 77400,
+                          "variation_code": "RQENUI",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "OGV4W7",
+                  "name": "HIIT GRAPHIC SLOGAN TRAINING T-SHIRT",
+                  "variations": [
+                      {
+                          "id": "01kf1093g0c1rjr1kxtbanh8fq",
+                          "slug": "hiit-graphic-slogan-training-t-shirt",
+                          "name": "HIIT GRAPHIC SLOGAN TRAINING T-SHIRT",
+                          "gender": "men",
+                          "brand_id": null,
+                          "price": 71000,
+                          "sku": "4066762603992",
+                          "price_sales": 21300,
+                          "variation_code": "OGV4W7",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "2TNF7E",
+                  "name": "ADIDAS SPORTSWEAR PHOTO REAL LINEAR T-SHIRT",
+                  "variations": [
+                      {
+                          "id": "01kf1099rc2xjpxh0tq1g7j7wh",
+                          "slug": "adidas-sportswear-photo-real-linear-t-shirt",
+                          "name": "ADIDAS SPORTSWEAR PHOTO REAL LINEAR T-SHIRT",
+                          "gender": "men",
+                          "brand_id": null,
+                          "price": 59000,
+                          "sku": "4066763097240",
+                          "price_sales": 17700,
+                          "variation_code": "2TNF7E",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "F74TWW",
+                  "name": "DURAMO RC SHOES",
+                  "variations": [
+                      {
+                          "id": "01kf10a28cvnbmwa4kqp61s730",
+                          "slug": "duramo-rc-shoes",
+                          "name": "DURAMO RC SHOES",
+                          "gender": "women",
+                          "brand_id": null,
+                          "price": 83000,
+                          "sku": "4066764990830",
+                          "price_sales": 49800,
+                          "variation_code": "F74TWW",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "SMLYAF",
+                  "name": "DURAMO SL SHOES KIDS",
+                  "variations": [
+                      {
+                          "id": "01kf10hn5wk221qxbcwmvmsv0s",
+                          "slug": "duramo-sl-shoes-kids",
+                          "name": "DURAMO SL SHOES KIDS",
+                          "gender": "kids",
+                          "brand_id": null,
+                          "price": 70000,
+                          "sku": "4067888533651",
+                          "price_sales": 35000,
+                          "variation_code": "SMLYAF",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              },
+              {
+                  "variation_code": "UY5RPY",
+                  "name": "SL 72 RS SHOES",
+                  "variations": [
+                      {
+                          "id": "01kf10y0m39aq1fe74tdzxbrq2",
+                          "slug": "sl-72-rs-shoes",
+                          "name": "SL 72 RS SHOES",
+                          "gender": "men",
+                          "brand_id": null,
+                          "price": 171000,
+                          "sku": "4067898808121",
+                          "price_sales": 51300,
+                          "variation_code": "UY5RPY",
+                          "primary_media": null,
+                          "brand": null,
+                          "category": null
+                      }
+                  ]
+              }
+          ],
+          "first_page_url": "http://adidas-backend.test/products/search?page=1",
+          "from": 1,
+          "last_page": 1,
+          "last_page_url": "http://adidas-backend.test/products/search?page=1",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/search?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": null,
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": null,
+          "path": "http://adidas-backend.test/products/search",
+          "per_page": 20,
+          "prev_page_url": null,
+          "to": 9,
+          "total": 9,
+          "sizes": [
+              "L",
+              "4XL",
+              "XS",
+              "2XL",
+              "XL",
+              "M",
+              "3XL",
+              "6",
+              "9",
+              "8",
+              "5",
+              "10",
+              "7",
+              "12.5",
+              "14.5",
+              "11",
+              "14",
+              "13.5",
+              "S",
+              "3.5",
+              "4",
+              "2.5",
+              "4.5",
+              "6.5",
+              "12",
+              "13"
+          ]
+      }
+order: 1000

@@ -1,0 +1,9 @@
+$kind: http-request
+name: POST products/spool_odoo
+url: "{{base_url}}/products/start-spool"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+examples: ./.resources/POST products-spool_odoo.resources/examples
+order: 2000

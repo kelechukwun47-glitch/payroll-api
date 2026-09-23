@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{base_url}}/products/handle-webhook"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: '{"product.product": {"id": 101676, "price_extra": 0.0, "lst_price": 1.0, "default_code": "4065419138788", "code": "4065419138788", "active": true, "barcode": "4065419138788", "product_template_variant_value_ids": [70765], "qty_available": 0.0, "name": "ADIDAS  4DFWD  - GX2977", "categ_id": [530, "ADIDAS - MEN SHOES"], "list_price": 1.0, "company_id": [4, "Brand Co"], "product_variant_count": 8, "article_id": [6714, "GX2977/RUNNING FTW MEN/SPORT PERFORMANCE"], "brand_id": [3, "ADIDAS"]}}'
+auth:
+  type: noauth
+order: 1000

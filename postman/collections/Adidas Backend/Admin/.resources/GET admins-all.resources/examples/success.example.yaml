@@ -1,0 +1,153 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/admins/all"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Thu, 15 Jan 2026 14:54:20 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "id": "01kf0vk4q84ms7rnpphgyq38g0",
+                  "first_name": "Deji",
+                  "last_name": "Check",
+                  "dob": null,
+                  "gender": null,
+                  "username": null,
+                  "email": "super.admin@adidasng.dev",
+                  "admin_access": 1,
+                  "guest_signup": 0,
+                  "auth_strategy": "laravel_passport",
+                  "primary_phone_number": "09012345678",
+                  "size_profile": null,
+                  "interests": null,
+                  "email_verified_at": "2026-01-15T12:55:23.000000Z",
+                  "password": "$2y$10$JXcXAV0dnUus6n1DauHoWu/Z97dzpUqdM6bpWCz4lDbygnWD0PiGK",
+                  "primary_address_id": null,
+                  "remember_token": "LYNPhHvo0PJlybxS",
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:55:23.000000Z",
+                  "updated_at": "2026-01-15T12:55:23.000000Z",
+                  "first_login_at": null,
+                  "odoo_user_id": null,
+                  "communication_settings": null,
+                  "sent_last_at": null,
+                  "direct_permissions": [],
+                  "roles": [
+                      {
+                          "id": 1,
+                          "name": "super-admin",
+                          "title": "Super Admin",
+                          "level": 0
+                      }
+                  ],
+                  "teams": [
+                      {
+                          "id": "01kf0vk4wf0kdmzdh09g00e58r",
+                          "name": "Invoicing",
+                          "description": null
+                      }
+                  ],
+                  "status": {
+                      "name": "active",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vk4s9ydb9eh76brd6e4rm",
+                  "first_name": "Daniel",
+                  "last_name": "Check",
+                  "dob": null,
+                  "gender": null,
+                  "username": null,
+                  "email": "admin.manager@adidasng.dev",
+                  "admin_access": 1,
+                  "guest_signup": 0,
+                  "auth_strategy": "laravel_passport",
+                  "primary_phone_number": "09087654321",
+                  "size_profile": null,
+                  "interests": null,
+                  "email_verified_at": "2026-01-15T12:55:23.000000Z",
+                  "password": "$2y$10$0m6XVgs3VxWwNokkh3vK8.vRG8QLajtLW4OrGuCeGqdKE69D5/i3q",
+                  "primary_address_id": null,
+                  "remember_token": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:55:23.000000Z",
+                  "updated_at": "2026-01-15T12:55:23.000000Z",
+                  "first_login_at": null,
+                  "odoo_user_id": null,
+                  "communication_settings": null,
+                  "sent_last_at": null,
+                  "direct_permissions": [],
+                  "roles": [
+                      {
+                          "id": 2,
+                          "name": "admin-manager",
+                          "title": "Admin Manager",
+                          "level": 1
+                      }
+                  ],
+                  "teams": [
+                      {
+                          "id": "01kf0vk4z683et2r20k45md7ze",
+                          "name": "Promotions",
+                          "description": null
+                      }
+                  ],
+                  "status": {
+                      "name": "active",
+                      "description": null
+                  }
+              }
+          ],
+          "first_page_url": "http://adidas-backend.test/admins/all?page=1",
+          "from": 1,
+          "last_page": 1,
+          "last_page_url": "http://adidas-backend.test/admins/all?page=1",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/admins/all?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": null,
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": null,
+          "path": "http://adidas-backend.test/admins/all",
+          "per_page": 15,
+          "prev_page_url": null,
+          "to": 2,
+          "total": 2
+      }
+order: 1000

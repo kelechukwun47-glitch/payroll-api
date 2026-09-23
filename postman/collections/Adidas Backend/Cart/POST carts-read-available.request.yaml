@@ -1,0 +1,18 @@
+$kind: http-request
+name: POST carts/read-available
+url: "{{base_url}}/carts/read-available"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "ids": "{{product_id}},{{product_id2}},{{product_id3}}"
+    }
+auth:
+  type: noauth
+settings: {}
+examples: ./.resources/POST carts-read-available.resources/examples
+order: 3000

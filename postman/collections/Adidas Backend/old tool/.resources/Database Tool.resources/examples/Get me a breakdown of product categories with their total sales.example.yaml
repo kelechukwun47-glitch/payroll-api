@@ -1,0 +1,63 @@
+$kind: http-example
+name: Get me a breakdown of product categories with their total sales and number of items sold
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt":"Get me a breakdown of product categories with their total sales and number of items sold",
+          "message_history":[{}],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Sat, 12 Jul 2025 17:02:17 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "60"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:1.7b",
+                      "created_at": "2025-07-12T17:02:17.401731869Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, let's see. The user asked for a breakdown of product categories with their total sales and number of items sold. I first listed the tables, then described the products and categories tables. Then I tried to run a query, but got an error because 'order_products.quantity' wasn't found. So I adjusted the query to use 'products.orders_volume' instead. The final query returned some results. Now, I need to present this information in a clear way.\n\nThe categories are Accessories, Clothing, and Shoes. The numbers are 19, 115, and 79 items respectively, with sales of 0, 22, and 0. I should format this as a list with category names, counts, and sales. Make sure to mention that the sales figure is in Naira (N) as per the currency rules. Also, note that the data is based on the available tables and the query executed. Don't add any extra information beyond what's provided.\n</think>\n\nHere's the breakdown of product categories with their total sales and items sold:\n\n1. **Accessories**  \n   - Total Items Sold: 19  \n   - Total Sales: N 0  \n\n2. **Clothing**  \n   - Total Items Sold: 115  \n   - Total Sales: N 22  \n\n3. **Shoes**  \n   - Total Items Sold: 79  \n   - Total Sales: N 0  \n\nNote: The sales figures are based on the available data. The `orders_volume` column was used to calculate total sales, as the `order_products.quantity` column was not found in the schema."
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 48243184401,
+                      "load_duration": 28133519,
+                      "prompt_eval_count": 6453,
+                      "prompt_eval_duration": 28047630630,
+                      "eval_count": 344,
+                      "eval_duration": 19950534933
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 11000

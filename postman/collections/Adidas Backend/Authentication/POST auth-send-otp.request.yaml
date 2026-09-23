@@ -1,0 +1,16 @@
+$kind: http-request
+name: POST auth/send-otp
+url: "{{baseUrl}}/auth/send-otp"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "email": "idokoemmanuel3@gmail.com"
+    }
+auth:
+  type: noauth
+order: 10000

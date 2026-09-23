@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET /
+url: "{{baseUrl}}/"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 14000

@@ -1,0 +1,17 @@
+$kind: http-request
+name: POST auth/email-registration
+url: "{{base_url}}/auth/send-email-otp"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "email": "idokoemmanuel3@gmail.com"
+    }
+auth:
+  type: noauth
+examples: ./.resources/POST auth-email-registration.resources/examples
+order: 12000

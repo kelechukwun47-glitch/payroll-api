@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST access/revoke-team
+url: "{{baseUrl}}/access/revoke-team"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 8000

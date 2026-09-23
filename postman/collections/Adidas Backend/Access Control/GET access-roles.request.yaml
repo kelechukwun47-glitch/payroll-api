@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET access/roles
+url: "{{baseUrl}}/access/roles"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 16000

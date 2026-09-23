@@ -4,44 +4,88 @@ namespace App\Services;
 
 use App\Models\Bonus;
 use App\Models\BonusDistribution;
+use App\Models\Employee;
 use Illuminate\Support\Facades\DB;
+use Exception;
 
 class BonusService
 {
     /**
-     * Dynamically calculate and distribute upline bonuses up to 3 management levels.
+     * Default upline distribution percentages by level index.
      */
-    public function distributeUpline(Bonus $bonus): void
+    protected array $defaultPercentages = [
+        1 => 10.0, // Level 1 (Direct Manager)
+        2 => 5.0,  // Level 2 (Senior Manager)
+        3 => 2.0,  // Level 3 (Director)
+    ];
+
+    /**
+     * Process upline bonus distribution for an approved bonus.
+     */
+    public function distributeUplineBonus(Bonus $bonus): void
     {
         DB::transaction(function () use ($bonus) {
-            $currentManager = $bonus->employee->manager;
+            $employee = $bonus->employee;
+            $currentUpline = $employee->manager;
             $level = 1;
+            $visitedEmployeeIds = [$employee->id];
 
-            // Tiered upline percentage rules: Level 1 = 10%, Level 2 = 5%, Level 3 = 2.5%
-            $percentages = [
-                1 => 10.00,
-                2 => 5.00,
-                3 => 2.50,
-            ];
+            while ($currentUpline && isset($this->defaultPercentages[$level])) {
+                // Anti-circularity check: stop if an employee appears twice in the chain
+                if (in_array($currentUpline->id, $visitedEmployeeIds)) {
+                    throw new Exception("Circular reporting structure detected at Employee ID: {$currentUpline->id}");
+                }
 
-            while ($currentManager && $level <= 3) {
-                $percentage = $percentages[$level];
+                $visitedEmployeeIds[] = $currentUpline->id;
+                $percentage = $this->defaultPercentages[$level];
                 $amount = ($bonus->amount * $percentage) / 100;
 
-                BonusDistribution::create([
-                    'bonus_id' => $bonus->id,
-                    'source_employee_id' => $bonus->employee_id,
-                    'beneficiary_employee_id' => $currentManager->id,
-                    'upline_level' => $level,
-                    'percentage' => $percentage,
-                    'amount' => $amount,
-                    'status' => 'pending',
-                ]);
+                // Prevent duplicate distribution for the same bonus and level
+                BonusDistribution::firstOrCreate(
+                    [
+                        'original_bonus_id' => $bonus->id,
+                        'upline_level' => $level,
+                    ],
+                    [
+                        'source_employee_id' => $employee->id,
+                        'beneficiary_employee_id' => $currentUpline->id,
+                        'percentage' => $percentage,
+                        'amount' => $amount,
+                        'status' => 'pending',
+                        'distributed_at' => now(),
+                    ]
+                );
 
-                // Walk up to the next management level
-                $currentManager = $currentManager->manager;
+                $currentUpline = $currentUpline->manager;
                 $level++;
             }
         });
+    }
+
+    /**
+     * Validate reporting structure to prevent self-reporting and circular loops.
+     */
+    public function validateReportingStructure(int $employeeId, ?int $managerId): bool
+    {
+        if (!$managerId) {
+            return true;
+        }
+
+        if ($employeeId === $managerId) {
+            return false;
+        }
+
+        $visited = [$employeeId];
+        $currentManager = Employee::find($managerId);
+
+        while ($currentManager) {
+            if (in_array($currentManager->id, $visited)) {
+                return false; // Circular loop detected
+            }
+            $visited[] = $currentManager->id;
+            $currentManager = $currentManager->manager;
+        }
+
+        return true;
     }
 }

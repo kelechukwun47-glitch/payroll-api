@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{base_url}}/tools/conversations"
+method: GET
+examples: ./.resources/read all conversations.resources/examples
+order: 2000

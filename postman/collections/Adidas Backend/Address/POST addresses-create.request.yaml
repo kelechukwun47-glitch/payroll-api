@@ -1,0 +1,24 @@
+$kind: http-request
+name: POST addresses/create
+url: "{{baseUrl}}/addresses/create"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "user_id": "01j8j2bx9ym0rnz45k26vxx1zh",
+        "first_name": "Emmanuel",
+        "last_name": "Idoko",
+        "address": "Test Address",
+        "lat": 0,
+        "long": 0,
+        "additional_info": "",
+        "postal_code": "",
+        "state": "Lagos",
+        "city": "Abule Egba",
+        "phone": "+2348132324232"
+    }
+order: 4000

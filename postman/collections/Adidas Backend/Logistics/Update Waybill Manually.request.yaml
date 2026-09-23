@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{base_url}}/logistics/update-manual-waybill"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"order_id\": \"01j455my83qtewd3hj2bgna56t\",\r
+
+    \    \"waybill_number\": \"1349104118\",\r
+
+    \    \"logistics_partner_id\": \"01jraca72z59amwjve6j75w9f2\"\r
+
+    }"
+order: 6000

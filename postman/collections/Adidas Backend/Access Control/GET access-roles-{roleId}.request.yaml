@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET access/roles/{roleId}
+url: "{{baseUrl}}/access/roles/:roleId"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  roleId: culpa
+auth:
+  type: noauth
+order: 18000

@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET orders/user/{userId}/all
+url: "{{baseUrl}}/orders/user/:userId/all"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  userId: culpa
+auth:
+  type: noauth
+order: 13000

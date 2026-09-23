@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET products/export
+url: "{{base_url}}/products/export?gender=women&status=published"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+queryParams:
+  gender: women
+  status: published
+examples: ./.resources/GET products-export.resources/examples
+order: 32000

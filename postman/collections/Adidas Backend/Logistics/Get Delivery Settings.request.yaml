@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/logistics/get-delivery-settings"
+method: GET
+order: 7000

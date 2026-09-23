@@ -1,0 +1,88 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/carts/all"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Thu, 15 Jan 2026 15:07:24 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "id": "01kf12xyb4sdpac30xz2kfqt6z",
+                  "user_id": "01kf0vk4q84ms7rnpphgyq38g0",
+                  "order_id": null,
+                  "items": [
+                      {
+                          "sku": "4893980585003",
+                          "name": "Adizero Essentials Running T-Shirt",
+                          "size": "S",
+                          "color": null,
+                          "price": 73000,
+                          "status": "draft",
+                          "quantity": 1,
+                          "size_type": "gender_neutral",
+                          "item_total": 30000,
+                          "product_id": "01kf112d3vw0dssctt6k3bdab7",
+                          "price_sales": 0,
+                          "product_sku": "4067887238113",
+                          "product_slug": "adilette-slides",
+                          "primary_image": "https://res.cloudinary.com/dtc2q8arn/image/upload/v1707318103/staging-media/products/demo-pics/Train_to_Peak_HIIT_Training_Tee_Blue_HC4211_HM7_d87i6x.avif",
+                          "selected_stock": 4
+                      }
+                  ],
+                  "created_at": "2026-01-15T15:03:37.000000Z",
+                  "updated_at": "2026-01-15T15:03:37.000000Z",
+                  "sent_count": 0
+              }
+          ],
+          "first_page_url": "http://adidas-backend.test/carts/all?page=1",
+          "from": 1,
+          "last_page": 1,
+          "last_page_url": "http://adidas-backend.test/carts/all?page=1",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/carts/all?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": null,
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": null,
+          "path": "http://adidas-backend.test/carts/all",
+          "per_page": 20,
+          "prev_page_url": null,
+          "to": 1,
+          "total": 1
+      }
+order: 1000

@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET auth/user
+url: "{{base_url}}/auth/user"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 3000

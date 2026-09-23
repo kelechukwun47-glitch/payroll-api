@@ -1,0 +1,38 @@
+$kind: http-request
+url: "{{base_url}}/logistics/create-waybill"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "order_id": "01jjp9c6wtjybzppzv82whsjpx",
+        "receiver_address": "16A Commercial Ave, Sabo yaba, Lagos",
+        "receiver_phone_number": "+2348123456789",
+        "receiver_email": "kindness@gmail.com",
+        "receiver_name": "Alawode Kindness",
+        "receiver_state": "Lagos",
+        "lat": "6.5064098",
+        "long": "3.3758185",
+        "shipment_items": [
+            {
+                "quantity": 1,
+                "item_type": "Shoes",
+                "item_name": "ADIDAS HANDBALL SPEZIAL SHOES",
+                "value": 128400
+            },
+            {
+                "quantity": 1,
+                "item_type": "Accessories",
+                "item_name": "ADIDAS SL 72 RS SHOES",
+                "value": 205000
+            }
+        ]
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{auth_secret_0y5g}}"
+order: 4000

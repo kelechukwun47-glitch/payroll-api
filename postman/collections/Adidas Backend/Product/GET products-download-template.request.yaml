@@ -1,0 +1,20 @@
+$kind: http-request
+name: GET products/download-template
+url: "{{baseUrl}}/products/download-template"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+scripts:
+  - type: afterResponse
+    code: |
+      // This script runs after the response is received
+      pm.response.to.file(pm.environment.get("filePath"), function (err) {
+          if (err) {
+              console.log(err);
+          } else {
+              console.log("File saved successfully");
+          }
+      });
+    language: text/javascript
+order: 24000

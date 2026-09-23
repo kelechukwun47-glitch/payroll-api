@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET divisions/{id}
+url: "{{baseUrl}}/divisions/:id"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: id
+    value: culpa
+    description: The ID of the division.
+auth:
+  type: noauth
+order: 20000

@@ -1,0 +1,15 @@
+$kind: http-request
+name: POST addresses/update-default
+url: "{{baseUrl}}/addresses/update-default"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "address_id": "01j8j35yaj262g4e46y0d37m9z",
+        "user_id": "01j8j2bx9ym0rnz45k26vxx1zh"
+    }
+order: 6000

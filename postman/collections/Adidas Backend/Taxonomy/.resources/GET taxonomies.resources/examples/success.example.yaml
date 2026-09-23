@@ -1,0 +1,3307 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/taxonomies"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Thu, 15 Jan 2026 14:27:45 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      [
+          {
+              "id": "01kf0vk6mj5tnwg6xhtrp0tjxp",
+              "odoo_id": null,
+              "family": "gender",
+              "name": "Women",
+              "raw": "women",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6mn0tk0d4sje6yjsa70",
+              "odoo_id": null,
+              "family": "gender",
+              "name": "Men",
+              "raw": "men",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6mr4nnf118gfhd2cxt9",
+              "odoo_id": null,
+              "family": "gender",
+              "name": "Kids",
+              "raw": "kids",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6mt11kzddm39e70sw1h",
+              "odoo_id": null,
+              "family": "gender",
+              "name": "Unisex",
+              "raw": "unisex",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6mwf6512ezsc8s07305",
+              "odoo_id": null,
+              "family": "kids_gender",
+              "name": "Boys",
+              "raw": "boys",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6my9e4q9p23ec1jcpkj",
+              "odoo_id": null,
+              "family": "kids_gender",
+              "name": "Girls",
+              "raw": "girls",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6n0k7zcpxhm8gpx5dyy",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Trainers",
+              "raw": "trainers",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6n2frnh6xty39k96str",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Trousers",
+              "raw": "trousers",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6n6hs98nsc32tchedh0",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Tracksuits",
+              "raw": "tracksuits",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6n80fqdmtzkcsygaaw3",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "T-Shirts",
+              "raw": "t-shirts",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6najhzayyb47ntahx6y",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Jackets",
+              "raw": "jackets",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ncwdtfpn7jjj9wbyma",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Shorts",
+              "raw": "shorts",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ne7ppzmgf0sma61xcc",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Sweatsuits",
+              "raw": "sweatsuits",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ngy9qfeks1sy773z3s",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Tops",
+              "raw": "tops",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6njdg7pb7jmaha7xv8j",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Hoodies",
+              "raw": "hoodies",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6nm0fh5x3v6tmzf0j65",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Sport Shoes",
+              "raw": "sport-shoes",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6nnswwkc1bn6x6vqv8z",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Tracksuit Bottoms",
+              "raw": "tracksuit-bottoms",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6nrs1ed4w7tp3khysr6",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Joggers",
+              "raw": "joggers",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6nswzfsjgvnhypgamr1",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Jerseys",
+              "raw": "jerseys",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6nwsw3kf2fwx8ehx23w",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Track Tops",
+              "raw": "track-tops",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6nydqmf63bw9agdaejb",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Leggings",
+              "raw": "leggings",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6nzt04wf9dndh4wtcfc",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Sweatshirts",
+              "raw": "sweatshirts",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6p23bpcjewscjhv688r",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Kits",
+              "raw": "kits",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6p5hdxzz9cwm05d3k69",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Bags",
+              "raw": "bags",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6p7jhkreg5b956get71",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Headwear",
+              "raw": "headwear",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6p923dyfaksp8hg8f26",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Swimwear",
+              "raw": "swimwear",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pbjnyzmk28mw36r62p",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Sets",
+              "raw": "sets",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pdxmcg6hmgz1b7ew8w",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Sliders & Flip-Flops",
+              "raw": "sliders-flip-flops",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pf857s8y07f8skhrqb",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Socks",
+              "raw": "socks",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pggfnv8hkp5v4d3yxw",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Polo Shirts",
+              "raw": "polo-shirts",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pjynw4fb1yz8htd525",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Sports Bras",
+              "raw": "sports-bras",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pm9anznpy1tgp648gt",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Base Layers",
+              "raw": "base-layers",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pse5xq12pxzmbwcrzc",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Skirts & Dresses",
+              "raw": "skirts-dresses",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pthphbjp4hewc2cz93",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Gilets",
+              "raw": "gilets",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pxwkery5vpkfgh4hgx",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Balls",
+              "raw": "balls",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6pzs595p97chmxadqb8",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Eyewear",
+              "raw": "eyewear",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6q0y1fdf0dj6c4595sa",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Watches",
+              "raw": "watches",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6q2hyx3gvzrkytte24c",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Jumpsuits & Bodysuits",
+              "raw": "jumpsuits-bodysuits",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6q40cj5yjb2x46jm024",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Gloves",
+              "raw": "gloves",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6q6xr528ymnbgm85d6q",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Equipment",
+              "raw": "equipment",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6q9jnprpwkshb5amcez",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Media & Mobile Accessories",
+              "raw": "media-mobile-accessories",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qa5t25hmjsd5mx5bep",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Swim Accessories",
+              "raw": "swim-accessories",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qc2wyxswt5eeqbhwvc",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Scarves",
+              "raw": "scarves",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qfcwzy87rapw1dm6bb",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Rackets",
+              "raw": "rackets",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qhgpxm4nrn2vnpkedc",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Shinpads & Straps",
+              "raw": "shinpads-straps",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qkymnexvg70an6w151",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Hockey Sticks",
+              "raw": "hockey-sticks",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qndks9d227rrztdq0e",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Belts",
+              "raw": "belts",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qpmpjn6psywaw5brab",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Bib Shorts & Bib Tights",
+              "raw": "bib-shorts-bib-tights",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qrxx74xxjqtzp9pa3q",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Arm Sleeves & Armbands",
+              "raw": "arm-sleeves-armbands",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qtdmvabfr8xz9xz2q7",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Cribs",
+              "raw": "cribs",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qwm7b4gnvkdkmvh3d3",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Shoe Accessories",
+              "raw": "shoe-accessories",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6qyavhq9fq4yqa0b7q5",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Support gear",
+              "raw": "support-gear",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6r15da0yw2k368797ry",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Shoe Care",
+              "raw": "shoe-care",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6r32dvm3dx01fydgdqc",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Leotards",
+              "raw": "leotards",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6r6r68j7meb5n1axsx4",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Water Bottles",
+              "raw": "water-bottles",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6r8msa7pj4ynf4xkrd7",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Resistance bands",
+              "raw": "resistance-bands",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ra4dfazp47073j132v",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Underwear",
+              "raw": "underwear",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rc1zjqxxtnn3b320k8",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Weights",
+              "raw": "weights",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6re4dsp7m9cx7wsteyd",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Yoga Mat",
+              "raw": "yoga-mat",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rfa3wh5ebzreqgbcq6",
+              "odoo_id": null,
+              "family": "product-type",
+              "name": "Pump Accessories",
+              "raw": "pump-accessories",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rh2v4eqy6xqd72hffj",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "black",
+              "raw": "black",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rk5fqf3821w2s59cyz",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "white",
+              "raw": "white",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rncz4z4sea79nqb8z1",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "blue",
+              "raw": "blue",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rq0xmt8g4f27y24ddc",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "grey",
+              "raw": "grey",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rswrq3qmsgrwqc25ba",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "green",
+              "raw": "green",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rw3r430d5sx9cn083p",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "red",
+              "raw": "red",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6rxgf9cmn18pks0wrze",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "pink",
+              "raw": "pink",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6s00psetjf713qk5kh3",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "beige",
+              "raw": "beige",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6s1cjn3nb072ncfqv2k",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "turquoise",
+              "raw": "turquoise",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6s3x4dwtv16zjcy3ef2",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "purple",
+              "raw": "purple",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6s54kpfqz9fq49mcxee",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "brown",
+              "raw": "brown",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6s72rj55wym95703wep",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "burgundy",
+              "raw": "burgundy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6s97mj2gm5xkqw91b15",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "orange",
+              "raw": "orange",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6scpr6kkvx7tmxnz6h8",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "yellow",
+              "raw": "yellow",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6seqvsbhegpsgb8kabc",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "multicolour",
+              "raw": "multicolour",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6shpz2vpz11j1x471vc",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "gold",
+              "raw": "gold",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6sk35fcf77k9na3xpmq",
+              "odoo_id": null,
+              "family": "colour",
+              "name": "silver",
+              "raw": "silver",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6sn44ymhnr651dn3jx2",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Lifestyle",
+              "raw": "lifestyle",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6sqb1neq6meas2knthm",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Football",
+              "raw": "football",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ss8h1h2hkwykntr6cw",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Gym & Training",
+              "raw": "gym-training",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6stgxcqx9qsb8ydnnfe",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Running",
+              "raw": "running",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6sw7ax243m8dm87n88m",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Hiking",
+              "raw": "hiking",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6sy7z3hz1npgj95tx5b",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Swimming",
+              "raw": "swimming",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6szv5dq2pef5bekb1fv",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Golf",
+              "raw": "golf",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6t2ydy0aaj257r84bdr",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Walking",
+              "raw": "walking",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6t43xa4vswx7jbxxb77",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Winter Sports",
+              "raw": "winter-sports",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6t6kvxn77khy5gb9kpx",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Tennis",
+              "raw": "tennis",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6t8013bhxegj4qh9ztt",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Dance",
+              "raw": "dance",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6t9nbrbzrrkg3fxfjr8",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Trail Running",
+              "raw": "trail-running",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6tbwynn34d8nvawe9wd",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Basketball",
+              "raw": "basketball",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6tdycx2jd1kr3g08gf9",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "City Outdoor",
+              "raw": "city-outdoor",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6tff7fjwtetr6z0es7c",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Yoga",
+              "raw": "yoga",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6thg7mk5b72p0y2mgem",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Mountain Biking",
+              "raw": "mountain-biking",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6tkjaf0eck3mcxfzzkd",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Skateboarding",
+              "raw": "skateboarding",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6tm0kk6h1r2hsg22eay",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Cycling",
+              "raw": "cycling",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6tq3nr8zw39vcsdpa3m",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Rugby",
+              "raw": "rugby",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ts67x6dy56krrckvt7",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Handball",
+              "raw": "handball",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ttt816a3gy9xxv1n7x",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Volleyball",
+              "raw": "volleyball",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6tw426fxd43v7dnsk0v",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Field Hockey",
+              "raw": "field-hockey",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ty5cjjtxstgnj7v82a",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Badminton",
+              "raw": "badminton",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6v0ry48ng2nv9mbb260",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Squash",
+              "raw": "squash",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6v20gw8s8ay41cdn2by",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Cross Training",
+              "raw": "cross-training",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6v400a9xbbkmw5xb5cx",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Netball",
+              "raw": "netball",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6v6yv6patzgdmv0m9yj",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Track & Field",
+              "raw": "track-field",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6v88q6xs93m2qrfc61n",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Weightlifting",
+              "raw": "weightlifting",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vap7y2z83v4rhtt7rr",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Climbing",
+              "raw": "climbing",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vcs4gtshnk5746v1v1",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Boxing",
+              "raw": "boxing",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vepffrxnd4w0vqb0xr",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Water Sports",
+              "raw": "water-sports",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vgvv1yfshgxzvgzzvh",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Futsal",
+              "raw": "futsal",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vjvbjyhymeq29wkmfa",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Wrestling",
+              "raw": "wrestling",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vmvarztxcb2jge31je",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Table Tennis",
+              "raw": "table-tennis",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vqjgf4nggtvk36rvmh",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "BMX",
+              "raw": "bmx",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vsc0s4qd7w28e08wjv",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Cricket",
+              "raw": "cricket",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vv4r23w4b6f39hwt6e",
+              "odoo_id": null,
+              "family": "sport",
+              "name": "Studio",
+              "raw": "studio",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vw66yjd904v5j4wtkv",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Clima",
+              "raw": "clima",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6vyge2gqzg53v8jsjmg",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "RDY",
+              "raw": "rdy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6w1fr3hyvfsyvc1ve97",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Essentials",
+              "raw": "essentials",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6w2py1qk5cvkc24b906",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "adicolor",
+              "raw": "adicolor",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6w4w7xf7k1skakv28z2",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Tiro",
+              "raw": "tiro",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6w6b42323fecaagwyf7",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Must Haves",
+              "raw": "must-haves",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6w885d21vfrww0zvrjx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Trefoil",
+              "raw": "trefoil",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6waytmhm94ztk8zs47h",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Classics",
+              "raw": "classics",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wb5n0hvrxaceqvytd7",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Graphics",
+              "raw": "graphics",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wdqhbaryx4mhce3y1s",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Ultraboost",
+              "raw": "ultraboost",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wfzx6sqrwb4p98grze",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Injection Pack",
+              "raw": "injection-pack",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6whtsawh94kacybenw2",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "NMD",
+              "raw": "nmd",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wmf8hg9bxbqsx6c7fa",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "adilette",
+              "raw": "adilette",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wprw013b528wgwpsf0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Condivo",
+              "raw": "condivo",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wrkfb9zfrw3vy5ftxx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "adizero",
+              "raw": "adizero",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wsq0pf3en44z3cx5k1",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Disney",
+              "raw": "disney",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wvcn58km342w0hg56w",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Ozweego",
+              "raw": "ozweego",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wxw595r63brqpm6hkc",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Terrace",
+              "raw": "terrace",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6wz7ewbejnvp9ndabwr",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Ultimate365",
+              "raw": "ultimate365",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6x1wh9ezj4aeh8ktzbx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Superstar",
+              "raw": "superstar",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6x3kjfacantsbpgqwmh",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Ultimate",
+              "raw": "ultimate",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6x4mqk47qemqk87gg6x",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "X",
+              "raw": "x",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6x6a7qva37cejr93dqy",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "AOP PACK",
+              "raw": "aop-pack",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6x834s3894bcdq7x92p",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Parley",
+              "raw": "parley",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xam8cv4tn5pgpm9avs",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Predator",
+              "raw": "predator",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xb62a56zt1na36akh5",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "AOP",
+              "raw": "aop",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xdgssnazjpcq36r4a6",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Gazelle",
+              "raw": "gazelle",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xfvaxbvyr0ny9865ns",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Stan Smith",
+              "raw": "stan-smith",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xh34s0e0wwn0yyv0qd",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "3 Stripes",
+              "raw": "3-stripes",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xk9qxgjexec8yr68k0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ZNE",
+              "raw": "zne",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xmjd5thzwf4z18ccxf",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Adventure",
+              "raw": "adventure",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xp5sm6a9rndmd2w9ky",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Forum",
+              "raw": "forum",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xrcc0g667j9xqrctmg",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "4DFWD",
+              "raw": "4dfwd",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xtkana67ma6xdvs6fq",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ZX",
+              "raw": "zx",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xv79jqe7a6hsfdwjqr",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Trefoil Moments",
+              "raw": "trefoil-moments",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6xyb4c2s7rtesff4wjx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Solar",
+              "raw": "solar",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6y09kjxcepb547hh8jq",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Supernova",
+              "raw": "supernova",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6y2dgp7qqy30r3whfkx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "TERREX Agravic",
+              "raw": "terrex-agravic",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6y3vytp0zec4mmhxtvk",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "adiFOM",
+              "raw": "adifom",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6y5ehysdwvvgjyev34d",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Always Original",
+              "raw": "always-original",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6y7ymnjs4kbnxkak52h",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "RunFalcon",
+              "raw": "runfalcon",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6y94pqge9vthjtpwmw6",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Tensaur",
+              "raw": "tensaur",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ybjrcytzd3vx8pkrdk",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Chapters",
+              "raw": "chapters",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ydjrj0nnpjw8fyx0f7",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Retropy",
+              "raw": "retropy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yg797ttrz2cjsdrvd0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Rivalry",
+              "raw": "rivalry",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yjq2y34phehfz92xfb",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Advantage",
+              "raw": "advantage",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6ymtzpqn2phq3eb3nh1",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Samba",
+              "raw": "samba",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yn6f7r76tfb0anqsqy",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Copa",
+              "raw": "copa",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yqyqms0tszb561evy9",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Grand Court",
+              "raw": "grand-court",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yshxxv5bsw73v84a2m",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Ryv",
+              "raw": "ryv",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yvacxm8bsqtk0npb7x",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Duramo",
+              "raw": "duramo",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yxzaw3s2w3qsfgc7hw",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Nizza",
+              "raw": "nizza",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6yzfz06zze6ca44t1yc",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "TERREX AX",
+              "raw": "terrex-ax",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6z1eakmsdp2kqm7he2q",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "adicross",
+              "raw": "adicross",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6z3c10he2df0qnd4de6",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "MYSHELTER",
+              "raw": "myshelter",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6z5ya6dsm9058j95azm",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "RACER TR21",
+              "raw": "racer-tr21",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6z7gjygh6r8fq23v4p0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Blue Version",
+              "raw": "blue-version",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6z9dn1vrjh4b54ss3kt",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Campus",
+              "raw": "campus",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zbg7788ctzwnn8qhr8",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Go-To",
+              "raw": "go-to",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zc6e55nj5ygs46kmbx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Icon",
+              "raw": "icon",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zeehma283r1n6nxntx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Response",
+              "raw": "response",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zhayhcg2y827g682rf",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ASTIR",
+              "raw": "astir",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zk73f7x1rdb9kvxjyq",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "EQ",
+              "raw": "eq",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zpk2tc5mgr61ecqeg8",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "For Her",
+              "raw": "for-her",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zr3wjpydp6tadfsyse",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Marvel",
+              "raw": "marvel",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk6zxsb22nkzbf4690mg7",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "TERREX Free Hiker",
+              "raw": "terrex-free-hiker",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7030e2yawxkb2qgn0dc",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Swift",
+              "raw": "swift",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk706mrdskp7fm1xxj437",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "TERREX Swift",
+              "raw": "terrex-swift",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk708n2tjst23rebghbfv",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "VRCT",
+              "raw": "vrct",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk70aeq4hp2prnrp3wyxp",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "AVRYN",
+              "raw": "avryn",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk70kq2d0qk71q8fzvm2c",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Hoops",
+              "raw": "hoops",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk70me8tkkf7bj1pgdat4",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "adistar",
+              "raw": "adistar",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk70qkzg2hmm3kjm2h3e6",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Forta",
+              "raw": "forta",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk70sd2tbn07d3yaf2gqm",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "PureBoost",
+              "raw": "pureboost",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7109dcyfv0vh5yprnsw",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Spiderman",
+              "raw": "spiderman",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk712e2qb4x2fbg587x9j",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "SPRT",
+              "raw": "sprt",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk715qqew6d7qbs1hc9y8",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "TERREX Soulstride",
+              "raw": "terrex-soulstride",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7181kq1kegp7jq1znqh",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Alta",
+              "raw": "alta",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71a77ggkqkyeh5wews2",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Spezial",
+              "raw": "spezial",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71d3dk7js26p0e2v4bb",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "RUN70S",
+              "raw": "run70s",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71fbe083setsqk407k2",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "XPLORIC",
+              "raw": "xploric",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71h5e7mwnw2qn6ms91b",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Sereno",
+              "raw": "sereno",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71kdxg2rr5hz4j3sbkq",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "TERREX Skychaser",
+              "raw": "terrex-skychaser",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71nhbz65m8d89ch8a8d",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ZG",
+              "raw": "zg",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71r4f1hs2zf4p1q8h60",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Continental80",
+              "raw": "continental80",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71t75wcccqxg9zrd0ra",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "DESIGNED4TRAINING",
+              "raw": "designed4training",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71wndp9mz1gvg8jbrsh",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Five Ten Freerider",
+              "raw": "five-ten-freerider",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk71ybv1jjyagtsyx345f",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Barricade",
+              "raw": "barricade",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk720j4bhtkr92cdpsjv4",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Crazyflight",
+              "raw": "crazyflight",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk722166t63t1yyneeqqy",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Five Ten Trailcross",
+              "raw": "five-ten-trailcross",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7252p2a78r66ebw9zbb",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ADI2000",
+              "raw": "adi2000",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk727fhcd24m63hpqdv1z",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Streetball",
+              "raw": "streetball",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk729amnh0h71eesgpkaq",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Hyperturf",
+              "raw": "hyperturf",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72b4t5b36jerjnttf1v",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Suru365",
+              "raw": "suru365",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72e6m2caacjtdv03svy",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Run60s",
+              "raw": "run60s",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72gjgb9yjzxakf2m9hn",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ZNCHILL",
+              "raw": "znchill",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72jqk79deea3wg3k4ak",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Lite Racer",
+              "raw": "lite-racer",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72m1sedaytkz25fxae0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "S2G",
+              "raw": "s2g",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72pmr5s8jcmw48dyv5z",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "TERREX Speed",
+              "raw": "terrex-speed",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72rdnf287f48vr54ex0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "X9000",
+              "raw": "x9000",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72tzxws72httqqwxzq5",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "AlphaBoost",
+              "raw": "alphaboost",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72xqfwxqjsdqb8zjh35",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Monofit",
+              "raw": "monofit",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk72z3xxtb28hgsf0drbp",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Adimatic",
+              "raw": "adimatic",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk734fbt8me8kbgw75awt",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Avacourt",
+              "raw": "avacourt",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk736j1vx1jxmpxmbs06g",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Kaptir",
+              "raw": "kaptir",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk739v77rgxq7443bf1xd",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "VL Court",
+              "raw": "vl-court",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73bn06rdtqec192r2bb",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "adipower",
+              "raw": "adipower",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73devzy72xza8bpbk7s",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Busenitz",
+              "raw": "busenitz",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73g27feqjy196csjh8e",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Captain Toey",
+              "raw": "captain-toey",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73hsd94dwqtbztn9h88",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Dropset",
+              "raw": "dropset",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73mgjxepwqhzxndc78n",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Galaxy",
+              "raw": "galaxy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73p8g7y0fmzy5rs3svr",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Harden",
+              "raw": "harden",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73r79af70s69cjdz8qb",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Nebzed",
+              "raw": "nebzed",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73t32zz1zhr2yp0wxzf",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Orketro",
+              "raw": "orketro",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk73ya79ekgkazadkqpew",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Princess",
+              "raw": "princess",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk741j05w12get0kfnh3c",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Questar",
+              "raw": "questar",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7431wyhjfpczmn2j1fk",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Alphabounce",
+              "raw": "alphabounce",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk745fqbwmfaekwvqjdhk",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Five Ten Sleuth",
+              "raw": "five-ten-sleuth",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk748pc3ynhc64esvhp1v",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Niteball",
+              "raw": "niteball",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74bf0633rtn8aaks1p6",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Toy Story",
+              "raw": "toy-story",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74da5q7aqrfjw32z9zs",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Trefoil Essentials",
+              "raw": "trefoil-essentials",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74g0rw3de8hvs2jxgsw",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "XPLR",
+              "raw": "xplr",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74jjcw4rf37arm5g9t7",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Five Ten Niad",
+              "raw": "five-ten-niad",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74mp1gnwk883gw8pk82",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Los Angeles",
+              "raw": "los-angeles",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74q5vf6mwckwftdvs0n",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "QT",
+              "raw": "qt",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74sncn4ca2whedkm8a4",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "3MC",
+              "raw": "3mc",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74v01fsz4y7pcbcntqf",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Bellista",
+              "raw": "bellista",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74x82s925gp2zprjps5",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Nemeziz",
+              "raw": "nemeziz",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk74zgt3w9335wpdp5cb0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Nite Jogger",
+              "raw": "nite-jogger",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7525t0qm45p3zhdar63",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "NY 90",
+              "raw": "ny-90",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7543bczpp8d6kjkv7r3",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Tailored",
+              "raw": "tailored",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk756gwym4a86y8mzyttn",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Y2K",
+              "raw": "y2k",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7589krqz91nv2r0r876",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "10 K",
+              "raw": "10-k",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75a0hw52g8jgvm5e52c",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Centennial 85",
+              "raw": "centennial-85",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75c1pjh3f6dwkban5mn",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "DON",
+              "raw": "don",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75exzxenkqpr429qp69",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Five Ten Hiangle",
+              "raw": "five-ten-hiangle",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75hqsxhpp2g6kjf07qq",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Loafers",
+              "raw": "loafers",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75k1f6ra3gewyf5qna7",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Matchbreak Super",
+              "raw": "matchbreak-super",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75r68t257b81ne60475",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Mygame",
+              "raw": "mygame",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75t7rwy9p6nvw2jzmaz",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Rapida",
+              "raw": "rapida",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75xq9ggkg5khzpy70v1",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Seeley",
+              "raw": "seeley",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk75zfts59ktaxawknt4d",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Top Ten",
+              "raw": "top-ten",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76127g946rfqjmzwf7e",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ZX Flux",
+              "raw": "zx-flux",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk763kfc4ebkvhzgg1tbw",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "AlphaTorsion",
+              "raw": "alphatorsion",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7658vmddzpdykzc0gb0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Avaflash",
+              "raw": "avaflash",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7673z59d1ay624k9sfx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Beckenbauer",
+              "raw": "beckenbauer",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76apgp71kbzz6g9qjx0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Fakten",
+              "raw": "fakten",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76cek8a4wg5frcctqg3",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Falcon",
+              "raw": "falcon",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76edwqp9rq24pep5mnj",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Kakari",
+              "raw": "kakari",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76g9v9644nkzfhg3gf0",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Powerlift",
+              "raw": "powerlift",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76jzpdb8nb6w4k4gnmx",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "SAMBAROSE",
+              "raw": "sambarose",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76m5pn6rqdecrp3csye",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Stabil Shoes",
+              "raw": "stabil-shoes",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76p1zd3c6wee559bjzf",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Tour 360",
+              "raw": "tour-360",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76reksczv74ymt04wsv",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Track & Field Run",
+              "raw": "track-field-run",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk76y9nyptm4stc7wmah3",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Choigo",
+              "raw": "choigo",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk771r1m3syan7tx59f36",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Court Tourino",
+              "raw": "court-tourino",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk774p9q8t4havsc8z37t",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Crazy",
+              "raw": "crazy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk775ckhnw62bgczz7886",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "FluidFlow",
+              "raw": "fluidflow",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77721f0c392wxk6v3zb",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Futurecraft",
+              "raw": "futurecraft",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk779j6mz4dnn7vp409rs",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Geodiver",
+              "raw": "geodiver",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77b284qm43wzfdax0r8",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Lillard",
+              "raw": "lillard",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77emgf6e3anbyks8hsw",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "D Rose",
+              "raw": "d-rose",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77g2y7709eecavqtjfp",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "SL",
+              "raw": "sl",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77jemcw4jjwq7yvyyba",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Special",
+              "raw": "special",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77mdcwdjdbn8vwhgd82",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "SPORT2STREET",
+              "raw": "sport2street",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77pz68npt6wnp2m224z",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Squadra",
+              "raw": "squadra",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77tkpfh7ar1cn0jwh7n",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Star Wars",
+              "raw": "star-wars",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77wxraz8y9fymhzzn9r",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Supercourt",
+              "raw": "supercourt",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk77yye3fak8xp8hv6v44",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Tango",
+              "raw": "tango",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7808js26ts9sn5wznhw",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "Yung Series",
+              "raw": "yung-series",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7815hm3v7qxkdqqcqrp",
+              "odoo_id": null,
+              "family": "collection",
+              "name": "ZG21",
+              "raw": "zg21",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk784aq2b76m7k1ys919y",
+              "odoo_id": null,
+              "family": "exclusives",
+              "name": "Early Access",
+              "raw": "early-access",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7862hqqzh0vhzbmsfbn",
+              "odoo_id": null,
+              "family": "exclusives",
+              "name": "Members Exclusives",
+              "raw": "members-exclusives",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk788qhvba9cjsdsf6hbk",
+              "odoo_id": null,
+              "family": "exclusives",
+              "name": "Only at adidas",
+              "raw": "only-at-adidas",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk789akfvkq51tfrbhkj8",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "AEROREADY",
+              "raw": "aeroready",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78bfnzdza5x2a0mcmb3",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "BOOST",
+              "raw": "boost",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78dpamnkrf6hxcn9fx7",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "CONTINENTAL",
+              "raw": "continental",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78gy9g7d5f3p1rxv763",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "CLOUDFOAM",
+              "raw": "cloudfoam",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78jgym2ss9xcz0skqrx",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "PRIMEKNIT",
+              "raw": "primeknit",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78m05ztt6e1c70ep058",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "BOUNCE",
+              "raw": "bounce",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78p8ve9n3fk1tvezkyv",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "HEAT.RDY",
+              "raw": "heat.rdy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78rr0084s6111085acr",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "LIGHTSTRIKE",
+              "raw": "lightstrike",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78wcha2qx99wmntcy4p",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "RAIN.RDY",
+              "raw": "rain.rdy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk78ybrjykdmf2n8k5qwx",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "COLD.RDY",
+              "raw": "cold.rdy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79185dp7za5t40kb2wk",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "TRAXION",
+              "raw": "traxion",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk793x9enctsr0gh3vkjf",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "WIND.RDY",
+              "raw": "wind.rdy",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7958s6d3pcd94nd06a9",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "GORE-TEX",
+              "raw": "gore-tex",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk798gkznv21mpzf2h5ez",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "TECHFIT",
+              "raw": "techfit",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79c0dgrq4e4bkhvgbx1",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "4D",
+              "raw": "4d",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79ft3e9p7mcz3nasfap",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "LIGHTMOTION",
+              "raw": "lightmotion",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79jbnm6rx8vb1hxyvgv",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "LIGHT BOOST",
+              "raw": "light-boost",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79mpfnjt1g5my9v85hv",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "FORMOTION",
+              "raw": "formotion",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79pm6cqg37ch9p8z3fg",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "BOA FIT SYSTEM",
+              "raw": "boa-fit-system",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79rb25rk5y1a8032s4d",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "LIGHTSTRIKEPRO",
+              "raw": "lightstrikepro",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79t17ft9nsa9cbntdpg",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "STEALTH",
+              "raw": "stealth",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79wvdbwwr5z10rcrc8w",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "REPETITOR",
+              "raw": "repetitor",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk79ypmgscfrcwexbh5xy",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "ORTHOLITE",
+              "raw": "ortholite",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7a01gf9actpmpjyfbym",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "CORDURA",
+              "raw": "cordura",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7a2vbehsvbe44p0pvb9",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "AEROKNIT",
+              "raw": "aeroknit",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7a46s89bv5pa8f0ppx1",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "INFINITEX",
+              "raw": "infinitex",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7a7fy3a8t4q00bamzwd",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "RHEON",
+              "raw": "rheon",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7a92z6h8dkm8mzkx6a0",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "TORSION",
+              "raw": "torsion",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ab6kgr60040cthvxwz",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "ADIPRENE",
+              "raw": "adiprene",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ad0169n8gdg5cqh9k8",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "PUREMOTION",
+              "raw": "puremotion",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7agcttf3m0x3wk8fzk9",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "ADITUFF",
+              "raw": "adituff",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7aj85ejeph8c907vh09",
+              "odoo_id": null,
+              "family": "technologies",
+              "name": "PRIMALOFT",
+              "raw": "primaloft",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ak7486nkpxkwf29d6k",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Pockets",
+              "raw": "pockets",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7an3ch2gxm06j85n42m",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Lightweight",
+              "raw": "lightweight",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7arntagfatbrw5xvgjx",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Cushioning",
+              "raw": "cushioning",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7at69tn5c75ajy11h3c",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Zip Pockets",
+              "raw": "zip-pockets",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7aw1s2j783mnj9wwfy3",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Stretch",
+              "raw": "stretch",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ay5hheaymz7hmwqv3s",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Hooded",
+              "raw": "hooded",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7b0q25ayb8edn31fpf6",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Reflective",
+              "raw": "reflective",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7b2tc3y35ny4vs75s3x",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Breathable",
+              "raw": "breathable",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7b4w1wpy5cmwyg2ge35",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Padded",
+              "raw": "padded",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7b6h6mzpm8q8ps0hf13",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Hook & Loop",
+              "raw": "hook-loop",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7b86wfcrcqh6dcq2tmp",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Water-Repellent",
+              "raw": "water-repellent",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7baj3m4nyqcnybaarqm",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Grip",
+              "raw": "grip",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bdppt1f3fpkhhxkaga",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Waterproof",
+              "raw": "waterproof",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bfjqytf86xm5e8vqrs",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Sweat Wicking",
+              "raw": "sweat-wicking",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bh3zfpmcbnp9r132k6",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Insulated",
+              "raw": "insulated",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bk06325tfavkn0f6wg",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Seamless",
+              "raw": "seamless",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bn2bxmxqxm514jwp7w",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Ankle zips",
+              "raw": "ankle-zips",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bq5106rkdasqqxp9fj",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Mesh",
+              "raw": "mesh",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bs3yk03t8ew6tn5nkd",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Thumbholes on sleeves",
+              "raw": "thumbholes-on-sleeves",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bv1hp8t898gnfaxyyp",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Quick Dry",
+              "raw": "quick-dry",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bxpyknhh79q20zwqtx",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Packable",
+              "raw": "packable",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7bz7jbth6kxwvv6zrv7",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Water-Resistant",
+              "raw": "water-resistant",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7c25vca9phkm20c0xs9",
+              "odoo_id": null,
+              "family": "features",
+              "name": "UPF50",
+              "raw": "upf50",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7c44yb1y6xgbwa8epw8",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Platform",
+              "raw": "platform",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7c78yq2cxz2by7kxgkf",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Wind-Resistant",
+              "raw": "wind-resistant",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7c96wt243k4agynjrsb",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Reversible",
+              "raw": "reversible",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7cbr2hqhe1jmky1xcpq",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Vulc",
+              "raw": "vulc",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7cdnd1tnqdx8k4p0ks7",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Spikeless",
+              "raw": "spikeless",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7cfmwxy5z3dz6ykd5ks",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Sticky Rubber",
+              "raw": "sticky-rubber",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7chv17vpcf26dd1btf7",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Spikes",
+              "raw": "spikes",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ck8fyn5p2rbeadgppd",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Sock",
+              "raw": "sock",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7dskav99zbdpjk2jevx",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Low Bow",
+              "raw": "low-bow",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7dvhrt4qvr5p3n0f1ys",
+              "odoo_id": null,
+              "family": "features",
+              "name": "Period Proof",
+              "raw": "period-proof",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7dycvr1d7jzb1v6gfff",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "All Sustainable",
+              "raw": "all-sustainable",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7e02dywn32b9m6z54j9",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Primegreen",
+              "raw": "primegreen",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7e3xxg974j5738zt5ng",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Better Cotton Initiative",
+              "raw": "better-cotton-initiative",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7e5q380rcw6hktsq9db",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Made with Recycled Content",
+              "raw": "made-with-recycled-content",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7e72kp9jwkc6ns06ys6",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Primeblue",
+              "raw": "primeblue",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ea9vvq7ac94wdb13dv",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Organic Cotton",
+              "raw": "organic-cotton",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ecw487702q4tgh4evj",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Primeblue Nylon",
+              "raw": "primeblue-nylon",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7eeh3ag3t5zwtf7f2jf",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Vegan",
+              "raw": "vegan",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ehs40dknjskbe856f2",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Made to be remade",
+              "raw": "made-to-be-remade",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7eka104q01kfbrp2evw",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "Color with Care",
+              "raw": "color-with-care",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          },
+          {
+              "id": "01kf0vk7ep64hhntb4ptd9v0d2",
+              "odoo_id": null,
+              "family": "sustainability",
+              "name": "REECYCLED",
+              "raw": "reecycled",
+              "created_at": "2026-01-15T12:55:25.000000Z",
+              "updated_at": "2026-01-15T12:55:25.000000Z"
+          }
+      ]
+order: 1000

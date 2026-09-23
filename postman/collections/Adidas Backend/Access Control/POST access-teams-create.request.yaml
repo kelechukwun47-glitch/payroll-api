@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST access/teams/create
+url: "{{baseUrl}}/access/teams/create"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 9000

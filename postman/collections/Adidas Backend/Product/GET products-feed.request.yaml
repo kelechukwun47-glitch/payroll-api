@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET products/feed
+url: "{{baseUrl}}/products/feed?user_id=01j7ncshtcpjb8xgdk6qe7pwq9&sport=lifestyle&gender=Women|men"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+queryParams:
+  user_id: 01j7ncshtcpjb8xgdk6qe7pwq9
+  sport: lifestyle
+  gender: Women|men
+auth:
+  type: noauth
+order: 11000

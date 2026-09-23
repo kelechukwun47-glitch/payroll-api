@@ -1,0 +1,395 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/locations"
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.24.0 (Ubuntu)
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Cache-Control: no-cache, private
+    Date: Mon, 08 Dec 2025 13:00:31 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "id": "01jy46p77d9h84m864tbaaybtz",
+                  "location_id": 389,
+                  "complete_name": "ABJ-WH",
+                  "store_name": null,
+                  "address": "20 Regina Omolara St, Allen, Ikeja 101233, Lagos, Nigeria",
+                  "city": "Ikeja",
+                  "state": "Lagos",
+                  "latitude": "6.5954644",
+                  "longitude": "3.3575215",
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-10T14:39:56.000000Z"
+              },
+              {
+                  "id": "01jy46p77fryy59h64kp0p18mm",
+                  "location_id": 563,
+                  "complete_name": "ABJ-WH/Stock",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-28T15:25:06.000000Z"
+              },
+              {
+                  "id": "01jy46p77h3z5mby9gq6rtp4k7",
+                  "location_id": 968,
+                  "complete_name": "ABJ-WHSE/Inter-Transit",
+                  "store_name": null,
+                  "address": "Lekki, Lagos, Nigeria",
+                  "city": null,
+                  "state": "Lagos",
+                  "latitude": "6.4330474",
+                  "longitude": "3.4821942",
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-28T15:25:06.000000Z"
+              },
+              {
+                  "id": "01jy46p77j74ddxfa1mwzcdxd6",
+                  "location_id": 497,
+                  "complete_name": "ADX FGV-WHSE",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-28T15:25:06.000000Z"
+              },
+              {
+                  "id": "01jy46p77mp6feemp92anvd9fw",
+                  "location_id": 535,
+                  "complete_name": "ADX FGV-WHSE/Inter-Transit",
+                  "store_name": null,
+                  "address": "Commercial Ave, Lagos Mainland, Lagos 101245, Lagos, Nigeria",
+                  "city": "Lagos",
+                  "state": "Lagos",
+                  "latitude": "6.5057347",
+                  "longitude": "3.3791146",
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-10T14:34:59.000000Z"
+              },
+              {
+                  "id": "01jy46p77n3b7nxe4qfyxq7var",
+                  "location_id": 498,
+                  "complete_name": "ADX FGV-WHSE/Stock",
+                  "store_name": "ADIDAS FLAGSHIP VI (LAG) STORE",
+                  "address": "ADIDAS FLAGSHIP VI STORE LAGOS",
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-28T15:25:06.000000Z"
+              },
+              {
+                  "id": "01jy46p77q7ndds4hrqmdvtyb5",
+                  "location_id": 1098,
+                  "complete_name": "ADX FLAGSHIP ABJ",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": true,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-10-20T13:53:54.000000Z"
+              },
+              {
+                  "id": "01jy46p77r3sjdmt63de0czjrz",
+                  "location_id": 1105,
+                  "complete_name": "ADX FLAGSHIP ABJ/Inter Transit",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              },
+              {
+                  "id": "01jy46p77tehqc1fhg9j3seaye",
+                  "location_id": 1099,
+                  "complete_name": "ADX FLAGSHIP ABJ/Stock",
+                  "store_name": null,
+                  "address": "Bala Sokoto Wy, Jabi, Abuja 900108, Federal Capital Territory, Nigeria",
+                  "city": null,
+                  "state": "Federal Capital Territory",
+                  "latitude": "9.0764391",
+                  "longitude": "7.4253855",
+                  "active": true,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-07T10:11:17.000000Z"
+              },
+              {
+                  "id": "01jy46p77w3scetjxvxfpgx72b",
+                  "location_id": 491,
+                  "complete_name": "ADX GCM-WHSE",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              },
+              {
+                  "id": "01jy46p77y1f2j80fcv523f5pd",
+                  "location_id": 536,
+                  "complete_name": "ADX GCM-WHSE/Inter-Transit",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              },
+              {
+                  "id": "01jy46p780kbhnknwhktfx4kqd",
+                  "location_id": 492,
+                  "complete_name": "ADX GCM-WHSE/Stock",
+                  "store_name": "ADIDAS GARDEN CITY MALL (PH) STORE",
+                  "address": "4 Old Aba Rd, Mini-Woji Road, beside first rivers hospital, Trans Amadi, Port Harcourt 500102, Rivers, Nigeria",
+                  "city": null,
+                  "state": "Rivers",
+                  "latitude": "4.8358563",
+                  "longitude": "7.0208576",
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-28T15:25:06.000000Z"
+              },
+              {
+                  "id": "01jy46p782n8yvvhsj8q82ma98",
+                  "location_id": 473,
+                  "complete_name": "ADX ICM-WHSE",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              },
+              {
+                  "id": "01jy46p784z28atwsxnf60rtjm",
+                  "location_id": 537,
+                  "complete_name": "ADX ICM-WHSE/Inter-Transit",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              },
+              {
+                  "id": "01jy46p7851cwfm55e1nfvbmkv",
+                  "location_id": 474,
+                  "complete_name": "ADX ICM-WHSE/Stock",
+                  "store_name": "ADIDAS IKEJA CITY MALL (LAG) STORE",
+                  "address": "ADIDAS IKEJA CITY MALL STORE LAGOS",
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-28T15:25:06.000000Z"
+              },
+              {
+                  "id": "01jy46p788vm3565b1gn4sbe8c",
+                  "location_id": 479,
+                  "complete_name": "ADX JLM-WHSE",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              },
+              {
+                  "id": "01jy46p7897h6ntn7a8exsrypg",
+                  "location_id": 538,
+                  "complete_name": "ADX JLM-WHSE/Inter-Transit",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              },
+              {
+                  "id": "01jy46p78b4shv06f0rwqyre2b",
+                  "location_id": 480,
+                  "complete_name": "ADX JLM-WHSE/Stock",
+                  "store_name": "ADIDAS JABI LAKE MALL (ABJ) STORE",
+                  "address": "ADIDAS JABI LAKE MALL ABUJA",
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-11-28T15:25:06.000000Z"
+              },
+              {
+                  "id": "01jy46p78dsjx14fwcmmc4h5jd",
+                  "location_id": 1092,
+                  "complete_name": "ADX NLM",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-10-20T11:56:53.000000Z"
+              },
+              {
+                  "id": "01jy46p78ecpftxzkh0hjyfz0y",
+                  "location_id": 1104,
+                  "complete_name": "ADX NLM/Inter Transit",
+                  "store_name": null,
+                  "address": null,
+                  "city": null,
+                  "state": null,
+                  "latitude": null,
+                  "longitude": null,
+                  "active": false,
+                  "created_at": "2025-06-19T13:40:10.000000Z",
+                  "updated_at": "2025-06-25T15:04:00.000000Z"
+              }
+          ],
+          "first_page_url": "https://adidasng-api.check-dc.com/locations?page=1",
+          "from": 1,
+          "last_page": 18,
+          "last_page_url": "https://adidasng-api.check-dc.com/locations?page=18",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=2",
+                  "label": "2",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=3",
+                  "label": "3",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=4",
+                  "label": "4",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=5",
+                  "label": "5",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=6",
+                  "label": "6",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=7",
+                  "label": "7",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=8",
+                  "label": "8",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=9",
+                  "label": "9",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=10",
+                  "label": "10",
+                  "active": false
+              },
+              {
+                  "url": null,
+                  "label": "...",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=17",
+                  "label": "17",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=18",
+                  "label": "18",
+                  "active": false
+              },
+              {
+                  "url": "https://adidasng-api.check-dc.com/locations?page=2",
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": "https://adidasng-api.check-dc.com/locations?page=2",
+          "path": "https://adidasng-api.check-dc.com/locations",
+          "per_page": 20,
+          "prev_page_url": null,
+          "to": 20,
+          "total": 341
+      }
+order: 1000

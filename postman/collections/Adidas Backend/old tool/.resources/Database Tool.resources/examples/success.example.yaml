@@ -1,0 +1,65 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt": "What do you make of this data?",
+          "message_history":[{
+                          "role": "assistant",
+                          "content": "<think>\nOkay, the user provided a list of product details, and I need to format them into a single response. Let me check the data. There are five products listed. Each has various attributes like id, odoo_id, name, etc. The user asked for the first 5 products, so I should present them in a structured way. Maybe list each product with their details in a table format. I need to make sure the response is clear and includes all the necessary information without any extra text. Let me structure each product's details in a table, ensuring the user can easily see the data.\n</think>\n\nHere are the first 5 products with their details:\n\n| Product ID | Odoo ID | Name         | Color     | Price  | Views | Orders Volume | Weight | Customizable | Sizing Category |\n|------------|---------|--------------|----------|-------|--------|--------------|--------|-----------|----------------|\n| 01j2xb7h399sb6mxb23ndcey4q | 150420      | ADIZERO ESSENTIALS RUNNING T-SHIRT | Black | $59000 | 0 | 22 | 0 | - | - |\n| 01j2xb7h4rhj5r9sstdyrcw2yr | 141525      | ADIDAS SERENO AEROREADY JERSEY | Black/White | $50000 | 0 | 0 | 0 | - | - |\n| 01j2xb7h655y822g7w45bar58a | 141745      | ENTRADA 22 SHORTS | Tenabl | $38000 | 0 | 0 | 0 | - | - |\n| 01j2xb7h7e425ynjv18k1cedab | 141668      | TIRO CLUB SHIN GUARDS | Black/White | $28000 | 0 | 0 | 0 | - | - |\n| 01j2xb7h8wn1a072q7zh2ntc3e | 141671      | ESSENTIALS LINEAR DUFFEL BAG EXTRA SMALL | Black/White | $46000 | 0 | 0 | 0 | - | - |\n\nLet me know if you'd like further details!"
+                      }],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Fri, 11 Jul 2025 18:43:31 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "59"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:0.6b",
+                      "created_at": "2025-07-11T18:43:32.185002603Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, the user is asking what I make of the data provided. Let me look at the data first. There are five products listed with their details. The user might be interested in the information or the context behind the data.\n\nFirst, I should check if there's any specific analysis or insight the user wants. The data seems to be a product catalog, so maybe they're looking for insights like trends, comparisons, or something related to the products. But since the user just asked \"What do you make of this data?\" without specifying, I need to respond based on the information given.\n\nI should acknowledge the data and explain that it's a product catalog. Maybe mention the structure, the categories, and the prices. Also, note that there are no further details provided, so the user can ask for more information if needed. Keep it concise and helpful.\n</think>\n\nThe data presented is a product catalog with details such as product IDs, Odoo IDs, names, colors, prices, views, orders, weight, customizable options, and sizing categories. It appears to be structured as a database of products, possibly for inventory or sales tracking. However, since the user hasn't specified further analysis or insights, I can only provide this information. If you have additional questions or need further details, feel free to ask!"
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 18698880615,
+                      "load_duration": 27563786,
+                      "prompt_eval_count": 612,
+                      "prompt_eval_duration": 85564195,
+                      "eval_count": 268,
+                      "eval_duration": 18559667157
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 1000

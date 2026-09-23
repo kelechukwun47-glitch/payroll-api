@@ -1,0 +1,33 @@
+$kind: http-request
+url: "{{baseUrl}}/product-priorities/update-priority-positions"
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"division_id\": \"\",\r
+
+    \    \"positions\": [\r
+
+    \        {\r
+
+    \            \"id\": \"01JTFK2G0F78X6B7JMF1EZPS4F\",\r
+
+    \            \"position\": 1\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"id\": \"01JTFT7RF07V0C955JZT6AFRKW\",\r
+
+    \            \"position\": 2\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 3000

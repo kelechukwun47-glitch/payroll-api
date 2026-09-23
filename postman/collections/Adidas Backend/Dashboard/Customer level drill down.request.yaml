@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{baseUrl}}/dashboard/customer-drill-down"
+method: GET
+queryParams:
+  - key: start_date
+    value: 2026-07-01
+    disabled: true
+  - key: end_date
+    value: 2026-07-30
+    disabled: true
+order: 9000

@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{base_url}}/dashboard/revenue-comparison"
+method: GET
+queryParams:
+  - key: period
+    value: month
+    disabled: true
+  - key: period
+    value: bimonthly
+    disabled: true
+  - key: period
+    value: year
+    disabled: true
+  - key: start_date
+    value: 2026-07-01
+    disabled: true
+  - key: end_date
+    value: 2026-07-30
+    disabled: true
+order: 6000

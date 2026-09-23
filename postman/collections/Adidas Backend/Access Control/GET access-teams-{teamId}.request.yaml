@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET access/teams/{teamId}
+url: "{{baseUrl}}/access/teams/:teamId"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  teamId: culpa
+auth:
+  type: noauth
+order: 15000

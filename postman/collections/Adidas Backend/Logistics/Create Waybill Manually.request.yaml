@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{base_url}}/logistics/create-manual-waybill"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"logistics_partner_id\": \"{{logistics_partner_id}}\",\r
+
+    \    \"order_id\": \"{{order_id}}\",\r
+
+    \    \"selected_items\": [\"4066755307142\", \"4067887539791\", \"4066763127176\"],\r
+
+    \    \"waybill_number\": \"213234323\"\r
+
+    }"
+examples: ./.resources/Create Waybill Manually.resources/examples
+order: 5000

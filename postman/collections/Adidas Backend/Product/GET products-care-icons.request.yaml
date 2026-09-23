@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET products/care-icons
+url: "{{baseUrl}}/products/download-template"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 25000

@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET orders/export
+url: "{{base_url}}/orders/export?order_status=pending&payment_status=success&start_date=2023-01-01&end_date=2025-12-31"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+queryParams:
+  order_status: pending
+  payment_status: success
+  start_date: 2023-01-01
+  end_date: 2025-12-31
+examples: ./.resources/GET orders-export.resources/examples
+order: 14000

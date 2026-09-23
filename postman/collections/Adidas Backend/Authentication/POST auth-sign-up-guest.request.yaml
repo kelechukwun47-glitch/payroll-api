@@ -1,0 +1,18 @@
+$kind: http-request
+name: POST auth/sign-up/guest
+url: "{{baseUrl}}/auth/sign-up/guest"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "email": "fred@yopmail.com",
+        "password": "Pasword@123",
+        "otp": 233223
+    }
+auth:
+  type: noauth
+order: 6000

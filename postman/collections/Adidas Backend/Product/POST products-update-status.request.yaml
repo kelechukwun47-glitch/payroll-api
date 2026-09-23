@@ -1,0 +1,17 @@
+$kind: http-request
+name: POST products/update-status
+url: "{{baseUrl}}/products/update-status"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "id":"01hmrkjsst2zgvyq0hf9yw3x5x",
+        "new_status": "published"
+    }
+auth:
+  type: noauth
+order: 30000

@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET taxonomies/{id}
+url: "{{baseUrl}}/taxonomies/:id"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  - key: id
+    value: culpa
+    description: The ID of the taxonomy.
+auth:
+  type: noauth
+order: 3000

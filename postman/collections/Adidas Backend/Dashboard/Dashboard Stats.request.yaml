@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{baseUrl}}/dashboard/stats"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: bearer
+  credentials:
+    token: "{{auth_secret_14se}}"
+order: 1000

@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{base_url}}/locations"
+method: GET
+examples: ./.resources/Get Locations.resources/examples
+order: 2000

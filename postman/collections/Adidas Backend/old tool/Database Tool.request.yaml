@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{base_url}}/tools/message"
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+        "prompt":"I need a comprehensive sales report for Q3 2024. Show me total revenue, number of orders, average order value, top 5 products by revenue, and top 5 customers by spending. Also identify any products that haven't sold in the last 30 days and might need attention.",
+        "stream": 1
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+examples: ./.resources/Database Tool.resources/examples
+order: 1000

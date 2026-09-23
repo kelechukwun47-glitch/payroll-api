@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST auth/verify-email-otp
+url: "{{baseUrl}}/auth/verify-email-otp"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 13000

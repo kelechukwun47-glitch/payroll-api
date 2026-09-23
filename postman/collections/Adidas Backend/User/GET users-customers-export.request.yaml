@@ -1,0 +1,14 @@
+$kind: http-request
+name: GET users/customers/export
+url: "{{base_url}}/users/customers/export?gender=men&status=active&start_date=2024-01-01&end_date=2025-11-31"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+queryParams:
+  gender: men
+  status: active
+  start_date: 2024-01-01
+  end_date: 2025-11-31
+examples: ./.resources/GET users-customers-export.resources/examples
+order: 11000

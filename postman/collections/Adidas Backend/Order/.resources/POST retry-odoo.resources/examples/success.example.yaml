@@ -1,0 +1,44 @@
+$kind: http-example
+request:
+  url: "{{baseUrl}}/orders/retry-odoo"
+  method: POST
+  headers:
+    - key: Content-Type
+      value: application/json
+      disabled: true
+    - key: Accept
+      value: application/json
+  body:
+    type: json
+    content: ""
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    - key: Server
+      value: nginx/1.25.4
+    - key: Content-Type
+      value: application/json
+    - key: Transfer-Encoding
+      value: chunked
+    - key: Connection
+      value: keep-alive
+    - key: Vary
+      value: Accept-Encoding
+    - key: Vary
+      value: Origin
+    - key: X-Powered-By
+      value: PHP/8.2.28
+    - key: Cache-Control
+      value: no-cache, private
+    - key: Date
+      value: Fri, 15 May 2026 09:32:08 GMT
+    - key: Content-Encoding
+      value: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "message": "Dispatched 0 order(s) to Odoo."
+      }
+order: 1000

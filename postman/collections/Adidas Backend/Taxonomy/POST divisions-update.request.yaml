@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST divisions/update
+url: "{{baseUrl}}/divisions/update"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 15000

@@ -1,0 +1,22 @@
+$kind: http-request
+name: POST process/return
+url: "{{baseUrl}}/orders/process-return"
+method: POST
+headers:
+  - key: Content-Type
+    value: application/json
+    disabled: true
+  - key: Accept
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+        "order_id":"ANG87180578",
+        "email":"idokoemmanuel3@gmail.com",
+        "reason":"I don't like the item"
+    }
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 5000

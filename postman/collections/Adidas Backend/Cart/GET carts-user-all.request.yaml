@@ -1,0 +1,13 @@
+$kind: http-request
+name: GET carts/user/all
+url: "{{base_url}}/carts/user/:userId/all"
+method: GET
+headers:
+  Content-Type: application/json
+  Accept: application/json
+pathVariables:
+  userId: culpa
+auth:
+  type: noauth
+examples: ./.resources/GET carts-user-all.resources/examples
+order: 6000

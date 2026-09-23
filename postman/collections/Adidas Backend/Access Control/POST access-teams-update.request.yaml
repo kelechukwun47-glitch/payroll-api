@@ -1,0 +1,10 @@
+$kind: http-request
+name: POST access/teams/update
+url: "{{baseUrl}}/access/teams/update"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+auth:
+  type: noauth
+order: 11000

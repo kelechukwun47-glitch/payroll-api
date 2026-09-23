@@ -1,0 +1,63 @@
+$kind: http-example
+name: Find all products that cost more than 500000 and show me their names and prices of first 10
+request:
+  url: "{{base_url}}/tools/message"
+  method: POST
+  headers:
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "prompt":"Find all products that cost more than 500000 and show me their names and prices of first 10",
+          "message_history":[{}],
+          "stream": 0 
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.3.21
+    Cache-Control: no-cache, private
+    Date: Sat, 12 Jul 2025 09:18:49 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-RateLimit-Limit: "60"
+    X-RateLimit-Remaining: "60"
+    Content-Encoding: gzip
+  body:
+    type: json
+    content: |-
+      {
+          "message": {
+              "headers": {},
+              "original": {
+                  "message": {
+                      "model": "qwen3:0.6b",
+                      "created_at": "2025-07-12T09:18:49.668075451Z",
+                      "message": {
+                          "role": "assistant",
+                          "content": "<think>\nOkay, let's see. The user asked to find all products that cost more than 500,000 and show their names and prices of the first 10. I used the database query tool with the SQL condition price > 500000 and limited to 10 results. The tool response provided a list of 4 products. Now I need to present this information clearly.\n\nFirst, I'll list out the products with their details. Each entry has the id, odoo_id, name, slug, sku, model number, etc. I should format them in a way that's easy to read, maybe bullet points. Make sure to mention that the first 10 results are shown, and list the names and prices. Check if all required fields are included. Also, avoid any tool calls and just present the final answer as a structured response.\n</think>\n\nHere are the first 10 products with prices over 500,000:\n\n1. **F50 ELITE FIRM GROUND BOOTS**  \n   - Price: **5,430,00**  \n   - SKU: 4067889152936  \n\n2. **4DFWD X STRUNG 4D RUNNING SHOES**  \n   - Price: **5,890,00**  \n\n3. **F50 ELITE LACELESS FIRM GROUND BOOTS**  \n   - Price: **5,370,00**  \n\n4. **4DFWD X STRUNG 4D RUNNING SHOES**  \n   - Price: **5,890,00**  \n\nNote: The prices are listed in the provided data, and all required fields are included."
+                      },
+                      "done_reason": "stop",
+                      "done": true,
+                      "total_duration": 24776035745,
+                      "load_duration": 32721472,
+                      "prompt_eval_count": 3157,
+                      "prompt_eval_duration": 14698680612,
+                      "eval_count": 374,
+                      "eval_duration": 9937652283
+                  }
+              },
+              "exception": null
+          }
+      }
+order: 7000

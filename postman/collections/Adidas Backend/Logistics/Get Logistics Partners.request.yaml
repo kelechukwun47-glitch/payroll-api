@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/logistics/partners"
+method: GET
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: ""
+auth:
+  type: bearer
+  credentials:
+    token: "{{auth_secret_0xhs}}"
+settings: {}
+order: 9000

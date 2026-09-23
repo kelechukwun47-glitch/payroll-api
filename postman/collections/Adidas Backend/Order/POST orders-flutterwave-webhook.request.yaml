@@ -1,0 +1,18 @@
+$kind: http-request
+name: POST orders/flutterwave-webhook
+url: "{{baseUrl}}/orders/flutterwave-webhook"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+  verif-hash: ADNGFLW2024
+body:
+  type: json
+  content: |-
+    {
+        "txRef": "pstk940252689704",
+        "status": "successful"
+    }
+auth:
+  type: noauth
+order: 2000

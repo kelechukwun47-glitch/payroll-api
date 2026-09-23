@@ -1,0 +1,1090 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/products/all"
+  method: GET
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Thu, 15 Jan 2026 13:00:50 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "current_page": 1,
+          "data": [
+              {
+                  "id": "01kf0vtcmg9rex2erbv7dh26gx",
+                  "odoo_id": null,
+                  "name": "Virginie Wilmer Carleton",
+                  "slug": "virginie-wilmer-carleton",
+                  "sku": "RT6H01",
+                  "model_number": "H9ULGT",
+                  "variation_code": "EV8I1O",
+                  "gender": "men",
+                  "kids_gender": null,
+                  "color": "Jarvis / Nova / Orange / Darren",
+                  "search_color": "orange",
+                  "price": 5000,
+                  "price_sales": 2800,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Romaguera Heights",
+                      "page_title": "Virginie Wilmer Carleton",
+                      "description": "Virginie Wilmer Carleton -  - Jarvis / Nova / Orange / Darren",
+                      "canonical_url": "/virginie-wilmer-carleton/RT6H01"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "published",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtckgym86nbbky0ez1bwh",
+                  "odoo_id": null,
+                  "name": "Virginie Wilmer Carleton",
+                  "slug": "virginie-wilmer-carleton",
+                  "sku": "3DPUVP",
+                  "model_number": "H9ULGT",
+                  "variation_code": "EV8I1O",
+                  "gender": "men",
+                  "kids_gender": null,
+                  "color": "Roy / Georgianna / Thea / Magenta",
+                  "search_color": "magenta",
+                  "price": 5000,
+                  "price_sales": 2800,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Osinski Expressway",
+                      "page_title": "Virginie Wilmer Carleton",
+                      "description": "Virginie Wilmer Carleton -  - Roy / Georgianna / Thea / Magenta",
+                      "canonical_url": "/virginie-wilmer-carleton/3DPUVP"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "draft",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtcgatywttccrzxszdaqm",
+                  "odoo_id": null,
+                  "name": "Virginie Wilmer Carleton",
+                  "slug": "virginie-wilmer-carleton",
+                  "sku": "VYPAVU",
+                  "model_number": "H9ULGT",
+                  "variation_code": "EV8I1O",
+                  "gender": "men",
+                  "kids_gender": null,
+                  "color": "Cyan / Ellis / Herminio / Earnestine",
+                  "search_color": "cyan",
+                  "price": 5000,
+                  "price_sales": 2800,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kj7b902m89a63md163",
+                  "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696185137293-418bdf31a8d9?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Marilou Lodge",
+                      "page_title": "Virginie Wilmer Carleton",
+                      "description": "Virginie Wilmer Carleton -  - Cyan / Ellis / Herminio / Earnestine",
+                      "canonical_url": "/virginie-wilmer-carleton/VYPAVU"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "published",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtce2p64k98bej0f78qjv",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "QL2DJT",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Linnie / Misael / Lempi / Cyan",
+                  "search_color": "cyan",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kf0h618dnq895afa2j",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Frances Rapids",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Linnie / Misael / Lempi / Cyan",
+                      "canonical_url": "/kasey-claudia-lennie/QL2DJT"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "draft",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtcd8sf0btw3j48nbv7mx",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "HXP8NS",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Mallory / Maye / Brown / Marc",
+                  "search_color": "brown",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kj7b902m89a63md163",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Ethelyn Row",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Mallory / Maye / Brown / Marc",
+                      "canonical_url": "/kasey-claudia-lennie/HXP8NS"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "draft",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtcc3yfvkcp6j90mwyjd0",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "YGTA75",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Leonora / Alford / Cyan / Soledad",
+                  "search_color": "cyan",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696507670136-86ea38eb012b?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Nicolas Roads",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Leonora / Alford / Cyan / Soledad",
+                      "canonical_url": "/kasey-claudia-lennie/YGTA75"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtcav7n8nsv42wg1vnznm",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "XWD5IJ",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Milan / Delpha / Garfield / Red",
+                  "search_color": "red",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Tillman Mall",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Milan / Delpha / Garfield / Red",
+                      "canonical_url": "/kasey-claudia-lennie/XWD5IJ"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtc9n3rdq8f2jjkqk260r",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "OHD1HH",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Maria / Vida / Judge / Magenta",
+                  "search_color": "magenta",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kf0h618dnq895afa2j",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Windler Key",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Maria / Vida / Judge / Magenta",
+                      "canonical_url": "/kasey-claudia-lennie/OHD1HH"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtc8kkd1e12qrhn5ynevt",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "X2OZ8J",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Jeffrey / Cyan / Alfred / Candace",
+                  "search_color": "cyan",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kj7b902m89a63md163",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Wilderman Streets",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Jeffrey / Cyan / Alfred / Candace",
+                      "canonical_url": "/kasey-claudia-lennie/X2OZ8J"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "published",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtc7kpfycf0x17nmg7dv4",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "BNIFL0",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Tomasa / Cleve / Otto / Pink",
+                  "search_color": "pink",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695133389296-fdd6c49d422c?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Noemi Trail",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Tomasa / Cleve / Otto / Pink",
+                      "canonical_url": "/kasey-claudia-lennie/BNIFL0"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "published",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtc6eaqn36mw99tf93a44",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "KC80PW",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Christelle / Green / Christiana / Richmond",
+                  "search_color": "green",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696840476765-6f1047fcbdad?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Bailey Village",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Christelle / Green / Christiana / Richmond",
+                      "canonical_url": "/kasey-claudia-lennie/KC80PW"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "draft",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtc5gmf6dcvbyckd7cs1j",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "Y2WXVS",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Red / Syble / Abbie / Kaelyn",
+                  "search_color": "red",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Alessia Highway",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Red / Syble / Abbie / Kaelyn",
+                      "canonical_url": "/kasey-claudia-lennie/Y2WXVS"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "draft",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtc4fmavs0hgsx4ptcrv0",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "3H5ZYE",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Brown / Keshawn / Abelardo / Destiny",
+                  "search_color": "brown",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kj7b902m89a63md163",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695487653864-3a5ec6f8216c?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Shana Drive",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie -  - Brown / Keshawn / Abelardo / Destiny",
+                      "canonical_url": "/kasey-claudia-lennie/3H5ZYE"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:20.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "draft",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtc1z4m86dttpqmq6p5bc",
+                  "odoo_id": null,
+                  "name": "Lavonne Wendy Lenore",
+                  "slug": "lavonne-wendy-lenore",
+                  "sku": "1HZGP1",
+                  "model_number": "PNPZPD",
+                  "variation_code": "IZAKYA",
+                  "gender": "women",
+                  "kids_gender": null,
+                  "color": "Raheem / Garrick / Cyan / Rosalyn",
+                  "search_color": "cyan",
+                  "price": 76000,
+                  "price_sales": null,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kf0h618dnq895afa2j",
+                  "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695400184752-f708325068be?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": {
+                      "title": "Kurtis Extension",
+                      "sub_title": "Torey Plain"
+                  },
+                  "meta_data": {
+                      "keywords": "Jude Stravenue",
+                      "page_title": "Lavonne Wendy Lenore",
+                      "description": "Lavonne Wendy Lenore -  - Raheem / Garrick / Cyan / Rosalyn",
+                      "canonical_url": "/lavonne-wendy-lenore/1HZGP1"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:19.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vtaa3k7bjmnn0aqjj32yp",
+                  "odoo_id": null,
+                  "name": "Virginie Wilmer Carleton",
+                  "slug": "virginie-wilmer-carleton",
+                  "sku": "X0OICI",
+                  "model_number": "H9ULGT",
+                  "variation_code": "EV8I1O",
+                  "gender": "men",
+                  "kids_gender": null,
+                  "color": "Shanna / Pamela / Purple / Caterina",
+                  "search_color": "purple",
+                  "price": 5000,
+                  "price_sales": 2800,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kj7b902m89a63md163",
+                  "brand_id": "01kf0vk6m5n1ndayn29x1bq096",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696889227542-d384aea1d258?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Waelchi Tunnel",
+                      "page_title": "Virginie Wilmer Carleton",
+                      "description": "Virginie Wilmer Carleton - purple - Shanna / Pamela / Purple / Caterina",
+                      "canonical_url": "/virginie-wilmer-carleton/NUFUZR"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:18.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "published",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vta9z5j24rg08spnzgq9h",
+                  "odoo_id": null,
+                  "name": "Kasey Claudia Lennie",
+                  "slug": "kasey-claudia-lennie",
+                  "sku": "01GBY7",
+                  "model_number": "TVAJZ5",
+                  "variation_code": "SMNYVK",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Fleta / Kenna / Grady / Purple",
+                  "search_color": "purple",
+                  "price": 83000,
+                  "price_sales": 79200,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kj7b902m89a63md163",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Herman Springs",
+                      "page_title": "Kasey Claudia Lennie",
+                      "description": "Kasey Claudia Lennie - purple - Fleta / Kenna / Grady / Purple",
+                      "canonical_url": "/kasey-claudia-lennie/ZG2FFT"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:18.000000Z",
+                  "updated_at": "2026-01-15T12:59:20.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vta928hnj1n9x15q117p8",
+                  "odoo_id": null,
+                  "name": "Kaleb Aletha Blaise Clare",
+                  "slug": "kaleb-aletha-blaise-clare",
+                  "sku": "NA2MTW",
+                  "model_number": "YH8FQQ",
+                  "variation_code": "JCSL0V",
+                  "gender": "unisex",
+                  "kids_gender": null,
+                  "color": "Myles / Katlynn / Purple / Maximillia",
+                  "search_color": "purple",
+                  "price": 57000,
+                  "price_sales": null,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 1,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kf0h618dnq895afa2j",
+                  "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696608505076-abc689f02ef9?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": {
+                      "title": "Miller Highway",
+                      "sub_title": "Rachel Stravenue"
+                  },
+                  "meta_data": {
+                      "keywords": "Kshlerin Summit",
+                      "page_title": "Kaleb Aletha Blaise Clare",
+                      "description": "Kaleb Aletha Blaise Clare - purple - Myles / Katlynn / Purple / Maximillia",
+                      "canonical_url": "/kaleb-aletha-blaise-clare/1LOOWA"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:18.000000Z",
+                  "updated_at": "2026-01-15T12:59:19.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vta9fcxt0y5bgmyt7yzn7",
+                  "odoo_id": null,
+                  "name": "Otha Louvenia Parker",
+                  "slug": "otha-louvenia-parker",
+                  "sku": "HJSENF",
+                  "model_number": "BXUX7P",
+                  "variation_code": "2YBQZQ",
+                  "gender": "men",
+                  "kids_gender": null,
+                  "color": "Maxwell / Joyce / Orange / Madeline",
+                  "search_color": "orange",
+                  "price": 19000,
+                  "price_sales": 10300,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kf0h618dnq895afa2j",
+                  "brand_id": "01kf0vk6kra0rqwmpqp5k6bd9s",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696878552687-b7a1f061d685?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1696881240771-e7a9f3639797?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Kreiger Shore",
+                      "page_title": "Otha Louvenia Parker",
+                      "description": "Otha Louvenia Parker - orange - Maxwell / Joyce / Orange / Madeline",
+                      "canonical_url": "/otha-louvenia-parker/FKYGJC"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:18.000000Z",
+                  "updated_at": "2026-01-15T12:59:19.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vta9k03qgd8xdt9yamts5",
+                  "odoo_id": null,
+                  "name": "Mariano Mollie",
+                  "slug": "mariano-mollie",
+                  "sku": "TGM00V",
+                  "model_number": "TQISNA",
+                  "variation_code": "JUP7SJ",
+                  "gender": "kids",
+                  "kids_gender": "unisex",
+                  "color": "Jadon / Kaia / Eliane / Red",
+                  "search_color": "red",
+                  "price": 50000,
+                  "price_sales": null,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 1,
+                  "require_customization": 1,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6k94xbr1qv2wsebdjmn",
+                  "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696028354825-030af18644ef?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1697169982091-1aecf11fbfbf?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": null,
+                  "meta_data": {
+                      "keywords": "Rogelio Drive",
+                      "page_title": "Mariano Mollie",
+                      "description": "Mariano Mollie - red - Jadon / Kaia / Eliane / Red",
+                      "canonical_url": "/mariano-mollie/TLFM1D"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:18.000000Z",
+                  "updated_at": "2026-01-15T12:59:19.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "archived",
+                      "description": null
+                  }
+              },
+              {
+                  "id": "01kf0vta9rc0tae8ce98tv84cz",
+                  "odoo_id": null,
+                  "name": "Lavonne Wendy Lenore",
+                  "slug": "lavonne-wendy-lenore",
+                  "sku": "KUBHKM",
+                  "model_number": "PNPZPD",
+                  "variation_code": "IZAKYA",
+                  "gender": "women",
+                  "kids_gender": null,
+                  "color": "Alejandra / Orange / Alverta / Nolan",
+                  "search_color": "orange",
+                  "price": 76000,
+                  "price_sales": null,
+                  "views": 0,
+                  "orders_volume": 0,
+                  "weight": null,
+                  "customizable": 0,
+                  "require_customization": 0,
+                  "sizing_category": null,
+                  "category_id": "01kf0vk6kj7b902m89a63md163",
+                  "brand_id": "01kf0vk6m31w0tsq8dn17241ht",
+                  "size_chart_slug": "size-chart",
+                  "description": null,
+                  "primary_media": [
+                      "https://images.unsplash.com/photo-1696394375423-4a43cae6f6f4?auto=format&fit=crop&w=900",
+                      "https://images.unsplash.com/photo-1695664551266-ccbe1b2d9285?auto=format&fit=crop&w=900"
+                  ],
+                  "size_note": null,
+                  "badge": {
+                      "title": "Kurtis Extension",
+                      "sub_title": "Torey Plain"
+                  },
+                  "meta_data": {
+                      "keywords": "Orion Spurs",
+                      "page_title": "Lavonne Wendy Lenore",
+                      "description": "Lavonne Wendy Lenore - orange - Alejandra / Orange / Alverta / Nolan",
+                      "canonical_url": "/lavonne-wendy-lenore/NLI8ED"
+                  },
+                  "complements": null,
+                  "attributes": null,
+                  "deleted_at": null,
+                  "created_at": "2026-01-15T12:59:18.000000Z",
+                  "updated_at": "2026-01-15T12:59:19.000000Z",
+                  "customization_fee": null,
+                  "odoo_article_id": null,
+                  "status": {
+                      "name": "draft",
+                      "description": null
+                  }
+              }
+          ],
+          "first_page_url": "http://adidas-backend.test/products/all?page=1",
+          "from": 1,
+          "last_page": 22,
+          "last_page_url": "http://adidas-backend.test/products/all?page=22",
+          "links": [
+              {
+                  "url": null,
+                  "label": "&laquo; Previous",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=1",
+                  "label": "1",
+                  "active": true
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=2",
+                  "label": "2",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=3",
+                  "label": "3",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=4",
+                  "label": "4",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=5",
+                  "label": "5",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=6",
+                  "label": "6",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=7",
+                  "label": "7",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=8",
+                  "label": "8",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=9",
+                  "label": "9",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=10",
+                  "label": "10",
+                  "active": false
+              },
+              {
+                  "url": null,
+                  "label": "...",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=21",
+                  "label": "21",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=22",
+                  "label": "22",
+                  "active": false
+              },
+              {
+                  "url": "http://adidas-backend.test/products/all?page=2",
+                  "label": "Next &raquo;",
+                  "active": false
+              }
+          ],
+          "next_page_url": "http://adidas-backend.test/products/all?page=2",
+          "path": "http://adidas-backend.test/products/all",
+          "per_page": 20,
+          "prev_page_url": null,
+          "to": 20,
+          "total": 422
+      }
+order: 1000

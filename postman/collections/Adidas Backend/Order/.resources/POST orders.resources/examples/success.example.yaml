@@ -1,0 +1,116 @@
+$kind: http-example
+request:
+  url: "{{base_url}}/orders"
+  method: POST
+  headers:
+    Content-Type: application/json
+    Accept: application/json
+  body:
+    type: json
+    content: |-
+      {
+          "cart_id": "{{cart_id}}",
+          "user_id": "{{user_id}}",
+          "payment_ref": "{{payment_ref}}",
+          "shipping_address": {
+              "email": "idokoemmanuel3@gmail.com",
+              "first_name": "Emmanuel",
+              "last_name": "Idoko",
+              "address": "1 Commercial Ave, Yaba, Lagos 101245, Lagos, Nigeria",
+              "lat": "6.506201",
+              "long": "3.3750031",
+              "additional_info": "",
+              "city": "Lagos",
+              "postal_code": "101245",
+              "state": "Lagos",
+              "phone": "+2349023434234"
+          },
+          "shipping_option": "pickup",
+          "pickup_address": "1 Pressler street, Oniru",
+          "pickup_type": "inStorePickup", //gigTerminal
+          "pickup_name": "adidas Flagship Store",
+          "shipping_fee": 0,
+          //"shipping_option_id": "{{shipping_option_id}}",
+          "billing_address": {
+              "email": "idokoemmanuel3@gmail.com",
+              "first_name": "Emmanuel",
+              "last_name": "Idoko",
+              "address": "1 Commercial Ave, Yaba, Lagos 101245, Lagos, Nigeria",
+              "additional_info": "",
+              "city": "Lagos",
+              "postal_code": "101245",
+              "state": "Lagos",
+              "phone": "+2349023434234",
+              "lat": "6.506201",
+              "long": "3.3750031"
+          },
+          "payment_gateway": "paystack",
+          "billing_subtotal": 73000,
+          "billing_total": 73000
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Server: nginx/1.25.4
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Vary: Accept-Encoding
+    X-Powered-By: PHP/8.2.28
+    Cache-Control: no-cache, private
+    Date: Fri, 16 Jan 2026 10:55:43 GMT
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    Content-Encoding: gzip
+  body:
+    type: text
+    content: |-
+      {
+          "cart_id": "01kf12xyb4sdpac30xz2kfqt6z",
+          "user_id": "01kf0vk4q84ms7rnpphgyq38g0",
+          "payment_ref": "pstk756978312161",
+          "shipping_address": {
+              "email": "idokoemmanuel3@gmail.com",
+              "first_name": "Emmanuel",
+              "last_name": "Idoko",
+              "address": "1 Commercial Ave, Yaba, Lagos 101245, Lagos, Nigeria",
+              "lat": "6.506201",
+              "long": "3.3750031",
+              "additional_info": null,
+              "city": "Lagos",
+              "postal_code": "101245",
+              "state": "Lagos",
+              "phone": "+2349023434234"
+          },
+          "shipping_option": "pickup",
+          "shipping_fee": 0,
+          "billing_address": {
+              "email": "idokoemmanuel3@gmail.com",
+              "first_name": "Emmanuel",
+              "last_name": "Idoko",
+              "address": "1 Commercial Ave, Yaba, Lagos 101245, Lagos, Nigeria",
+              "additional_info": null,
+              "city": "Lagos",
+              "postal_code": "101245",
+              "state": "Lagos",
+              "phone": "+2349023434234",
+              "lat": "6.506201",
+              "long": "3.3750031"
+          },
+          "payment_gateway": "paystack",
+          "billing_subtotal": 73000,
+          "billing_total": 73000,
+          "id": "01kf374rbat22bqwe30mbygv61",
+          "order_ref": "ANG27242249",
+          "updated_at": "2026-01-16T10:55:43.000000Z",
+          "created_at": "2026-01-16T10:55:43.000000Z",
+          "pickup_location": null,
+          "pickup_address": "1 Pressler street, Oniru",
+          "pickup_type": "inStorePickup",
+          "pickup_name": "adidas Flagship Store"
+      }
+order: 1000

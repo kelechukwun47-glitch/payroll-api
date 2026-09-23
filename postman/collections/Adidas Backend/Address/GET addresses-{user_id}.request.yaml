@@ -1,0 +1,12 @@
+$kind: http-request
+name: GET addresses/{user_id}
+url: "{{baseUrl}}/addresses/update/us"
+method: GET
+headers:
+  Accept: application/json
+  X-Requested-With: application/json
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 3000

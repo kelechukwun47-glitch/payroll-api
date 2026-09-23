@@ -1,0 +1,27 @@
+$kind: http-request
+name: POST auth/sign-in
+url: "{{base_url}}/auth/sign-in"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |
+    {
+        "email": "super.admin@adidasng.dev",
+        "password": "super.admin@Nov2023"
+    }
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      var token = pm.response.json()?.access_token
+
+      pm.globals.set('token', token)
+
+      console.log('token: ' + pm.globals.get('token'))
+    language: text/javascript
+examples: ./.resources/POST auth-sign-in.resources/examples
+order: 5000
