@@ -4,6 +4,7 @@ namespace App\Http\Requests\Api\V1;
 
 use App\Models\Employee;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class UpdateEmployeeRequest extends FormRequest
 {
@@ -18,48 +19,63 @@ class UpdateEmployeeRequest extends FormRequest
         $employeeId = is_object($employee) ? $employee->id : $employee;
 
         return [
-            'department_id' => ['sometimes', 'nullable', 'string', 'exists:departments,id'],
+            'first_name' => ['sometimes', 'string', 'max:255'],
+            'last_name' => ['sometimes', 'string', 'max:255'],
+            'email' => [
+                'sometimes',
+                'email',
+                Rule::unique('employees', 'email')->ignore($employeeId),
+            ],
+            'employee_number' => [
+                'sometimes',
+                'string',
+                Rule::unique('employees', 'employee_number')->ignore($employeeId),
+            ],
+            'department_id' => ['sometimes', 'nullable', 'exists:departments,id'],
             'manager_id' => [
                 'sometimes',
                 'nullable',
-                'string',
                 'exists:employees,id',
                 function ($attribute, $value, $fail) use ($employeeId) {
                     if (!$value) {
                         return;
                     }
 
+                    // Standardize string comparison for IDs
+                    $targetManagerId = (string) $value;
+                    $currentEmployeeId = (string) $employeeId;
+
                     // 1. Direct Self-Assignment Check
-                    if ($value === $employeeId) {
+                    if ($targetManagerId === $currentEmployeeId) {
                         $fail('An employee cannot be assigned as their own manager.');
                         return;
                     }
 
-                    // 2. Optimized Circular Reporting Graph Traversal
-                    // We query only the manager_id column to prevent loading heavy model payloads into memory
+                    // 2. Circular Reporting Graph Traversal
                     $visitedManagerIds = [];
-                    $currentManagerId = $value;
+                    $nextManagerId = $targetManagerId;
 
-                    while ($currentManagerId) {
-                        if ($currentManagerId === $employeeId) {
+                    while ($nextManagerId) {
+                        if ((string) $nextManagerId === $currentEmployeeId) {
                             $fail('Circular reporting hierarchy detected: You cannot assign a manager who reports up to this employee.');
                             return;
                         }
 
                         // Prevent infinite loops in corrupt database states
-                        if (in_array($currentManagerId, $visitedManagerIds, true)) {
+                        if (in_array($nextManagerId, $visitedManagerIds, true)) {
                             break;
                         }
 
-                        $visitedManagerIds[] = $currentManagerId;
+                        $visitedManagerIds[] = $nextManagerId;
 
-                        // Light query: Select ONLY the next manager_id up the chain
-                        $currentManagerId = Employee::where('id', $currentManagerId)->value('manager_id');
+                        // Query only the next manager_id up the chain to minimize overhead
+                        $nextManagerId = Employee::where('id', $nextManagerId)->value('manager_id');
                     }
                 },
             ],
             'job_title' => ['sometimes', 'required', 'string', 'max:100'],
             'basic_salary' => ['sometimes', 'required', 'numeric', 'min:0'],
+            'employment_status' => ['sometimes', Rule::in(['active', 'inactive', 'suspended', 'terminated'])],
             'joined_at' => ['sometimes', 'required', 'date'],
         ];
     }

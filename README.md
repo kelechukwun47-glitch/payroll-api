@@ -169,3 +169,46 @@ Protected Routes Header: Authorization: Bearer <TOKEN>
 2. **Set Headers:** Add Authorization: Bearer <TOKEN> and Accept: application/json to your Postman request headers.
 
 3. **Execute API Calls:** Test department creation, employee listing, clock-in/out, leave submission and approval, and monthly payroll calculation.
+
+
+
+---
+
+## 📬 Postman API Collection & Documentation
+
+A fully documented Postman Collection is included with this project to easily test and evaluate all V1 endpoints. The collection features pre-configured request payloads, collection-level Bearer Token authentication, and pre-saved **Success (200/201)** and **Error (401/422)** response examples.
+
+### 📥 Importing the Collection
+
+#### Option A: Import via JSON File (Included in Repo)
+1. Open **Postman**.
+2. Click the **Import** button in the top left corner.
+3. Select the file located at `.postman/Payroll_API_V1.postman_collection.json` from this repository.
+
+#### Option B: Import via Shared Link
+* **Public Collection Link**: [INSERT_YOUR_POSTMAN_SHARE_LINK_HERE]
+
+---
+
+### 🔑 Authentication Setup in Postman
+
+1. Send a `POST` request to `/api/v1/login` using valid credentials.
+2. Copy the returned `access_token` from the JSON response.
+3. Click on the root **Payroll API V1** collection folder in Postman.
+4. Open the **Authorization** tab, select **Bearer Token** as the Type, and paste your token.
+5. All requests under the collection will automatically inherit this Bearer Token.
+
+---
+
+### 📄 Saved Endpoint Examples Included
+
+| Endpoint | Method | Saved Response Examples |
+| :--- | :--- | :--- |
+| `/api/v1/login` | `POST` | `200 Login Success`, `422 Missing Credentials Error` |
+| `/api/v1/me` | `GET` | `200 Profile Data`, `401 Unauthorized` |
+| `/api/v1/dashboard` | `GET` | `200 Dashboard Cached Metrics` |
+| `/api/v1/attendance/clock-in` | `POST` | `200 Clocked In`, `422 Active Session Exists` |
+| `/api/v1/attendance/clock-out` | `POST` | `200 Clocked Out`, `422 No Active Session` |
+| `/api/v1/leave-requests` | `POST` | `201 Leave Submitted`, `422 Exceeds Allowed Days` |
+| `/api/v1/leave-requests/{id}/approve` | `POST` | `200 Leave Approved`, `422 Already Approved` |
+| `/api/v1/payrolls/generate` | `POST` | `200 Payroll Processing`, `422 Duplicate Period` |

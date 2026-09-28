@@ -7,19 +7,46 @@ use App\Http\Requests\Api\V1\StoreEmployeeRequest;
 use App\Http\Requests\Api\V1\UpdateEmployeeRequest;
 use App\Http\Resources\Api\V1\EmployeeResource;
 use App\Models\Employee;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
+use Illuminate\Validation\ValidationException;
 
 class EmployeeController extends Controller
 {
     /**
-     * Display a listing of employees.
+     * Display a listing of employees with search and filtering.
      */
-    public function index(): AnonymousResourceCollection
+    public function index(Request $request): AnonymousResourceCollection
     {
-        $employees = Employee::with(['user', 'department', 'manager.user'])
-            ->paginate(15);
+        $query = Employee::with(['user', 'department', 'manager.user']);
 
-        return EmployeeResource::collection($employees);
+        // Filter by Department
+        if ($request->filled('department_id')) {
+            $query->where('department_id', $request->query('department_id'));
+        }
+
+        // Filter by Status
+        if ($request->filled('status')) {
+            $query->where('employment_status', $request->query('status'));
+        }
+
+        // Filter by Manager
+        if ($request->filled('manager_id')) {
+            $query->where('manager_id', $request->query('manager_id'));
+        }
+
+        // Search by Name or Employee Number
+        if ($request->filled('search')) {
+            $search = $request->query('search');
+            $query->where(function ($q) use ($search) {
+                $q->where('first_name', 'like', "%{$search}%")
+                  ->orWhere('last_name', 'like', "%{$search}%")
+                  ->orWhere('employee_number', 'like', "%{$search}%");
+            });
+        }
+
+        return EmployeeResource::collection($query->paginate(15));
     }
 
     /**
@@ -55,14 +82,26 @@ class EmployeeController extends Controller
     }
 
     /**
-     * Remove the specified employee.
+     * Remove or deactivate the specified employee.
      */
-    public function destroy(Employee $employee): array
+    public function destroy(Employee $employee): JsonResponse
     {
+        // Guard against deleting employees with historical data dependency
+        $hasDependencies = $employee->payslips()->exists() 
+            || $employee->leaveRequests()->exists() 
+            || $employee->bonuses()->exists() 
+            || $employee->attendances()->exists();
+
+        if ($hasDependencies) {
+            throw ValidationException::withMessages([
+                'employee' => ['Cannot delete employee with historical payroll, leave, bonus, or attendance records. Update their status to inactive instead.'],
+            ]);
+        }
+
         $employee->delete();
 
-        return [
+        return response()->json([
             'message' => 'Employee record deleted successfully.',
-        ];
+        ], 200);
     }
 }

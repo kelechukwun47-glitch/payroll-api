@@ -1,0 +1,47 @@
+$kind: http-example
+request:
+  url: http://127.0.0.1:8000/api/v1/login
+  method: POST
+  headers:
+    - key: Accept
+      value: application/json
+      disabled: false
+      description: ""
+    - key: Accept
+      value: application/json
+      disabled: false
+      description: ""
+  body:
+    type: json
+    content: "{\r
+
+      \  \"email\": \"admin@payroll.com\",\r
+
+      \  \"password\": \"password123\"\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    host: 127.0.0.1:8000
+    connection: close
+    x-powered-by: PHP/8.2.12
+    cache-control: no-cache, private
+    date: Wed, 23 Sep 2026 09:52:01 GMT
+    content-type: application/json
+    access-control-allow-origin: "*"
+  body:
+    type: json
+    content: |-
+      {
+        "access_token": "8|jF3cp8WcxjHVM7Ns4a0zc8yss4MGsNqDcv4Bmt3z7b75a8ed",
+        "token_type": "Bearer",
+        "user": {
+          "id": "01m2fs0bdwsy4dp4nxyx5z5cm1",
+          "name": "System Administrator",
+          "email": "admin@payroll.com",
+          "role": "admin"
+        }
+      }
+order: 1765212631740148

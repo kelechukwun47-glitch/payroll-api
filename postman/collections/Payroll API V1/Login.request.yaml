@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/v1/login
+method: POST
+headers:
+  - key: Accept
+    value: application/json
+    disabled: false
+    description: ""
+  - key: Accept
+    value: application/json
+    disabled: false
+    description: ""
+examples: .resources/Login.resources/examples
+order: 1790156615498

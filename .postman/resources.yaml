@@ -1,13 +1,13 @@
-# Use this workspace to collaborate
 workspace:
   id: d1ed6497-5847-4720-81c6-b82201fdec19
-
 cloudResources:
   collections:
     ../postman/collections/Adidas Backend: 4c08c4c0-0cf9-42ba-a4af-32155ad6233d
-
-# All resources in the `postman/` folder are automatically registered in Local View.
-# Point to additional files outside the `postman/` folder to register them individually. Example:
-#localResources:
-#  collections:
-#    - ../tests/E2E Test Collection/
+localResources:
+  specs:
+    - ../postman/specs/payroll api/payroll api.json
+    - ../C:/Users/kelec/Downloads/payroll-api/payroll api.json
+resourceNameMappings:
+  specs:
+    - ../postman/specs/payroll api/payroll api.json: payroll api
+    - ../payroll api.json: payroll api.json

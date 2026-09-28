@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/v1/attendance/clock-in
+method: POST
+examples: .resources/Attendance clock-in.resources/examples
+order: 4384378938280904

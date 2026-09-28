@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/v1/employees?Accept=application/json
+method: GET
+queryParams:
+  - key: Accept
+    value: application/json
+    disabled: false
+    description: ""
+examples: .resources/Employees.resources/examples
+order: 3701270336770953

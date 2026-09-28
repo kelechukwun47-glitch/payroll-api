@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/v1/payrolls/generate
+method: POST
+examples: .resources/Generate payrolls.resources/examples
+order: 3418936162044346

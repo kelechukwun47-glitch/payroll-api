@@ -1,0 +1,46 @@
+$kind: http-example
+request:
+  url: http://127.0.0.1:8000/api/v1/attendance/clock-in
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \  \"employee_id\": \"01m2fs0bspq0131e67vf58ast0\"\r
+
+      }"
+response:
+  statusCode: 201
+  statusText: Created
+  headers:
+    host: 127.0.0.1:8000
+    connection: close
+    x-powered-by: PHP/8.2.12
+    cache-control: no-cache, private
+    date: Wed, 23 Sep 2026 10:08:01 GMT
+    content-type: application/json
+    access-control-allow-origin: "*"
+  body:
+    type: json
+    content: |-
+      {
+        "data": {
+          "id": "01m36vs33z9tsp1y5jk6xn5k8g",
+          "employee_id": "01m2fs0bsh9rfr1xzahdds1kzw",
+          "date": "2026-09-23T00:00:00.000000Z",
+          "clock_in": "2026-09-23T10:08:01.000000Z",
+          "clock_out": null,
+          "status": "late",
+          "employee": {
+            "id": "01m2fs0bsh9rfr1xzahdds1kzw",
+            "employee_code": "EMP-001",
+            "job_title": "HR Director",
+            "basic_salary": "850000.00",
+            "employment_status": "active",
+            "joined_at": "2023-01-15",
+            "created_at": "2026-09-14T10:57:01+00:00"
+          },
+          "created_at": "2026-09-23T10:08:01+00:00"
+        }
+      }
+order: 1790158089722
